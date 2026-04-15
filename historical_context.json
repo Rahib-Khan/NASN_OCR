@@ -1,0 +1,243 @@
+{
+  "_meta": {
+    "description": "Historical context for the NASN 1953-1957 air pollution dataset. All content derived exclusively from the source document.",
+    "source_document": "Air Pollution Measurements of the National Air Sampling Network: Analysis of Suspended Particulate Samples Collected 1953-1957",
+    "publisher": "U.S. Public Health Service, Sanitary Engineering Center, Cincinnati, Ohio",
+    "publication_number": "Public Health Service Publication No. 637",
+    "year_published": 1958,
+    "archive_url": "https://hdl.handle.net/2027/uc1.c3110719",
+    "digitiser": "Google / HathiTrust (University of California copy)",
+    "public_domain": true
+  },
+
+  "network": {
+    "name": "National Air Sampling Network",
+    "abbreviation": "NASN",
+    "operating_agency": "U.S. Public Health Service",
+    "laboratory": "Sanitary Engineering Center, Cincinnati, Ohio",
+    "data_years": [1953, 1954, 1955, 1956, 1957],
+    "preface_summary": "This report presents the first five years of operation of the NASN, providing the first large-scale national baseline for suspended particulate matter and 30 chemical and radioactive constituents across the United States. Tabulations were prepared using electronic data processing equipment (1958).",
+    "program_purpose": [
+      "Assemble basic data on the nature and extent of air pollution throughout the nation",
+      "Detect trends in pollution levels with respect to time, geographical location, topography, population density, climate, industrial activity, and meteorological conditions",
+      "Collect data suitable for epidemiological studies",
+      "Provide basic data for intelligent public consideration of air pollution problems"
+    ],
+    "history_by_year": {
+      "1953": {
+        "communities": 17,
+        "focus": "Northeast United States",
+        "original_objective": "Determination of protein content of airborne particulate matter",
+        "notes": "Scope rapidly expanded to include acetone and benzene soluble organic matter and inorganic constituents as filters were large enough to permit additional analyses"
+      },
+      "1954": {
+        "communities": "Several additional stations activated for special investigations and long-term national baseline collection"
+      },
+      "1955": {
+        "communities": "Continued expansion; 66 communities participating by this period"
+      },
+      "1956": {
+        "communities": 66,
+        "notes": "Recognition of need for general revision of the entire program. Plans initiated for changes effective January 1, 1957"
+      },
+      "1957": {
+        "urban_stations": 110,
+        "nonurban_stations": 51,
+        "total_states_covered": 48,
+        "also_covered": ["District of Columbia", "Alaska", "Hawaii", "Puerto Rico"],
+        "notes": "January 1 1957 marks the true national rollout. Largest city per state given first priority as urban station. Five exceptions made for better area coverage. About 110 urban stations scheduled for operation in any given year: 66 every year, 19 every other year, 25-28 every third year. Total 185 urban stations over any three-year period. All 51 nonurban stations operate every year."
+      }
+    },
+    "station_types": {
+      "Urban": "Largest city in each state or territory, plus secondary cities selected primarily by population with attention to geographic distribution",
+      "Suburban": "Residential and industrial fringe areas of major cities. Present in 1953-1956 multi-site program; reduced after January 1957 budget constraints required cutting back to allow national expansion",
+      "Nonurban": "One per state. Located in rural, farm, forest, desert, or wasteland areas. NOT selected as clean-air control sites for specific urban stations. Placed to provide data for comparing urban atmosphere with surrounding nonurban atmosphere."
+    },
+    "station_frequency": {
+      "annual": {"count": 66, "description": "Operate every year"},
+      "biennial": {"count": 19, "description": "Operate every other year (odd or even)"},
+      "triennial_1957": {"description": "Every third year on 1957 cycle"},
+      "triennial_1958": {"description": "Every third year on 1958 cycle"},
+      "triennial_1959": {"description": "Every third year on 1959 cycle"},
+      "total_urban_over_3yr": 185
+    }
+  },
+
+  "sampling": {
+    "equipment": "High-volume air sampler",
+    "filter_size": "8 inch by 10 inch glass fiber filter",
+    "filter_efficiency": "Practically 100% removal of all particulates 0.3 micron or greater in diameter",
+    "sample_duration_hours": 24,
+    "flow_rates": {
+      "urban_cfm": "40-50 cubic feet per minute average",
+      "nonurban_cfm": "55-65 cubic feet per minute average",
+      "note": "All samplers set to operate initially at 55-65 cfm. Flow progressively diminishes as particulates accumulate. Volume of air filtered is the product of time interval and average of initial and final flow rates, assuming uniform decrease."
+    },
+    "schedule_1953_to_1956": {
+      "type": "Weekly",
+      "notes": "Samplers started and stopped same hour of same day each week at most stations"
+    },
+    "schedule_1957_onward": {
+      "type": "Biweekly randomized",
+      "reason": "Budget limitations when expanding to national coverage required reducing samples per station per year from weekly to biweekly",
+      "method": "Random sampling schedule supplied by the Network, derived yearly. All possible three-digit numbers arrayed sequentially in columns of 126 rows (7 columns, maximum 882). Rows grouped into 14 sets of 9, corresponding to days in a two-week period and starting hours 8am-4pm. First number drawn assigned to first biweekly period beginning January 1.",
+      "advantage": "Unbiased estimation of mean daily particulate levels and peak loadings; avoids time-of-week bias that weekly fixed-schedule sampling could introduce"
+    },
+    "filter_handling": "Filters shipped to Sanitary Engineering Center for analysis as soon as possible after collection. Originally shipped in ointment cans, later in manila folders and envelopes. Filters folded in middle, arrive as smooth sheets that can be divided into aliquots of suitable size.",
+    "sample_shelter_types": ["Horizontal shelter", "Vertical shelter"]
+  },
+
+  "analysis_methods": {
+    "suspended_particulates": "Gravimetric. Filter weighed before and after sampling. Weight gain represents total suspended particulate matter collected.",
+    "acetone_soluble_organic": "Filter aliquot extracted with acetone. Residue after evaporation weighed. Represents petroleum-type organics and some combustion products.",
+    "benzene_soluble_organic": "Filter aliquot extracted with benzene. Residue after evaporation weighed. Includes polycyclic aromatic hydrocarbons (PAHs).",
+    "radioactivity": "Beta radioactivity measurement. Relevant during Cold War period of above-ground nuclear weapons testing.",
+    "metals_and_ions": "Emission spectrographic procedures for most metals. Allows analysis of a single sample for many metals simultaneously with little additional effort beyond what is required for a few.",
+    "tabulation": "Tabulations prepared using electronic data processing equipment with a computer program designed specifically for assembling the data for table preparation."
+  },
+
+  "data_structure": {
+    "tables_count": 31,
+    "table_types": {
+      "16_column": {
+        "applies_to": "Table 1 (Suspended Particulate Matter)",
+        "columns": ["Station_Location", "Site", "Years", "Num_Samples", "Min", "Max", "Avg", "P10", "P20", "P30", "P40", "P50", "P60", "P70", "P80", "P90"],
+        "note": "Table 1 is the only table with a Site column because multiple monitoring sites per city were operated in 1953-1956"
+      },
+      "15_column": {
+        "applies_to": "Tables 2 through 31",
+        "columns": ["Station_Location", "Years", "Num_Samples", "Min", "Max", "Avg", "P10", "P20", "P30", "P40", "P50", "P60", "P70", "P80", "P90"],
+        "note": "No Site column; only one measurement per city per table from 1957 onward"
+      }
+    },
+    "row_types": {
+      "individual_year": "One row per station per calendar year. The primary unit of analysis. Filter using Is_Year_Aggregate=False and Is_Site_Aggregate=False.",
+      "year_aggregate": "Summarises multiple years for a single station (e.g. Years='54 56' means 1954 through 1956 combined). Is_Year_Aggregate=True. Do NOT treat as independent from individual year rows - data is double-counted.",
+      "site_aggregate": "Table 1 only. Summarises across multiple sites within a city (Is_Site_Aggregate=True). Multiple sites were operated in commercial, industrial, residential, and rural sections.",
+      "state_aggregate": "Tables 2-31 only (15-col format). Rows like 'Connecticut Total' summarise all urban stations within a state. Match_Type='state_aggregate'. Not present in Table 1."
+    },
+    "frequency_distribution_note": "The P10 through P90 columns are the 10th through 90th percentiles of the CUMULATIVE frequency distribution of all individual 24-hour samples collected during the year(s) shown. The original publication (page 215) confirms all distributions follow log-normal distributions, verified by chi-square goodness-of-fit tests. Geometric means are therefore more appropriate than arithmetic means for most analyses. The Avg column is the arithmetic mean as printed in the original.",
+    "presentation_note": "Because of the great number of samples collected, it was considered impractical to present results of individual analyses. In lieu of this, data have been tabulated as minimum, maximum, and average values for samples obtained at each sampling site. Monthly distributions and percentile frequency distributions for all substances are also presented."
+  },
+
+  "station_ordering": {
+    "rule": "Every data table in the publication uses the identical station row order derived from Table D (Sampling Site Descriptions and Participating Organizations). This is the Station_Order column in the cleaned data.",
+    "order": "Urban stations first (grouped by region, then state, then city), followed by Suburban stations, followed by Nonurban stations. Multi-site cities appear as consecutive rows.",
+    "regions_in_order": [
+      "New England",
+      "Mid Atlantic",
+      "Mid East",
+      "South East",
+      "Mid West",
+      "Great Plains",
+      "Gulf South",
+      "Rocky Mountain",
+      "Pacific Coast"
+    ],
+    "asterisk_rules": {
+      "double_asterisk": "Station appears only in Tables 1-4",
+      "single_asterisk": "Station appears only in Tables 1-8",
+      "no_asterisk": "Station appears in all 31 tables"
+    },
+    "cross_table_join_key": "Station_Order is the reliable key for joining rows across different pollutant tables, because OCR errors in Station_Location strings may vary between tables while Station_Order is stable."
+  },
+
+  "tables": {
+    "1":  {"name": "Suspended Particulate Matter",   "units": "ug/m3",          "unit_label": "micrograms per cubic meter",                    "pollutant_group": "Particulates",     "has_site": true,  "significance": "Primary air quality indicator. Total mass of airborne particles collected on filter. The flagship measurement of the NASN."},
+    "2":  {"name": "Acetone Soluble Organic Matter", "units": "ug/m3",          "unit_label": "micrograms per cubic meter",                    "pollutant_group": "Organic Matter",   "has_site": false, "significance": "Represents petroleum hydrocarbons and certain combustion products extractable by acetone."},
+    "3":  {"name": "Benzene Soluble Organic Matter", "units": "ug/m3",          "unit_label": "micrograms per cubic meter",                    "pollutant_group": "Organic Matter",   "has_site": false, "significance": "Includes polycyclic aromatic hydrocarbons (PAHs), some of which are carcinogenic. Benzene is a more powerful solvent than acetone."},
+    "4":  {"name": "Radioactivity",                  "units": "uuCi/m3 x10-3", "unit_label": "micromicrocuries per cubic meter times 10^-3",  "pollutant_group": "Radioactivity",    "has_site": false, "significance": "Beta radioactivity. Measured during the Cold War period of above-ground nuclear weapons testing by the US and USSR. Radioactive particles can travel thousands of miles from their source."},
+    "5":  {"name": "Chlorides",                      "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Inorganic Ions",   "has_site": false, "significance": "Sources include coal combustion, industrial processes, and sea salt (coastal stations)."},
+    "6":  {"name": "Fluorides",                      "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Inorganic Ions",   "has_site": false, "significance": "Industrial emissions, particularly from aluminum smelting and phosphate fertilizer production."},
+    "7":  {"name": "Nitrates",                       "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Inorganic Ions",   "has_site": false, "significance": "Formed from nitrogen oxides through atmospheric reactions. Combustion source. Precursor to acid deposition."},
+    "8":  {"name": "Sulfates",                       "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Inorganic Ions",   "has_site": false, "significance": "Primarily from coal and oil combustion via SO2 oxidation. Major component of acid rain. High in industrial cities."},
+    "9":  {"name": "Barium",                         "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Industrial source. Used in oil and gas drilling (barite), paint pigments, and metal refining."},
+    "10": {"name": "Bismuth",                        "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Trace metal from metallurgical operations and coal combustion."},
+    "11": {"name": "Cadmium",                        "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Toxic metal. Sources include zinc smelting, galvanizing, nickel-cadmium batteries, and pigments. Elevated near industrial areas."},
+    "12": {"name": "Chromium",                       "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Steel production, electroplating, leather tanning. Hexavalent chromium is carcinogenic."},
+    "13": {"name": "Copper",                         "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Electrical equipment manufacturing, mining and smelting, brake dust. Indicator of industrial activity."},
+    "14": {"name": "Iron",                           "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Steel mills, foundries, and combustion. Most abundant metal in atmospheric particulates in industrial cities."},
+    "15": {"name": "Lead",                           "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "HISTORICALLY CRITICAL: In 1953-1957 leaded gasoline was the dominant source of atmospheric lead in urban areas. Tetraethyl lead was introduced commercially in 1923. US phase-out began 1973, completed 1996. This dataset captures pre-regulatory peak lead concentrations. Toxic at low doses, especially to children's neurological development."},
+    "16": {"name": "Magnesium",                      "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Soil dust and industrial sources. Useful as a crustal marker for distinguishing natural vs anthropogenic aerosol sources."},
+    "17": {"name": "Manganese",                      "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Steel production, dry-cell batteries, and fuel combustion. Neurological effects at high exposure."},
+    "18": {"name": "Nickel",                         "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Residual fuel oil combustion is the major source. Indicator of heavy fuel oil burning."},
+    "19": {"name": "Potassium",                      "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Biomass burning, soil dust. Potassium-to-sulfate ratios can distinguish wood burning from fossil fuel combustion."},
+    "20": {"name": "Sodium",                         "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Sea salt is the primary global source. Road deicing salt significant in Northeast winters."},
+    "21": {"name": "Strontium",                      "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Soil and cement dust. Strontium-90 (radioactive, not measured here) was a key fallout concern in this era."},
+    "22": {"name": "Tin",                            "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Tin plating, solder, and bearing alloys. Industrial indicator."},
+    "23": {"name": "Titanium",                       "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Titanium dioxide is a common white pigment. Soil dust marker."},
+    "24": {"name": "Vanadium",                       "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Residual fuel oil combustion. Vanadium-nickel ratios are characteristic of specific crude oil origins."},
+    "25": {"name": "Zinc",                           "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Rubber vulcanization, galvanizing, and zinc smelting. One of the most abundant trace metals in urban aerosols."},
+    "26": {"name": "Silver",                         "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Photography industry (major 1950s use), mining, and metallurgy."},
+    "27": {"name": "Arsenic",                        "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Coal combustion and pesticides (lead arsenate widely used in 1950s agriculture). Human carcinogen."},
+    "28": {"name": "Beryllium",                      "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Nuclear industry, rocket fuel, speciality alloys. Highly toxic. Measured due to atomic energy expansion in this era."},
+    "29": {"name": "Cobalt",                         "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Metallurgical operations and pigments."},
+    "30": {"name": "Molybdenum",                     "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Steel alloys (stainless, tool steel) and petroleum refining catalysts."},
+    "31": {"name": "Antimony",                       "units": "ug/m3 x10-3",   "unit_label": "micrograms per cubic meter times 10^-3",        "pollutant_group": "Trace Metals",     "has_site": false, "significance": "Flame retardants, lead-acid batteries (antimony hardens the lead plates), and rubber vulcanization."}
+  },
+
+  "units": {
+    "ug/m3": {
+      "full_name": "micrograms per cubic meter",
+      "applies_to_tables": [1, 2, 3],
+      "conversion_to_ug_m3": 1.0
+    },
+    "ug/m3 x10-3": {
+      "full_name": "micrograms per cubic meter times 10 to the minus 3 (nanograms per cubic meter)",
+      "applies_to_tables": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+      "conversion_to_ug_m3": 0.001,
+      "note": "To compare concentrations across tables, multiply these values by 0.001 to convert to ug/m3"
+    },
+    "uuCi/m3 x10-3": {
+      "full_name": "micromicrocuries per cubic meter times 10 to the minus 3",
+      "applies_to_tables": [4],
+      "note": "Radioactivity unit. Not directly comparable to concentration tables."
+    }
+  },
+
+  "statistical_context": {
+    "distribution_type": "Log-normal",
+    "verification": "Chi-square goodness-of-fit tests confirm log-normal distributions for all pollutants (original publication page 245)",
+    "implication_for_analysis": "Geometric means are more appropriate than arithmetic means for central tendency. The Avg column in the cleaned data is the arithmetic mean as printed in the original publication.",
+    "geometric_mean_note": "Since individual sample values are not in this dataset, the geometric mean can be approximated from percentile data. For a log-normal distribution, the 50th percentile (P50, median) approximates the geometric mean closely.",
+    "percentile_interpretation": "P10 through P90 are the 10th through 90th percentiles of the cumulative frequency distribution of all individual 24-hour samples collected at that station during that year. A high P90/P50 ratio indicates right-skewed distribution with episodic pollution events.",
+    "comparison_note": "No attempt has been made in this report to evaluate the data in terms of significant differences in particulate concentrations that may have occurred between sampling stations. Preliminary evaluations of some of the earlier data have been published separately."
+  },
+
+  "geographic_context": {
+    "coverage": "All 48 contiguous United States, District of Columbia, Alaska, Hawaii, Puerto Rico",
+    "regions": {
+      "New England": ["Connecticut", "Maine", "Massachusetts", "New Hampshire", "Rhode Island", "Vermont"],
+      "Mid Atlantic": ["Delaware", "New Jersey", "New York", "Pennsylvania"],
+      "Mid East": ["District of Columbia", "Kentucky", "Maryland", "North Carolina", "Puerto Rico", "Virginia", "West Virginia"],
+      "South East": ["Alabama", "Florida", "Georgia", "Mississippi", "South Carolina", "Tennessee"],
+      "Mid West": ["Illinois", "Indiana", "Michigan", "Ohio", "Wisconsin"],
+      "Great Plains": ["Iowa", "Kansas", "Minnesota", "Missouri", "Nebraska", "North Dakota", "South Dakota"],
+      "Gulf South": ["Arkansas", "Louisiana", "New Mexico", "Oklahoma", "Texas"],
+      "Rocky Mountain": ["Colorado", "Idaho", "Montana", "Utah", "Wyoming"],
+      "Pacific Coast": ["Alaska", "Arizona", "California", "Hawaii", "Nevada", "Oregon", "Washington"]
+    }
+  },
+
+  "errata": {
+    "source": "Errata sheet bound into the original publication",
+    "corrections": [
+      {"location": "Page 215, Column title", "error": "LOG-NORMALLY", "correction": "LOG-NORMALITY"},
+      {"location": "Page 215, Table F, Urban, Number of Samples", "error": "9410", "correction": "9508"},
+      {"location": "Page 216, Table G, Minimum under Daily", "error": "68", "correction": "66"},
+      {"location": "Page 246, Column 9, line 1", "error": "frequency misspelled as frequqency", "correction": "frequency"},
+      {"location": "Page 249, Column 2, line 115", "error": "TI", "correction": "T1"},
+      {"location": "Page 250, Column 2, line 6", "error": "TI", "correction": "T1"},
+      {"location": "Page 251, Column 2, line 11", "error": "city", "correction": "sity"},
+      {"location": "Page 251, Column 2, line 11", "error": "filass", "correction": "glass"},
+      {"location": "Page 252, Column 2, line 29", "error": "Asen ic", "correction": "Arsenic"},
+      {"location": "Page 253, Column 2, line 13", "error": "agent", "correction": "against"}
+    ]
+  },
+
+  "how_to_find_data": {
+    "note": "From the original publication page 14: Tables are arranged alphabetically by station location within each of the following geographic groupings: Urban, Suburban, and Nonurban.",
+    "table_d_reference": "Sampling site descriptions and participating organizations are listed in Table D of the original publication. The master_stations.csv in this dataset is derived from that table.",
+    "state_guide": "To find data from a particular city or state, locate the state in the regional grouping in the Station_Order sequence."
+  }
+}

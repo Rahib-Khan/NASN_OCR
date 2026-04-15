@@ -1,0 +1,52 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+MIDDLESEX CNTY MASS,,,,,120.0,61.0,,,,,,67.0,73.0,,,91.4,39,,Middlesex County,219.0,95.0,high_confidence,False,False
+MIDDLESEX CNTY MASS,1,,,9.0,200.0,48.0,19.0,26.0,32.0,37.0,42.0,46.0,50.0,59.0,73.0,93.8,39,,Middlesex County,219.0,95.0,high_confidence,False,False
+MIDDLESEX CNTY MASS,1,55 56,70.0,9.0,200.0,52.0,20.0,27.0,34.0,40.0,47.0,53.0,62.0,68.0,95.0,94.5,39,,Middlesex County,219.0,95.0,high_confidence,True,False
+LAKEHURST N J,1,55,17.0,19.0,116.0,40.0,21.0,22.0,25.0,31.0,33.0,35.0,38.0,42.0,44.0,94.4,39,,Lakehurst,220.0,100.0,exact,False,False
+LAKEHURST N J,1,56,17.0,24.0,124.0,45.0,24.0,25.0,31.0,32.0,36.0,38.0,51.0,59.0,68.0,93.3,39,,Lakehurst,220.0,100.0,exact,False,False
+LAKEHURST N J,1,56,34.0,19.0,124.0,42.0,22.0,24.0,30.0,32.0,33.0,36.0,42.0,51.0,78.0,93.7,39,,Lakehurst,220.0,100.0,exact,False,False
+KANAWHA CQ W VA,1,55,17.0,25.0,162.0,64.0,25.0,36.0,44.0,,95.0,,82.0,90.0,104.0,87.6,39,,Kanawha County,221.0,82.4,low_confidence,False,False
+KANAWHA CQ W VA,1,56,7.0,36.0,187.0,82.0,38.0,38.0,46.0,49.0,,,59.0,159.0,159.0,91.6,39,,Kanawha County,221.0,82.4,low_confidence,False,False
+KANAWHA CQ W VA,1,55 56,24.0,25.0,187.0,69.0,25.0,38.0,45.0,50.0,53.0,56.0,82.0,90.0,159.0,94.7,39,,Kanawha County,221.0,82.4,low_confidence,True,False
+HILLSBOROUGH CO FLA,1,55,19.0,16.0,111.0,39.0,18.0,19.0,28.0,31.0,34.0,36.0,38.0,48.0,,90.7,39,,Hillsborough County,222.0,90.5,high_confidence,False,False
+HILLSBOROUGH CO FLA,1,56,25.0,10.0,80.0,33.0,13.0,18.0,22.0,27.0,31.0,32.0,38.0,44.0,68.0,95.0,39,,Hillsborough County,222.0,90.5,high_confidence,False,False
+HILLSBOROUGH CO FLA,1,55 56,44.0,10.0,111.0,36.0,17.0,19.0,25.0,29.0,31.0,34.0,38.0,46.0,68.0,94.0,39,,Hillsborough County,222.0,90.5,high_confidence,True,False
+FULTON CO GEORGIA,1,55,7.0,39.0,60.0,48.0,41.0,41.0,44.0,46.0,49.0,49.0,,59.0,59.0,93.5,39,,Fulton County,223.0,72.7,low_confidence,False,False
+DENVER COUNTY COLO,1,55,20.0,9.0,77.0,34.0,10.0,18.0,19.0,21.0,29.0,36.0,41.0,59.0,,93.1,39,,Denver County,227.0,100.0,exact,False,False
+DENVER COUNTY COLO,1,56,30.0,13.0,158.0,53.0,23.0,24.0,35.0,45.0,47.0,56.0,62.0,72.0,,94.2,39,,Denver County,227.0,100.0,exact,False,False
+DENVER COUNTY COLO,1,55 56,50.0,9.0,158.0,45.0,18.0,22.0,24.0,34.0,39.0,49.0,,71.0,77.0,91.3,39,,Denver County,227.0,100.0,exact,True,False
+SALT LAKE CQ UTAH,1,,,17.0,50.0,30.0,17.0,17.0,24.0,25.0,29.0,29.0,36.0,38.0,38.0,94.1,39,,Salt Lake City,185.0,88.9,high_confidence,False,False
+MULTNOMAH CNTY ORE,,55,5.0,19.0,73.0,46.0,19.0,19.0,38.0,38.0,51.0,51.0,59.0,59.0,78.0,94.2,39,,Multnomah County,229.0,94.7,high_confidence,False,False
+MULTNOMAH CNTY ORE,,55 56,241.0,9.0,200.0,47.0,19.0,24.0,30.0,35.0,40.0,47.0,53.0,65.0,86.0,93.7,39,,Multnomah County,229.0,94.7,high_confidence,True,False
+LITCHFIELO CNTY CONN,1,,,,36.0,19.0,8.0,14.0,,,,,22.0,50.0,,78.8,40,,Litchfield County,230.0,90.5,high_confidence,False,False
+LITCHFIELO CNTY CONN,1,,24.0,1.0,,23.0,7.0,9.0,,,,,27.0,,,95.4,40,,Litchfield County,230.0,90.5,high_confidence,False,False
+LITCHFIELO CNTY CONN,1,56,40.0,1.0,96.0,21.0,8.0,14.0,15.0,16.0,17.0,22.0,24.0,29.0,32.0,91.4,40,,Litchfield County,230.0,90.5,high_confidence,False,False
+ACADIA NATNL PARK ME,1,57,18.0,9.0,39.0,19.0,10.0,13.0,17.0,18.0,19.0,20.0,21.0,21.0,29.0,92.7,40,,Acadia National Park,231.0,93.0,high_confidence,False,False
+MT MANSFIELD FRST VT,,57,7.0,8.0,17.0,10.0,7.0,7.0,8.0,8.0,8.0,8.0,9.0,16.0,16.0,93.0,40,,Mt. Mansfield,232.0,85.7,high_confidence,False,False
+WORCESTER COUNTY MWD,1,57,24.0,23.0,159.0,67.0,31.0,49.0,52.0,56.0,59.0,64.0,78.0,84.0,104.0,93.3,40,,Worcester County,233.0,97.4,high_confidence,False,False
+CAPE HATTERAS NC,1,57,8.0,25.0,133.0,41.0,25.0,26.0,26.0,27.0,27.0,28.0,29.0,29.0,33.0,95.0,40,,Cape Hatteras,234.0,97.0,high_confidence,False,False
+SHENANDOAH PARK VA,1,57,25.0,,61.0,17.0,7.0,,9.0,15.0,15.0,16.0,17.0,19.0,38.0,94.7,40,,Shenandoah National Park,235.0,80.0,low_confidence,False,False
+HOLLY RIVER PK W VA,1,57,25.0,8.0,26.0,18.0,8.0,14.0,15.0,16.0,17.0,18.0,23.0,24.0,26.0,93.2,40,,Holly River State Park,236.0,82.6,low_confidence,False,False
+GULF SHORES PARK ALA,1,,15.0,,23.0,9.0,1.0,6.0,7.0,7.0,8.0,8.0,14.0,15.0,17.0,92.7,40,,Gulf Shores State Park,237.0,87.0,high_confidence,False,False
+FLORIDA KEYS FLORIDA,1,57,14.0,,30.0,15.0,1.0,8.0,8.0,15.0,15.0,16.0,17.0,17.0,25.0,89.9,40,,Florida Keys,238.0,88.9,high_confidence,False,False
+OATLAND ISLAND GA,1,57,16.0,10.0,158.0,38.0,17.0,19.0,22.0,25.0,29.0,32.0,33.0,,55.0,94.5,40,,Oatland Island,239.0,100.0,exact,False,False
+JACKSON COUNTY MISS,,57,20.0,8.0,32.0,20.0,8.0,15.0,15.0,16.0,17.0,23.0,24.0,29.0,31.0,95.1,40,,Jackson County,240.0,100.0,exact,False,False
+FT DONELSON TENN,1,57,17.0,7.0,48.0,19.0,7.0,8.0,14.0,16.0,20.0,21.0,23.0,25.0,33.0,91.6,40,,Ft. Donelson,241.0,100.0,exact,False,False
+SANGAMON COUNTY PET,1,57,16.0,9.0,73.0,28.0,,16.0,18.0,19.0,24.0,26.0,28.0,33.0,44.0,91.8,40,,Sangamon County,242.0,88.2,high_confidence,False,False
+HURON COUNTY MICH,1,57,34.0,,34.0,,7.0,8.0,8.0,14.0,15.0,16.0,17.0,19.0,28.0,91.1,40,,Huron County,243.0,100.0,exact,False,False
+PERRY'S VICTORY,1,57,8.0,17.0,43.0,24.0,15.0,16.0,16.0,17.0,19.0,27.0,29.0,29.0,38.0,95.2,40,,Perry's Victory,244.0,100.0,exact,False,False
+ELLIS COUNTY KANSAS,1,57,12.0,6.0,26.0,12.0,6.0,6.0,7.0,7.0,8.0,9.0,16.0,17.0,25.0,95.0,40,,Ellis County,246.0,94.4,high_confidence,False,False
+COOK COUNTY MINN,1,57,18.0,8.0,44.0,20.0,8.0,14.0,15.0,16.0,17.0,23.0,24.0,25.0,31.0,92.2,40,,Cook County,245.0,100.0,exact,False,False
+SHANNON COUNTY MO,1,,18.0,,30.0,10.0,1.0,7.0,7.0,7.0,8.0,15.0,16.0,16.0,17.0,91.4,40,,Shannon County,247.0,100.0,exact,False,False
+THOMAS COUNTY NEBR,1,,12.0,9.0,53.0,26.0,8.0,9.0,18.0,19.0,26.0,28.0,29.0,38.0,55.0,92.9,40,,Thomas County,248.0,100.0,exact,False,False
+WARD COUNTY WN OD,1,57,13.0,,25.0,11.0,1.0,7.0,7.0,8.0,8.0,15.0,16.0,16.0,22.0,91.7,40,,Ward County,249.0,93.8,high_confidence,False,False
+BLACK HILLS FRST S ODO,1,57,5.0,,20.0,12.0,1.0,1.0,10.0,10.0,11.0,11.0,19.0,19.0,22.0,90.7,40,,Black Hills,250.0,81.1,low_confidence,False,False
+CRATERS MOON 1DAHO,1,57,2.0,,,4.0,,,1.0,1.0,1.0,1.0,1.0,8.0,,90.9,40,,CRATERS MOON 1DAHO,,0.0,unmatched,False,False
+YELLOWSTONE PARK WYO,1,57,5.0,8.0,43.0,,7.0,7.0,8.0,8.0,8.0,8.0,9.0,9.0,44.0,90.8,40,,Yellowstone National Park,252.0,81.6,low_confidence,False,False
+PT WORONZOF ALASKA,1,55,7.0,21.0,135.0,57.0,22.0,22.0,29.0,38.0,44.0,44.0,59.0,90.0,90.0,93.6,40,,Pt. Woronzof,258.0,100.0,exact,False,False
+PT WORONZOF ALASKA,1,56,42.0,4.0,124.0,24.0,4.0,6.0,8.0,9.0,11.0,22.0,25.0,38.0,57.0,94.2,40,,Pt. Woronzof,258.0,100.0,exact,False,False
+PT WORONZOF ALASKA,,57,6.0,,23.0,12.0,1.0,1.0,8.0,8.0,8.0,16.0,16.0,17.0,17.0,94.8,40,,Pt. Woronzof,258.0,100.0,exact,False,False
+PT WORONZOF ALASKA,,55 57,,,135.0,27.0,4.0,7.0,8.0,10.0,20.0,23.0,30.0,44.0,59.0,90.3,40,,Pt. Woronzof,258.0,100.0,exact,True,False
+GRAND CANYON ARIZ,1,57,26.0,,,10.0,1.0,5.0,7.0,8.0,8.0,8.0,9.0,9.0,11.0,92.1,40,,Grand Canyon National Park,255.0,70.8,low_confidence,False,False
+WAIMANOLO HAWAII,1,57,23.0,8.0,49.0,20.0,8.0,9.0,15.0,16.0,17.0,18.0,23.0,25.0,41.0,92.0,40,,Waimanalo,259.0,93.8,high_confidence,False,False
+WAIMANOLO HAWAII,,55 57,473.0,,159.0,22.0,7.0,8.0,10.0,15.0,16.0,19.0,24.0,29.0,43.0,94.9,40,,Waimanalo,259.0,93.8,high_confidence,True,False

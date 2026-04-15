@@ -1,0 +1,12 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+SUBURBAN,,,,,,,,,,,,,,,,96.0,171,,SUBURBAN,,,skip,False,False
+SUBURBAN,,,,,,,,2.0,,3.0,,,,,,80.0,171,,SUBURBAN,,,skip,False,False
+MIEOOLESEX CNTY MASS,,55,23.0,,30.0,9.0,,,3.0,,5.0,9.0,10.0,19.0,22.0,89.9,171,,Middlesex County,219.0,82.9,low_confidence,False,False
+LAKEHURST N J,,55 56,17.0,,39.0,8.0,,3.0,4.0,,5.0,6.0,10.0,13.0,16.0,93.3,171,,Lakehurst,220.0,100.0,exact,True,False
+LAKEHURST N J,,,,,,,,,,,5.0,,,,,70.0,171,,Lakehurst,220.0,100.0,exact,False,False
+KANAWHA CO W VA,,55,17.0,,20.0,3.0,,1.0,1.0,2.0,,3.0,4.0,,6.0,92.9,171,,Kanawha County,221.0,88.2,high_confidence,False,False
+DENVER COUNTY COLO,,54 55,10.0,,5.0,2.0,,1.0,2.0,2.0,2.0,3.0,3.0,4.0,4.0,93.5,171,,Denver County,227.0,100.0,exact,True,False
+DENVER COUNTY COLO,,,,,,,,,,,4.0,,,,,93.0,171,,Denver County,227.0,100.0,exact,False,False
+DENVER COUNTY COLO,,54 56,67.0,,39.0,6.0,,1.0,2.0,3.0,,4.0,6.0,10.0,19.0,94.5,171,,Denver County,227.0,100.0,exact,True,False
+NONURBAN,,,,,,,,,,,,,,,,91.0,171,,NONURBAN,,,skip,False,False
+PT WORONZOF ALASKA,,55 56,12.0,,200.0,30.0,,5.0,9.0,9.0,10.0,20.0,20.0,30.0,30.0,94.4,171,,Pt. Woronzof,258.0,100.0,exact,True,False

@@ -1,0 +1,133 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+WATERBURY CONN,1,55,,,3.0,,,,,,,,,,,81.0,137,,Waterbury,1.0,100.0,exact,False,False
+WATERBURY CONN,1,56,,,,6.0,,1.0,2.0,3.0,5.0,6.0,9.0,,,92.5,137,,Waterbury,1.0,100.0,exact,False,False
+WATERBURY CONN,1,55 56,36.0,,19.0,7.0,1.0,2.0,4.0,5.0,5.0,7.0,9.0,10.0,14.0,93.4,137,,Waterbury,1.0,100.0,exact,True,False
+BOSTON MASS,1,55,23.0,,17.0,5.0,1.0,1.0,2.0,2.0,4.0,6.0,7.0,9.0,12.0,95.6,137,,Boston,6.0,100.0,exact,False,False
+EVERETT MASS,1,55,26.0,,37.0,9.0,,3.0,4.0,6.0,7.0,9.0,10.0,12.0,13.0,93.7,137,,Everett,8.0,100.0,exact,False,False
+NJ,1,55 56,21.0,,13.0,1.0,,,,1.0,1.0,1.0,1.0,2.0,,92.0,137,,NJ,,0.0,unmatched,True,False
+PAULSBORO WN J,1,56,25.0,,26.0,2.0,,,1.0,1.0,1.0,1.0,2.0,3.0,,91.2,137,,Paulsboro,22.0,96.3,high_confidence,False,False
+CAMOEN WN J,1,55 56,21.0,,32.0,6.0,1.0,1.0,2.0,3.0,4.0,4.0,5.0,6.0,,88.2,137,,Camden,19.0,85.7,high_confidence,True,False
+PERTH AMBOY N J,1,55 56,23.0,,82.0,6.0,,,1.0,1.0,1.0,1.0,3.0,5.0,12.0,93.9,137,,Perth Amboy,18.0,100.0,exact,True,False
+TRENTON N J,1,55 56,17.0,,34.0,5.0,,,1.0,1.0,3.0,3.0,5.0,8.0,8.0,94.1,137,,Trenton,28.0,100.0,exact,True,False
+JERSEY CITYY WN J,1,55 56,23.0,,73.0,10.0,1.0,2.0,2.0,3.0,4.0,5.0,6.0,10.0,21.0,88.8,137,,Jersey City,27.0,93.8,high_confidence,True,False
+NEW YORK N Y,2,54 56,50.0,,107.0,40.0,1.0,4.0,6.0,9.0,27.0,60.0,69.0,79.0,86.0,91.2,137,,New York,31.0,100.0,exact,True,False
+NEW YORK N Y,3,54 55,24.0,,67.0,18.0,1.0,2.0,3.0,6.0,7.0,8.0,20.0,47.0,58.0,92.6,137,,New York,32.0,100.0,exact,True,False
+NEW YORK N Y,,54 56,75.0,,107.0,33.0,1.0,3.0,5.0,8.0,20.0,44.0,59.0,69.0,83.0,95.1,137,,New York,30.0,100.0,exact,True,False
+PHILADELPHIA PA,1,54,6.0,36.0,157.0,73.0,35.0,35.0,37.0,37.0,58.0,67.0,67.0,103.0,103.0,94.2,137,,Philadelphia,41.0,100.0,exact,False,False
+PHILADELPHIA PA,1,55,94.0,1.0,35.0,9.0,2.0,4.0,5.0,6.0,7.0,9.0,11.0,13.0,18.0,94.0,137,,Philadelphia,41.0,100.0,exact,False,False
+PHILADELPHIA PA,1,56,11.0,,15.0,7.0,1.0,2.0,3.0,4.0,5.0,8.0,11.0,12.0,14.0,91.5,137,,Philadelphia,41.0,100.0,exact,False,False
+PHILADELPHIA PA,1,54 56,111.0,,157.0,12.0,2.0,3.0,5.0,6.0,8.0,9.0,,15.0,25.0,93.6,137,,Philadelphia,41.0,100.0,exact,True,False
+PHILADELPHIA PA,3,54,4.0,25.0,66.0,51.0,,28.0,28.0,54.0,54.0,54.0,58.0,58.0,67.0,92.6,137,,Philadelphia,43.0,100.0,exact,False,False
+PHILADELPHIA PA,4,56,11.0,,44.0,10.0,1.0,1.0,3.0,3.0,6.0,,10.0,12.0,28.0,94.5,137,,Philadelphia,44.0,100.0,exact,False,False
+PHILADELPHIA PA,5,56,9.0,,16.0,4.0,,1.0,1.0,1.0,3.0,3.0,4.0,6.0,10.0,95.8,137,,Philadelphia,45.0,100.0,exact,False,False
+PHILADELPHIA PA,6,56,11.0,,19.0,4.0,,1.0,1.0,2.0,3.0,3.0,6.0,7.0,7.0,94.6,137,,Philadelphia,46.0,100.0,exact,False,False
+PHILADELPHIA PA,7,56,11.0,,23.0,7.0,1.0,1.0,3.0,3.0,4.0,6.0,6.0,12.0,21.0,92.3,137,,Philadelphia,47.0,100.0,exact,False,False
+PHILADELPHIA PA,,54,10.0,25.0,157.0,64.0,28.0,35.0,37.0,,55.0,58.0,63.0,67.0,103.0,93.7,137,,Philadelphia,41.0,100.0,exact,False,False
+PHILADELPHIA PA,,55,94.0,1.0,35.0,9.0,2.0,4.0,5.0,6.0,7.0,9.0,,13.0,18.0,89.9,137,,Philadelphia,41.0,100.0,exact,False,False
+PHILADELPHIA PA,,56,53.0,,44.0,6.0,,1.0,2.0,3.0,4.0,5.0,7.0,11.0,18.0,94.2,137,,Philadelphia,41.0,100.0,exact,False,False
+PHILADELPHIA PA,,54 56,157.0,,157.0,12.0,1.0,3.0,4.0,6.0,7.0,8.0,11.0,15.0,26.0,95.2,137,,Philadelphia,41.0,100.0,exact,True,False
+ALTOONA PA,1,56,13.0,,18.0,6.0,1.0,2.0,3.0,5.0,6.0,7.0,7.0,8.0,12.0,94.9,137,,Altoona,57.0,100.0,exact,False,False
+BRISTOL PA,1,55 56,18.0,,15.0,2.0,,,1.0,1.0,1.0,1.0,2.0,2.0,4.0,94.9,137,,Bristol,58.0,100.0,exact,True,False
+CHESTER PA,1,56,18.0,,25.0,7.0,1.0,2.0,2.0,4.0,7.0,9.0,10.0,10.0,12.0,95.1,137,,Chester,55.0,100.0,exact,False,False
+ERIE PA,1,56,25.0,,18.0,5.0,1.0,2.0,3.0,3.0,4.0,5.0,6.0,8.0,12.0,93.4,137,,Erie,56.0,100.0,exact,False,False
+PITTSBURGH PA,1,56,21.0,,160.0,35.0,2.0,12.0,17.0,22.0,28.0,31.0,37.0,50.0,67.0,95.1,137,,Pittsburgh,48.0,100.0,exact,False,False
+WILLIAMSPORT PA,1,55 56,23.0,2.0,66.0,20.0,3.0,5.0,6.0,9.0,15.0,21.0,26.0,34.0,453.0,93.7,137,,Williamsport,50.0,100.0,exact,True,False
+WASHINGTON OC,1,54,26.0,34.0,101.0,59.0,45.0,48.0,,53.0,56.0,60.0,63.0,70.0,75.0,93.8,137,,Washington,61.0,93.3,high_confidence,False,False
+WASHINGTON OC,2,55 56,20.0,2.0,39.0,13.0,3.0,6.0,7.0,8.0,10.0,12.0,13.0,20.0,35.0,94.0,137,,Washington,62.0,93.3,high_confidence,True,False
+WASHINGTON OC,,54 56,46.0,2.0,101.0,39.0,7.0,9.0,13.0,34.0,45.0,51.0,55.0,62.0,70.0,93.5,137,,Washington,61.0,88.9,high_confidence,True,False
+LOUISVILLE KY,1,54,22.0,,110.0,28.0,2.0,5.0,8.0,11.0,15.0,17.0,21.0,50.0,77.0,94.9,137,,Louisville,64.0,100.0,exact,False,False
+LOUISVILLE KY,1,55,21.0,,58.0,16.0,2.0,3.0,4.0,6.0,15.0,17.0,18.0,28.0,37.0,95.5,137,,Louisville,64.0,100.0,exact,False,False
+LOUISVILLE KY,1,54 55,43.0,,110.0,22.0,2.0,4.0,6.0,8.0,15.0,17.0,21.0,35.0,54.0,94.3,137,,Louisville,64.0,100.0,exact,True,False
+LOUISVILLE KY,2,54,13.0,3.0,20.0,8.0,2.0,3.0,3.0,6.0,6.0,7.0,7.0,12.0,18.0,95.5,137,,Louisville,65.0,100.0,exact,False,False
+LOUISVILLE KY,2,55,10.0,2.0,63.0,20.0,2.0,4.0,4.0,11.0,12.0,18.0,21.0,35.0,37.0,94.9,137,,Louisville,65.0,100.0,exact,False,False
+LOUISVILLE KY,2,54 55,23.0,2.0,63.0,13.0,2.0,3.0,4.0,6.0,7.0,11.0,15.0,,35.0,93.6,137,,Louisville,65.0,100.0,exact,True,False
+LOUISVILLE KY,3,54,5.0,7.0,80.0,42.0,7.0,7.0,40.0,40.0,43.0,43.0,50.0,50.0,89.0,91.2,137,,Louisville,66.0,100.0,exact,False,False
+LOUISVILLE KY,,54,40.0,,110.0,23.0,3.0,5.0,6.0,7.0,,16.0,20.0,43.0,58.0,95.2,137,,Louisville,64.0,100.0,exact,False,False
+LOUISVILLE KY,,55,31.0,,63.0,17.0,2.0,3.0,4.0,6.0,15.0,17.0,21.0,32.0,37.0,94.3,137,,Louisville,64.0,100.0,exact,False,False
+LOUISVILLE KY,,55,71.0,,110.0,20.0,2.0,4.0,6.0,7.0,12.0,16.0,20.0,36.0,,92.9,137,,Louisville,64.0,100.0,exact,False,False
+BALTIMORE MO,1,,18.0,12.0,130.0,30.0,13.0,18.0,20.0,22.0,,26.0,27.0,28.0,32.0,93.6,137,,Baltimore,67.0,91.7,high_confidence,False,False
+CHARLESTON W VA,1,54,11.0,34.0,81.0,58.0,35.0,37.0,43.0,47.0,63.0,67.0,77.0,,,90.5,137,,Charleston,77.0,100.0,exact,False,False
+CHARLESTON W VA,4,55,16.0,,23.0,8.0,2.0,2.0,3.0,4.0,4.0,12.0,13.0,14.0,15.0,95.9,137,,Charleston,77.0,100.0,exact,False,False
+CHARLESTON W VA,,54 55,27.0,,,28.0,2.0,3.0,4.0,13.0,15.0,24.0,43.0,63.0,77.0,94.0,137,,Charleston,77.0,100.0,exact,True,False
+TAMPA FLA,,54 55,30.0,,54.0,13.0,1.0,1.0,2.0,4.0,6.0,8.0,15.0,24.0,35.0,95.2,137,,Tampa,84.0,100.0,exact,True,False
+ATLANTA GA,1,54 56,26.0,,73.0,26.0,4.0,5.0,11.0,13.0,18.0,32.0,37.0,47.0,,94.8,137,,Atlanta,85.0,100.0,exact,True,False
+CHATTANOOGA TENN,3,55,14.0,,13.0,,1.0,2.0,2.0,3.0,3.0,4.0,7.0,8.0,13.0,95.5,137,,Chattanooga,94.0,100.0,exact,False,False
+CHATTANOOGA TENN,4,56,18.0,,33.0,13.0,2.0,5.0,6.0,7.0,10.0,12.0,15.0,21.0,30.0,94.6,137,,Chattanooga,95.0,100.0,exact,False,False
+CHATTANOOGA TENN,,55 56,32.0,,33.0,9.0,1.0,2.0,3.0,5.0,7.0,8.0,11.0,13.0,28.0,94.2,137,,Chattanooga,92.0,100.0,exact,True,False
+CHICAGO PLL,1,54,4.0,44.0,80.0,61.0,,,,,,,,,89.0,91.8,138,,Chicago,99.0,95.5,high_confidence,False,False
+CHICAGO PLL,,55,26.0,,,15.0,2.0,3.0,5.0,8.0,11.0,14.0,18.0,24.0,32.0,91.8,138,,Chicago,99.0,90.9,high_confidence,False,False
+CHICAGO PLL,1,54 55,32.0,,80.0,20.0,2.0,3.0,8.0,10.0,13.0,15.0,,40.0,50.0,91.5,138,,Chicago,99.0,95.5,high_confidence,True,False
+CHICAGO PLL,2,54,30.0,26.0,155.0,84.0,45.0,54.0,67.0,72.0,77.0,95.0,103.0,115.0,128.0,92.8,138,,Chicago,100.0,95.5,high_confidence,False,False
+CHICAGO PLL,2,55,26.0,6.0,76.0,34.0,10.0,15.0,22.0,24.0,30.0,37.0,43.0,54.0,63.0,94.6,138,,Chicago,100.0,95.5,high_confidence,False,False
+CHICAGO PLL,2,54 55,56.0,6.0,155.0,61.0,168.0,,37.0,46.0,56.0,68.0,75.0,97.0,115.0,92.4,138,,Chicago,100.0,95.5,high_confidence,True,False
+CHICAGO PLL,3,54,3.0,54.0,62.0,58.0,,54.0,54.0,54.0,586.0,,58.0,58.0,67.0,87.4,138,,Chicago,101.0,95.5,high_confidence,False,False
+CHICAGO PLL,4,55,29.0,,120.0,21.0,1.0,4.0,7.0,9.0,14.0,15.0,20.0,35.0,54.0,94.7,138,,Chicago,102.0,95.5,high_confidence,False,False
+CHICAGO PLL,,54,37.0,26.0,155.0,80.0,47.0,,58.0,,14.0,83.0,97.0,111.0,124.0,92.9,138,,Chicago,99.0,90.9,high_confidence,False,False
+CHICAGO PLL,,55,83.0,,120.0,23.0,2.0,6.0,9.0,13.0,16.0,22.0,29.0,38.0,54.0,92.9,138,,Chicago,99.0,90.9,high_confidence,False,False
+CHICAGO PLL,,54 55,120.0,,155.0,40.0,4.0,8.0,14.0,21.0,30.0,43.0,54.0,69.0,97.0,93.1,138,,Chicago,99.0,90.9,high_confidence,True,False
+EAST ST LOUIS ILL,1,55 56,15.0,4.0,100.0,38.0,21.0,23.0,26.0,28.0,35.0,37.0,43.0,,67.0,92.3,138,,East St. Louis,104.0,100.0,exact,True,False
+EAST ST LOUIS ILL,2,55 56,14.0,1.0,44.0,17.0,1.0,5.0,6.0,15.0,17.0,18.0,23.0,23.0,28.0,94.2,138,,East St. Louis,105.0,100.0,exact,True,False
+EAST ST LOUIS ILL,,55 56,29.0,1.0,100.0,28.0,4.0,12.0,,22.0,24.0,25.0,34.0,40.0,50.0,92.8,138,,East St. Louis,104.0,100.0,exact,True,False
+EAST CHICAGO INO,1,56,19.0,3.0,300.0,60.0,9.0,17.0,,32.0,53.0,,61.0,67.0,103.0,91.7,138,,East Chicago,107.0,98.4,high_confidence,False,False
+EAST CHICAGO INO,2,55 56,26.0,4.0,100.0,31.0,6.0,7.0,18.0,24.0,27.0,31.0,37.0,48.0,58.0,94.9,138,,East Chicago,108.0,98.4,high_confidence,True,False
+EAST CHICAGO INO,3,55 56,21.0,6.0,99.0,30.0,,11.0,14.0,17.0,23.0,24.0,37.0,47.0,58.0,92.9,138,,East Chicago,109.0,98.4,high_confidence,True,False
+EAST CHICAGO INO,4,55 56,20.0,3.0,110.0,29.0,3.0,7.0,10.0,20.0,23.0,32.0,37.0,45.0,50.0,94.4,138,,East Chicago,110.0,98.4,high_confidence,True,False
+EAST CHICAGO INO,,55 56,86.0,3.0,300.0,36.0,6.0,10.0,16.0,21.0,26.0,33.0,45.0,53.0,66.0,94.9,138,,East Chicago,107.0,93.8,high_confidence,True,False
+OETROLT MICH,1,53 54,31.0,1.0,142.0,76.0,8.0,24.0,43.0,55.0,,103.0,110.0,117.0,128.0,89.7,138,,Detroit,115.0,87.5,high_confidence,True,False
+CINCINNATI OHIO,1,54,69.0,,99.0,44.0,19.0,23.0,30.0,43.0,47.0,51.0,56.0,62.0,69.0,93.0,138,,Cincinnati,126.0,93.3,high_confidence,False,False
+CINCINNATI OHIO,1,55,27.0,,89.0,21.0,3.0,4.0,9.0,11.0,14.0,17.0,24.0,43.0,48.0,93.4,138,,Cincinnati,126.0,93.3,high_confidence,False,False
+CINCINNATI OHIO,1,54 55,96.0,,99.0,37.0,6.0,14.0,21.0,26.0,41.0,47.0,52.0,60.0,67.0,93.9,138,,Cincinnati,126.0,93.3,high_confidence,True,False
+CINCINNATI OHIO,2,54,20.0,18.0,96.0,56.0,44.0,47.0,50.0,53.0,55.0,58.0,61.0,63.0,66.0,90.8,138,,Cincinnati,127.0,93.3,high_confidence,False,False
+CINCINNATI OHIO,4,54,18.0,3.0,104.0,49.0,4.0,20.0,21.0,40.0,45.0,50.0,64.0,67.0,98.0,93.5,138,,Cincinnati,129.0,93.3,high_confidence,False,False
+CINCINNATI OHIO,5,54,26.0,,127.0,59.0,26.0,37.0,47.0,54.0,64.0,70.0,73.0,77.0,85.0,93.9,138,,Cincinnati,126.0,88.9,high_confidence,False,False
+CINCINNATI OHIO,,54,133.0,,,49.0,18.0,25.0,40.0,46.0,50.0,56.0,61.0,66.0,,90.7,138,,Cincinnati,126.0,88.9,high_confidence,False,False
+CINCINNATI OHIO,,,27.0,,89.0,,3.0,4.0,,12.0,14.0,17.0,,43.0,48.0,90.6,138,,Cincinnati,126.0,88.9,high_confidence,False,False
+CINCINNATI OHIO,,54 55,160.0,,127.0,45.0,8.0,19.0,26.0,42.0,47.0,,59.0,65.0,75.0,94.8,138,,Cincinnati,126.0,88.9,high_confidence,True,False
+YOUNGSTOWN OHIO,1,57,12.0,24.0,500.0,186.0,24.0,28.0,111.0,119.0,137.0,,210.0,325.0,375.0,93.3,138,,Youngstown,137.0,88.9,high_confidence,False,False
+MILWAUKEE WIS,1,57,19.0,9.0,140.0,32.0,9.0,13.0,18.0,,23.0,24.0,28.0,37.0,,92.7,138,,Milwaukee,138.0,96.3,high_confidence,False,False
+MINNEAPOLIS MIAN,1,54 55,35.0,,89.0,4.0,3.0,5.0,9.0,9.0,12.0,15.0,37.0,50.0,67.0,91.0,138,,Minneapolis,147.0,93.8,high_confidence,True,False
+KANSAS CITY MO,2,54 56,25.0,2.0,68.0,25.0,6.0,9.0,11.0,12.0,21.0,28.0,35.0,37.0,58.0,94.1,138,,Kansas City,151.0,100.0,exact,True,False
+KANSAS CITY MO,3,54,,24.0,61.0,39.0,24.0,24.0,32.0,32.0,40.0,40.0,43.0,43.0,67.0,94.6,138,,Kansas City,152.0,100.0,exact,False,False
+KANSAS CITY MO,4,55 56,9.0,1.0,34.0,9.0,1.0,2.0,2.0,3.0,3.0,3.0,,15.0,21.0,93.9,138,,Kansas City,153.0,100.0,exact,True,False
+KANSAS CITY MO,,54 56,39.0,1.0,68.0,23.0,2.0,6.0,10.0,,20.0,26.0,33.0,37.0,50.0,92.2,138,,Kansas City,150.0,100.0,exact,True,False
+8ST LOUIS MO,1,55 56,23.0,,29.0,14.0,4.0,8.0,9.0,9.0,13.0,15.0,18.0,21.0,28.0,91.5,138,,St. Louis,154.0,100.0,exact,True,False
+NEW ORLEANS LA,1,54 55,26.0,,35.0,5.0,1.0,1.0,1.0,2.0,2.0,3.0,,6.0,,91.7,138,,New Orleans,162.0,100.0,exact,True,False
+NEW ORLEANS LA,2,54 55,24.0,,40.0,7.0,1.0,2.0,2.0,4.0,,,,8.0,13.0,95.2,138,,New Orleans,163.0,100.0,exact,True,False
+NEW ORLEANS LA,,54 55,50.0,,40.0,6.0,1.0,1.0,2.0,,3.0,4.0,,6.0,13.0,93.4,138,,New Orleans,162.0,100.0,exact,True,False
+FT WORTH TEXAS,1,54 55,31.0,3.0,105.0,16.0,3.0,3.0,4.0,5.0,6.0,7.0,17.0,23.0,43.0,93.8,138,,Ft. Worth,174.0,85.7,high_confidence,True,False
+LAKEWORTH TEXAS,1,54,6.0,22.0,71.0,41.0,23.0,23.0,24.0,24.0,298.0,,54.0,58.0,58.0,92.8,138,,Lakeworth Village,175.0,72.2,low_confidence,False,False
+HOUSTON TEXAS,1,54,26.0,2.0,85.0,34.0,6.0,12.0,26.0,28.0,33.0,36.0,37.0,,63.0,95.1,138,,Houston,177.0,96.2,high_confidence,False,False
+HOUSTON TEXAS,1,55,56.0,,29.0,9.0,2.0,3.0,4.0,5.0,7.0,8.0,11.0,15.0,19.0,92.1,138,,Houston,177.0,96.2,high_confidence,False,False
+HOUSTON TEXAS,,54 55,82.0,,,17.0,2.0,3.0,5.0,7.0,10.0,,20.0,30.0,37.0,93.3,138,,Houston,177.0,91.7,high_confidence,True,False
+BELLAIRE TEXAS,1,54,21.0,1.0,49.0,11.0,2.0,3.0,5.0,6.0,8.0,,12.0,13.0,328.0,93.9,138,,Bellaire,179.0,92.3,high_confidence,False,False
+BELLAIRE TEXAS,1,55,14.0,1.0,13.0,4.0,1.0,1.0,1.0,2.0,2.0,3.0,,7.0,12.0,93.0,138,,Bellaire,179.0,92.3,high_confidence,False,False
+BELLAIRE TEXAS,1,54 55,35.0,1.0,49.0,8.0,1.0,2.0,3.0,5.0,6.0,7.0,11.0,12.0,15.0,94.0,138,,Bellaire,179.0,92.3,high_confidence,True,False
+DENVER COL,1,54 55,23.0,,,14.0,2.0,3.0,7.0,8.0,13.0,14.0,14.0,15.0,37.0,94.4,138,,Denver,182.0,95.2,high_confidence,True,False
+DENVER COL,3,54,3.0,43.0,53.0,46.0,,43.0,43.0,43.0,50.0,50.0,50.0,50.0,58.0,92.1,138,,Denver,182.0,95.2,high_confidence,False,False
+DENVER COL,,54,10.0,7.0,53.0,22.0,7.0,7.0,,14.0,14.0,15.0,15.0,43.0,,92.0,138,,Denver,182.0,95.2,high_confidence,False,False
+DENVER COL,,,16.0,,53.0,16.0,2.0,2.0,3.0,6.0,10.0,14.0,14.0,32.0,37.0,94.2,138,,Denver,182.0,95.2,high_confidence,False,False
+DENVER COL,,54 55,26.0,,53.0,18.0,2.0,3.0,7.0,10.0,13.0,14.0,15.0,37.0,47.0,93.0,138,,Denver,182.0,95.2,high_confidence,True,False
+SALT LAKE CITY UTAH,2,54 55,31.0,,59.0,21.0,,9.0,12.0,15.0,17.0,20.0,24.0,31.0,50.0,92.9,139,,Salt Lake City,185.0,100.0,exact,True,False
+ANCHORAGE ALASKA,1,54 55,40.0,,998.0,85.0,2.0,13.0,21.0,47.0,58.0,67.0,92.0,103.0,158.0,91.0,139,,Anchorage,187.0,100.0,exact,True,False
+LOS ANGELES CALIF,,54,19.0,26.0,114.0,63.0,37.0,43.0,48.0,58.0,63.0,65.0,,75.0,89.0,91.7,139,,Los Angeles,195.0,100.0,exact,False,False
+SAN FRANCISCO CALIF,1,55,32.0,,,,,,1.0,1.0,2.0,3.0,,,,88.2,139,,San Francisco,204.0,100.0,exact,False,False
+PASADENA CALIF,1,54,21.0,18.0,59.0,40.0,31.0,,32.0,35.0,43.0,50.0,52.0,55.0,57.0,88.1,139,,Pasadena,199.0,100.0,exact,False,False
+PASADENA CALIF,1,55,21.0,,35.0,11.0,1.0,4.0,,5.0,8.0,11.0,12.0,21.0,24.0,91.5,139,,Pasadena,199.0,100.0,exact,False,False
+PASADENA CALIF,1,56,,,18.0,,,1.0,1.0,5.0,5.0,,,,18.0,92.2,139,,Pasadena,199.0,100.0,exact,False,False
+PASADENA CALIF,1,54 56,46.0,,59.0,24.0,4.0,5.0,8.0,12.0,21.0,29.0,35.0,47.0,53.0,92.1,139,,Pasadena,199.0,100.0,exact,True,False
+BERKELEY CALIF,1,54,34.0,,52.0,21.0,5.0,9.0,10.0,13.0,14.0,15.0,28.0,39.0,45.0,92.3,139,,Berkeley,191.0,100.0,exact,False,False
+SAN JOSE CALIF,1,54,26.0,,64.0,25.0,,14.0,17.0,19.0,20.0,23.0,26.0,40.0,,94.5,139,,San Jose,206.0,100.0,exact,False,False
+SAN JOSE CALIF,1,55,12.0,,38.0,18.0,1.0,2.0,4.0,10.0,,25.0,27.0,32.0,37.0,93.7,139,,San Jose,206.0,100.0,exact,False,False
+SAN JOSE CALIF,1,56,20.0,,35.0,12.0,2.0,5.0,7.0,9.0,10.0,11.0,13.0,23.0,26.0,94.1,139,,San Jose,206.0,100.0,exact,False,False
+SAN JOSE CALIF,1,54 56,58.0,,64.0,19.0,3.0,5.0,10.0,13.0,18.0,21.0,25.0,27.0,39.0,93.9,139,,San Jose,206.0,100.0,exact,True,False
+SAN LEANDRO CALIF,2,56,30.0,,44.0,,2.0,3.0,5.0,6.0,7.0,9.0,10.0,12.0,18.0,92.7,139,,San Leandro,207.0,100.0,exact,False,False
+PORTLAND OREGON,1,54,20.0,16.0,66.0,41.0,20.0,26.0,33.0,36.0,43.0,47.0,50.0,54.0,58.0,94.4,139,,Portland,212.0,93.3,high_confidence,False,False
+PORTLAND OREGON,1,55,19.0,,42.0,17.0,1.0,6.0,7.0,,19.0,20.0,23.0,29.0,32.0,91.2,139,,Portland,212.0,93.3,high_confidence,False,False
+PORTLAND OREGON,1,55,39.0,,66.0,9.0,6.0,15.0,19.0,23.0,29.0,33.0,37.0,47.0,54.0,91.3,139,,Portland,212.0,93.3,high_confidence,False,False
+PORTLAND OREGON,,54,15.0,43.0,,68.0,50.0,,56.0,,72.0,77.0,82.0,,89.0,93.1,139,,Portland,212.0,88.9,high_confidence,False,False
+PORTLAND OREGON,5,54,10.0,12.0,63.0,35.0,12.0,15.0,23.0,24.0,32.0,43.0,47.0,590.0,,92.9,139,,Portland,216.0,93.3,high_confidence,False,False
+PORTLAND OREGON,4,54,10.0,,32.0,19.0,6.0,9.0,14.0,15.0,18.0,21.0,25.0,27.0,28.0,91.4,139,,Portland,215.0,93.3,high_confidence,False,False
+PORTLAND OREGON,,54,,,98.0,43.0,15.0,21.0,27.0,35.0,44.0,49.0,54.0,60.0,79.0,93.8,139,,Portland,212.0,88.9,high_confidence,False,False
+PORTLAND OREGON,,55,19.0,,42.0,17.0,1.0,6.0,7.0,15.0,19.0,20.0,23.0,29.0,32.0,91.3,139,,Portland,212.0,88.9,high_confidence,False,False
+PORTLAND OREGON,,54 55,74.0,,98.0,37.0,,16.0,21.0,26.0,32.0,40.0,49.0,55.0,72.0,92.7,139,,Portland,212.0,88.9,high_confidence,True,False
+SEATTLE WASH,1,57,20.0,11.0,100.0,38.0,11.0,15.0,24.0,33.0,35.0,37.0,47.0,54.0,67.0,92.1,139,,Seattle,218.0,100.0,exact,False,False

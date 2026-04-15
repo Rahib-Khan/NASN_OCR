@@ -1,0 +1,348 @@
+========================================================================
+NASN AIR POLLUTION DATA — RECONSTRUCTION AND QUALITY REPORT
+========================================================================
+
+Source: Unknown
+Publisher: U.S. Public Health Service, Sanitary Engineering Center, Cincinnati, Ohio
+Year: 1958
+Archive: https://hdl.handle.net/2027/uc1.c3110719
+
+────────────────────────────────────────────────────────────────────────
+NETWORK OVERVIEW
+────────────────────────────────────────────────────────────────────────
+This report presents the first five years of operation of the NASN, providing the first large-scale national baseline for suspended particulate matter and 30 chemical and radioactive constituents across the United States. Tabulations were prepared using electronic data processing equipment (1958).
+
+Data years: [1953, 1954, 1955, 1956, 1957]
+Operating agency: U.S. Public Health Service
+
+Network growth:
+  1953: 17 communities/stations
+  1954: Several additional stations activated for special investigations and long-term national baseline collection communities/stations
+  1955: Continued expansion; 66 communities participating by this period communities/stations
+  1956: 66 communities/stations
+  1957: 110 communities/stations
+
+────────────────────────────────────────────────────────────────────────
+STATISTICAL ANALYSIS NOTE
+────────────────────────────────────────────────────────────────────────
+Geometric means are more appropriate than arithmetic means for central tendency. The Avg column in the cleaned data is the arithmetic mean as printed in the original publication.
+
+Distribution: Log-normal
+P10 through P90 are the 10th through 90th percentiles of the cumulative frequency distribution of all individual 24-hour samples collected at that station during that year. A high P90/P50 ratio indicates right-skewed distribution with episodic pollution events.
+
+────────────────────────────────────────────────────────────────────────
+DIGITISATION QUALITY — PER TABLE
+────────────────────────────────────────────────────────────────────────
+  T  Pollutant                         Units               Rows   Fill%   Match%
+────────────────────────────────────────────────────────────────────────
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+  ?                                                           0    0.0%     0.0%
+────────────────────────────────────────────────────────────────────────
+
+────────────────────────────────────────────────────────────────────────
+POLLUTANT SIGNIFICANCE NOTES
+────────────────────────────────────────────────────────────────────────
+
+Table 1: Suspended Particulate Matter
+  Units: ug/m3
+  Group: Particulates
+  Primary air quality indicator. Total mass of airborne particles 
+  collected on filter. The flagship measurement of the NASN. 
+
+Table 2: Acetone Soluble Organic Matter
+  Units: ug/m3
+  Group: Organic Matter
+  Represents petroleum hydrocarbons and certain combustion 
+  products extractable by acetone. 
+
+Table 3: Benzene Soluble Organic Matter
+  Units: ug/m3
+  Group: Organic Matter
+  Includes polycyclic aromatic hydrocarbons (PAHs), some of which 
+  are carcinogenic. Benzene is a more powerful solvent than 
+  acetone. 
+
+Table 4: Radioactivity
+  Units: uuCi/m3 x10-3
+  Group: Radioactivity
+  Beta radioactivity. Measured during the Cold War period of 
+  above-ground nuclear weapons testing by the US and USSR. 
+  Radioactive particles can travel thousands of miles from their 
+  source. 
+
+Table 5: Chlorides
+  Units: ug/m3 x10-3
+  Group: Inorganic Ions
+  Sources include coal combustion, industrial processes, and sea 
+  salt (coastal stations). 
+
+Table 6: Fluorides
+  Units: ug/m3 x10-3
+  Group: Inorganic Ions
+  Industrial emissions, particularly from aluminum smelting and 
+  phosphate fertilizer production. 
+
+Table 7: Nitrates
+  Units: ug/m3 x10-3
+  Group: Inorganic Ions
+  Formed from nitrogen oxides through atmospheric reactions. 
+  Combustion source. Precursor to acid deposition. 
+
+Table 8: Sulfates
+  Units: ug/m3 x10-3
+  Group: Inorganic Ions
+  Primarily from coal and oil combustion via SO2 oxidation. Major 
+  component of acid rain. High in industrial cities. 
+
+Table 9: Barium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Industrial source. Used in oil and gas drilling (barite), paint 
+  pigments, and metal refining. 
+
+Table 10: Bismuth
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Trace metal from metallurgical operations and coal combustion. 
+
+Table 11: Cadmium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Toxic metal. Sources include zinc smelting, galvanizing, 
+  nickel-cadmium batteries, and pigments. Elevated near industrial 
+  areas. 
+
+Table 12: Chromium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Steel production, electroplating, leather tanning. Hexavalent 
+  chromium is carcinogenic. 
+
+Table 13: Copper
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Electrical equipment manufacturing, mining and smelting, brake 
+  dust. Indicator of industrial activity. 
+
+Table 14: Iron
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Steel mills, foundries, and combustion. Most abundant metal in 
+  atmospheric particulates in industrial cities. 
+
+Table 15: Lead
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  HISTORICALLY CRITICAL: In 1953-1957 leaded gasoline was the 
+  dominant source of atmospheric lead in urban areas. Tetraethyl 
+  lead was introduced commercially in 1923. US phase-out began 
+  1973, completed 1996. This dataset captures pre-regulatory peak 
+  lead concentrations. Toxic at low doses, especially to 
+  children's neurological development. 
+
+Table 16: Magnesium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Soil dust and industrial sources. Useful as a crustal marker for 
+  distinguishing natural vs anthropogenic aerosol sources. 
+
+Table 17: Manganese
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Steel production, dry-cell batteries, and fuel combustion. 
+  Neurological effects at high exposure. 
+
+Table 18: Nickel
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Residual fuel oil combustion is the major source. Indicator of 
+  heavy fuel oil burning. 
+
+Table 19: Potassium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Biomass burning, soil dust. Potassium-to-sulfate ratios can 
+  distinguish wood burning from fossil fuel combustion. 
+
+Table 20: Sodium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Sea salt is the primary global source. Road deicing salt 
+  significant in Northeast winters. 
+
+Table 21: Strontium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Soil and cement dust. Strontium-90 (radioactive, not measured 
+  here) was a key fallout concern in this era. 
+
+Table 22: Tin
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Tin plating, solder, and bearing alloys. Industrial indicator. 
+
+Table 23: Titanium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Titanium dioxide is a common white pigment. Soil dust marker. 
+
+Table 24: Vanadium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Residual fuel oil combustion. Vanadium-nickel ratios are 
+  characteristic of specific crude oil origins. 
+
+Table 25: Zinc
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Rubber vulcanization, galvanizing, and zinc smelting. One of the 
+  most abundant trace metals in urban aerosols. 
+
+Table 26: Silver
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Photography industry (major 1950s use), mining, and metallurgy. 
+
+Table 27: Arsenic
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Coal combustion and pesticides (lead arsenate widely used in 
+  1950s agriculture). Human carcinogen. 
+
+Table 28: Beryllium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Nuclear industry, rocket fuel, speciality alloys. Highly toxic. 
+  Measured due to atomic energy expansion in this era. 
+
+Table 29: Cobalt
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Metallurgical operations and pigments. 
+
+Table 30: Molybdenum
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Steel alloys (stainless, tool steel) and petroleum refining 
+  catalysts. 
+
+Table 31: Antimony
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Flame retardants, lead-acid batteries (antimony hardens the lead 
+  plates), and rubber vulcanization. 
+
+────────────────────────────────────────────────────────────────────────
+KNOWN ERRATA IN ORIGINAL PUBLICATION
+────────────────────────────────────────────────────────────────────────
+  Page 215, Column title: 'LOG-NORMALLY' should be 'LOG-NORMALITY'
+  Page 215, Table F, Urban, Number of Samples: '9410' should be '9508'
+  Page 216, Table G, Minimum under Daily: '68' should be '66'
+  Page 246, Column 9, line 1: 'frequency misspelled as frequqency' should be 'frequency'
+  Page 249, Column 2, line 115: 'TI' should be 'T1'
+  Page 250, Column 2, line 6: 'TI' should be 'T1'
+  Page 251, Column 2, line 11: 'city' should be 'sity'
+  Page 251, Column 2, line 11: 'filass' should be 'glass'
+  Page 252, Column 2, line 29: 'Asen ic' should be 'Arsenic'
+  Page 253, Column 2, line 13: 'agent' should be 'against'
+
+========================================================================

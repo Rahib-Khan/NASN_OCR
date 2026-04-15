@@ -1,0 +1,122 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_2_Pages_9-10.csv
+  Loaded 62 rows
+  Detected: 15-column table (without Site column)
+Initial Avg Confidence: 91.28
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_17, Col_16
+
+Renaming columns...
+  Renamed 17 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 33 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 61 station names
+
+Extracting site numbers...
+
+Cleaning years...
+  Cleaned 60 year entries
+
+Filling station locations...
+  Filled 1 empty stations
+
+Identifying aggregates...
+  Year aggregates: 29
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 1 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 1 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 13 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (26 unique):
+----------------------------------------
+  [  1x]  'MASSACHUSETS TOT AL'
+  [  1x]  'NEW HAMPSHRE TOT AL'
+  [  1x]  'TEX AS TOT AL'
+  [  1x]  'LOU LANA TOT AL'
+  [  1x]  'SOU TH DAK OTA TOTAL'
+  [  1x]  'NOR TH DAK OTA TOTAL'
+  [  1x]  'IN NE SOTA TOT AL'
+  [  1x]  'IS CONSIN TOT AL'
+  [  1x]  '0 HD 0 TOTA'
+  [  1x]  'ND 1A NAN T 0 TAL'
+  [  1x]  'ENNE SSEE TOT AL'
+  [  1x]  'CA ROLIN A T OTA'
+  [  1x]  'P T OTA'
+  [  1x]  'EORG LA T 0 TAL'
+  [  1x]  'LORI DA T 0 TAL'
+  [  1x]  'LABA MA T 0 TAL'
+  [  1x]  '4 EST VERG T NAN TOT AL'
+  [  1x]  'IRGT WIA T OTA'
+  [  1x]  'VERTO RT C 0 T OTA'
+  [  1x]  'CCAROLT N A OTA'
+  [  1x]  'ENTUCKY T OTA'
+  [  1x]  'IS COLUM 8 LA TOT AL'
+  [  1x]  'ENNSYLVA N 1A TOT AL'
+  [  1x]  'ERMONT T 0 TAL'
+  [  1x]  'HODE ISL A NO TOT AL'
+  [  1x]  'HO TOT AL'
+
+LOW CONFIDENCE MATCHES (2 rows):
+----------------------------------------
+  'ARYLAND T OTA' → 'Orlando'  (score: 60.0)
+  'AN SA S TO TAL' → 'Kansas City'  (score: 60.0)
+============================================================
+
+Confidence Statistics:
+  Initial: 91.28
+  Final: 91.28
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 1,101 / 1,240 (88.8%)
+Input rows: 62
+Output rows: 62
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_2_Pages_9-10_cleaned.csv

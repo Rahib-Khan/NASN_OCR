@@ -1,0 +1,101 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_39_Pages_110-110.csv
+  Loaded 36 rows
+  Detected: 15-column table (without Site column)
+Initial Avg Confidence: 92.37
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_17, Col_16
+
+Renaming columns...
+  Renamed 17 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 28 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 35 station names
+
+Extracting site numbers...
+
+Cleaning years...
+  Cleaned 35 year entries
+
+Filling station locations...
+  Filled 1 empty stations
+
+Identifying aggregates...
+  Year aggregates: 24
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 0 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 2 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (5 unique):
+----------------------------------------
+  [  1x]  'WEST VIRGINA TOTAL'
+  [  1x]  'EW ENGLND TOTAL'
+  [  1x]  'MID ATLNTC TOTAL'
+  [  1x]  'MIIO0 EAST TOTAL'
+  [  1x]  'ROCKY MNTN TOTAL'
+
+LOW CONFIDENCE MATCHES (2 rows):
+----------------------------------------
+  'DTS COLUMBIA TOTAL' → 'Columbia'  (score: 61.5)
+  'INDEANA TOTAL' → 'Indianapolis'  (score: 64.0)
+============================================================
+
+Confidence Statistics:
+  Initial: 92.37
+  Final: 92.37
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 483 / 720 (67.1%)
+Input rows: 36
+Output rows: 36
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_39_Pages_110-110_cleaned.csv

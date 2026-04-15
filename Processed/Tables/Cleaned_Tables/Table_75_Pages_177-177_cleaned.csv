@@ -1,0 +1,30 @@
+Station_Location,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+NEW JERSEY TOTAL,55,10.0,11.0,30.0,18.0,11.0,14.0,15.0,16.0,17.0,18.0,19.0,21.0,27.0,94.8,177,state_total,NEW JERSEY TOTAL,,,state_aggregate,False,False
+NEW YORK TOTAL,54 55,36.0,,59.0,21.0,4.0,9.0,11.0,14.0,22.0,28.0,30.0,34.0,39.0,95.1,177,state_total,NEW YORK TOTAL,,,state_aggregate,True,False
+PENNSYLVANIA TOTAL,54,10.0,,28.0,,1.0,3.0,7.0,8.0,,12.0,13.0,13.0,27.0,94.7,177,state_total,PENNSYLVANIA TOTAL,,,state_aggregate,False,False
+COLUMBIA TOTAL,54,25.0,,34.0,,1.0,5.0,9.0,14.0,17.0,18.0,20.0,21.0,27.0,91.7,177,,Columbia,90.0,72.7,low_confidence,False,False
+KENTUCKY TOTAL,54,9.0,3.0,44.0,25.0,3.0,11.0,15.0,17.0,21.0,21.0,36.0,38.0,46.0,94.2,177,state_total,KENTUCKY TOTAL,,,state_aggregate,False,False
+WEST VIRGINA TOTAL,54,7.0,,42.0,13.0,1.0,1.0,5.0,5.0,6.0,6.0,,27.0,27.0,93.3,177,,WEST VIRGINA TOTAL,,0.0,unmatched,False,False
+FLORIDA TOTAL,54,10.0,1.0,,,1.0,2.0,2.0,3.0,5.0,5.0,11.0,15.0,17.0,93.9,177,state_total,FLORIDA TOTAL,,,state_aggregate,False,False
+GEORGIA TOTAL,54,9.0,,26.0,10.0,1.0,4.0,4.0,8.0,8.0,8.0,,15.0,26.0,94.9,177,state_total,GEORGIA TOTAL,,,state_aggregate,False,False
+PLLINOIS TOTAL,54 55,43.0,,86.0,31.0,2.0,15.0,23.0,28.0,32.0,37.0,41.0,45.0,58.0,90.8,177,,PLLINOIS TOTAL,,0.0,unmatched,True,False
+MICHIGAN TOTAL,53 54,33.0,,71.0,24.0,4.0,8.0,13.0,14.0,22.0,24.0,35.0,41.0,51.0,95.0,177,state_total,MICHIGAN TOTAL,,,state_aggregate,True,False
+OHIO TOTAL,54 55,135.0,3.0,69.0,19.0,6.0,9.0,12.0,14.0,16.0,18.0,22.0,26.0,36.0,94.2,177,state_total,OHIO TOTAL,,,state_aggregate,True,False
+MINNESOTA TOTAL,54,14.0,4.0,20.0,,4.0,5.0,6.0,9.0,11.0,12.0,15.0,16.0,19.0,94.3,177,state_total,MINNESOTA TOTAL,,,state_aggregate,False,False
+MISSOURI TOTAL,54,6.0,2.0,,4.0,2.0,2.0,3.0,,4.0,4.0,,,6.0,95.4,177,state_total,MISSOURI TOTAL,,,state_aggregate,False,False
+LOUISIANA TOTAL,54,4.0,6.0,22.0,14.0,,6.0,6.0,9.0,9.0,,19.0,19.0,24.0,91.2,177,state_total,LOUISIANA TOTAL,,,state_aggregate,False,False
+TEXAS TOTAL,54,29.0,,59.0,13.0,,1.0,1.0,6.0,9.0,10.0,13.0,24.0,32.0,93.4,177,state_total,TEXAS TOTAL,,,state_aggregate,False,False
+COLORADO TOTAL,54,3.0,4.0,11.0,6.0,,4.0,4.0,4.0,4.0,4.0,,,11.0,95.2,177,state_total,COLORADO TOTAL,,,state_aggregate,False,False
+UTAH TOTAL,54,5.0,14.0,42.0,22.0,14.0,14.0,15.0,15.0,17.0,17.0,24.0,24.0,43.0,94.9,177,state_total,UTAH TOTAL,,,state_aggregate,False,False
+ALASKA TOTAL,54 55,24.0,,400.0,28.0,,1.0,4.0,7.0,9.0,11.0,15.0,19.0,34.0,93.9,177,state_total,ALASKA TOTAL,,,state_aggregate,True,False
+TOTAL,54 55,113.0,,52.0,15.0,2.0,7.0,9.0,12.0,14.0,17.0,19.0,23.0,30.0,93.4,177,,TOTAL,,,state_aggregate,True,False
+OREGON TOTAL,54,54.0,,36.0,15.0,1.0,9.0,11.0,13.0,15.0,17.0,,25.0,29.0,94.6,177,state_total,OREGON TOTAL,,,state_aggregate,False,False
+MID ATLANTIC TOTAL,54 55,56.0,,59.0,19.0,4.0,9.0,11.0,13.0,17.0,22.0,27.0,30.0,36.0,90.1,177,region_total,MID ATLANTIC TOTAL,,,skip,True,False
+MIOD EAST TOTAL,54 55,41.0,,44.0,17.0,1.0,5.0,6.0,14.0,16.0,19.0,20.0,26.0,36.0,90.2,177,,MIOD EAST TOTAL,,0.0,unmatched,True,False
+SOUTH EAST TOT AL,54,19.0,,26.0,9.0,1.0,2.0,4.0,5.0,8.0,8.0,11.0,15.0,19.0,94.8,177,,SOUTH EAST TOT AL,,,skip,False,False
+MID WEST TOTAL,55,211.0,,86.0,22.0,5.0,9.0,12.0,15.0,18.0,22.0,27.0,35.0,46.0,91.9,177,region_total,MID WEST TOTAL,,,skip,False,False
+GRT PLAINS TOT AL,54,20.0,2.0,20.0,9.0,3.0,4.0,4.0,6.0,8.0,9.0,12.0,15.0,17.0,94.2,177,,GRT PLAINS TOT AL,,0.0,unmatched,False,False
+GULF SOUTH TOT AL,54,33.0,,59.0,13.0,,1.0,5.0,6.0,9.0,10.0,15.0,23.0,32.0,94.6,177,,GULF SOUTH TOT AL,,,skip,False,False
+ROCKY MNTN TOT AL,54,8.0,4.0,42.0,16.0,4.0,4.0,4.0,11.0,14.0,,17.0,17.0,24.0,93.3,177,,ROCKY MNTN TOT AL,,0.0,unmatched,False,False
+PACIFIC COAST TOTAL,54 55,191.0,,400.0,17.0,1.0,6.0,9.0,11.0,14.0,17.0,19.0,24.0,30.0,93.2,177,region_total,PACIFIC COAST TOTAL,,,skip,True,False
+PACIFIC COAST TOTAL,53 55,579.0,,400.0,18.0,3.0,6.0,9.0,12.0,15.0,18.0,22.0,28.0,37.0,92.8,177,,PACIFIC COAST TOTAL,,,skip,True,False

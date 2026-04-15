@@ -1,0 +1,103 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_71_Pages_170-170.csv
+  Loaded 36 rows
+  Detected: 15-column table (without Site column)
+Initial Avg Confidence: 93.27
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_17, Col_16
+
+Renaming columns...
+  Renamed 17 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 25 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 35 station names
+
+Extracting site numbers...
+
+Cleaning years...
+  Cleaned 34 year entries
+
+Filling station locations...
+  Filled 1 empty stations
+
+Identifying aggregates...
+  Year aggregates: 26
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 0 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 3 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (8 unique):
+----------------------------------------
+  [  1x]  'MASSACHUSETS FOTAL'
+  [  1x]  'D.C. TOTAL'
+  [  1x]  'WEST VIRGINA TOTAL'
+  [  1x]  'ANA TOTAL'
+  [  1x]  'NEW ENGLUND TOT AL'
+  [  1x]  'MIO ATLNTC TOT AL'
+  [  1x]  'GRT PLAINS TOT AL'
+  [  1x]  'ROCKY MNTN TOT AL'
+
+LOW CONFIDENCE MATCHES (0 rows):
+----------------------------------------
+  None
+============================================================
+
+Confidence Statistics:
+  Initial: 93.27
+  Final: 93.27
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 612 / 720 (85.0%)
+Input rows: 36
+Output rows: 36
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_71_Pages_170-170_cleaned.csv

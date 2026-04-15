@@ -1,0 +1,104 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_3_Pages_11-12.csv
+  Loaded 74 rows
+  Detected: 16-column table (with Site column)
+Initial Avg Confidence: 92.42
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_18, Col_17
+
+Renaming columns...
+  Renamed 18 columns
+
+Applying known OCR error corrections...
+  Fixed 2 known OCR errors, blanked 2 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 36 station names
+
+Extracting site numbers...
+  Site numbers extracted
+
+Cleaning years...
+  Cleaned 70 year entries
+
+Filling station locations...
+  Filled 38 empty stations
+
+Identifying aggregates...
+  Year aggregates: 12
+  Site aggregates: 1
+
+Smart filling missing years...
+  Total years filled: 2
+
+Cleaning numeric columns...
+  Cleaned 5 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 1 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 11 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (0 unique):
+----------------------------------------
+  None — all stations resolved!
+
+LOW CONFIDENCE MATCHES (15 rows):
+----------------------------------------
+  'KANAWHA CO WWW VA' → 'Kanawha County'  (score: 83.3)
+  'FULTON CO GEORGIA' → 'Fulton County'  (score: 72.7)
+  'SHENANDOAH PARK VA' → 'Shenandoah National Park'  (score: 80.0)
+  'HOLLY RIVER PK W VA' → 'Holly River State Park'  (score: 82.6)
+  'BLACK HILLS FRST' → 'Black Hills'  (score: 83.9)
+  'YELLOWSTONE PARK WYO' → 'Yellowstone National Park'  (score: 81.6)
+  'GRAND CANYON ARIZ' → 'Grand Canyon National Park'  (score: 70.8)
+  'WAILMANOLO HAWATI' → 'Waimanalo'  (score: 84.8)
+============================================================
+
+Confidence Statistics:
+  Initial: 92.42
+  Final: 92.42
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 1,456 / 1,554 (93.7%)
+Input rows: 74
+Output rows: 74
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_3_Pages_11-12_cleaned.csv

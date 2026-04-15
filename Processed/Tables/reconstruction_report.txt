@@ -1,0 +1,350 @@
+========================================================================
+NASN AIR POLLUTION DATA — RECONSTRUCTION AND QUALITY REPORT
+========================================================================
+
+Source: Unknown
+Publisher: U.S. Public Health Service, Sanitary Engineering Center, Cincinnati, Ohio
+Year: 1958
+Archive: https://hdl.handle.net/2027/uc1.c3110719
+
+────────────────────────────────────────────────────────────────────────
+NETWORK OVERVIEW
+────────────────────────────────────────────────────────────────────────
+This report presents the first five years of operation of the NASN, providing the first large-scale national baseline for suspended particulate matter and 30 chemical and radioactive constituents across the United States. Tabulations were prepared using electronic data processing equipment (1958).
+
+Data years: [1953, 1954, 1955, 1956, 1957]
+Operating agency: U.S. Public Health Service
+
+Network growth:
+  1953: 17 communities/stations
+  1954: Several additional stations activated for special investigations and long-term national baseline collection communities/stations
+  1955: Continued expansion; 66 communities participating by this period communities/stations
+  1956: 66 communities/stations
+  1957: 110 communities/stations
+
+────────────────────────────────────────────────────────────────────────
+STATISTICAL ANALYSIS NOTE
+────────────────────────────────────────────────────────────────────────
+Geometric means are more appropriate than arithmetic means for central tendency. The Avg column in the cleaned data is the arithmetic mean as printed in the original publication.
+
+Distribution: Log-normal
+P10 through P90 are the 10th through 90th percentiles of the cumulative frequency distribution of all individual 24-hour samples collected at that station during that year. A high P90/P50 ratio indicates right-skewed distribution with episodic pollution events.
+
+────────────────────────────────────────────────────────────────────────
+DIGITISATION QUALITY — PER TABLE
+────────────────────────────────────────────────────────────────────────
+  T  Pollutant                         Units               Rows   Fill%   Match%
+────────────────────────────────────────────────────────────────────────
+  1                                    ug/m3                548   80.6%     0.0%
+  2                                    ug/m3                 62   85.2%     0.0%
+  3                                    ug/m3                 74   78.8%     0.0%
+  4                                    uuCi/m3 x10-3        785   61.4%     0.0%
+  5                                    ug/m3 x10-3          192   79.4%     0.0%
+  6                                    ug/m3 x10-3           36   85.6%     0.0%
+  7                                    ug/m3 x10-3           39   78.1%     0.0%
+  8                                    ug/m3 x10-3          213   57.3%     0.0%
+  9                                    ug/m3 x10-3          389   80.4%     0.0%
+ 10                                    ug/m3 x10-3           62   83.3%     0.0%
+ 11                                    ug/m3 x10-3           51   80.3%     0.0%
+ 12                                    ug/m3 x10-3          746   60.6%     0.0%
+ 13                                    ug/m3 x10-3          245   70.7%     0.0%
+ 14                                    ug/m3 x10-3           63   80.9%     0.0%
+ 15                                    ug/m3 x10-3           39   34.9%     0.0%
+ 16                                    ug/m3 x10-3           26   84.4%     0.0%
+ 17                                    ug/m3 x10-3          740   48.7%     0.0%
+ 18                                    ug/m3 x10-3          115   74.7%     0.0%
+ 19                                    ug/m3 x10-3           35   70.9%     0.0%
+ 20                                    ug/m3 x10-3           10   38.3%     0.0%
+ 21                                    ug/m3 x10-3          234   55.2%     0.0%
+ 22                                    ug/m3 x10-3           15   70.7%     0.0%
+ 23                                    ug/m3 x10-3           15   71.4%     0.0%
+ 24                                    ug/m3 x10-3            3   70.4%     0.0%
+ 25                                    ug/m3 x10-3           46   39.5%     0.0%
+ 26                                    ug/m3 x10-3          153   79.4%     0.0%
+ 27                                    ug/m3 x10-3           47   82.4%     0.0%
+ 28                                    ug/m3 x10-3           10   51.1%     0.0%
+ 29                                    ug/m3 x10-3          330   60.8%     0.0%
+ 30                                    ug/m3 x10-3          178   79.9%     0.0%
+ 31                                    ug/m3 x10-3           48   80.4%     0.0%
+ 32                                                          14   65.5%     0.0%
+ 33                                                         342   59.3%     0.0%
+ 34                                                          78   67.9%     0.0%
+ 35                                                          33   71.3%     0.0%
+ 36                                                           8   41.0%     0.0%
+ 37                                                         170   51.2%     0.0%
+ 38                                                          86   61.8%     0.0%
+ 39                                                          36   60.0%     0.0%
+ 40                                                           8   29.2%     0.0%
+ 41                                                         151   47.7%     0.0%
+ 42                                                          87   72.8%     0.0%
+ 43                                                          36   75.3%     0.0%
+ 44                                                           8   38.2%     0.0%
+ 45                                                         236   51.9%     0.0%
+ 46                                                          88   69.7%     0.0%
+ 47                                                          37   72.3%     0.0%
+ 48                                                           8   34.0%     0.0%
+ 49                                                         233   46.3%     0.0%
+ 50                                                         129   73.4%     0.0%
+ 51                                                          37   68.7%     0.0%
+ 52                                                          14   54.8%     0.0%
+ 53                                                         270   54.1%     0.0%
+ 54                                                         132   76.1%     0.0%
+ 55                                                          39   74.5%     0.0%
+ 56                                                          14   66.7%     0.0%
+ 57                                                         277   54.4%     0.0%
+ 58                                                         131   79.3%     0.0%
+ 59                                                          37   83.0%     0.0%
+ 60                                                          14   62.7%     0.0%
+ 61                                                         277   57.1%     0.0%
+ 62                                                          36   64.7%     0.0%
+ 63                                                          29   61.5%     0.0%
+ 64                                                           9   55.6%     0.0%
+ 65                                                          66   29.3%     0.0%
+ 66                                                         132   69.7%     0.0%
+ 67                                                          38   70.3%     0.0%
+ 68                                                          16   46.9%     0.0%
+ 69                                                         275   47.5%     0.0%
+ 70                                                          85   65.4%     0.0%
+ 71                                                          36   81.2%     0.0%
+ 72                                                          11   39.4%     0.0%
+ 73                                                         257   55.4%     0.0%
+ 74                                                          35   79.2%     0.0%
+ 75                                                          29   80.5%     0.0%
+ 76                                                           8   66.0%     0.0%
+ 77                                                          61   51.2%     0.0%
+ 78                                                          42   70.4%     0.0%
+ 79                                                          28   73.7%     0.0%
+ 80                                                           8   54.9%     0.0%
+ 81                                                          66   47.6%     0.0%
+ 82                                                          42   69.8%     0.0%
+ 83                                                          29   68.4%     0.0%
+ 84                                                          11   62.6%     0.0%
+ 85                                                          55   41.6%     0.0%
+ 86                                                         133   66.8%     0.0%
+ 87                                                          37   71.5%     0.0%
+ 88                                                          14   44.4%     0.0%
+ 89                                                         269   43.4%     0.0%
+ 90                                                         140   63.5%     0.0%
+ 91                                                          39   70.3%     0.0%
+ 92                                                          14   53.2%     0.0%
+ 93                                                         277   51.2%     0.0%
+ 94                                                         131   70.5%     0.0%
+ 95                                                          37   75.4%     0.0%
+ 96                                                          14   60.7%     0.0%
+ 97                                                         248   53.6%     0.0%
+ 98                                                          93   74.3%     0.0%
+ 99                                                          36   76.8%     0.0%
+100                                                           9   53.7%     0.0%
+101                                                         257   54.1%     0.0%
+102                                                         164   62.0%     0.0%
+────────────────────────────────────────────────────────────────────────
+ALL  TOTAL                                                11895   62.2%     0.0%
+
+────────────────────────────────────────────────────────────────────────
+POLLUTANT SIGNIFICANCE NOTES
+────────────────────────────────────────────────────────────────────────
+
+Table 1: Suspended Particulate Matter
+  Units: ug/m3
+  Group: Particulates
+  Primary air quality indicator. Total mass of airborne particles 
+  collected on filter. The flagship measurement of the NASN. 
+
+Table 2: Acetone Soluble Organic Matter
+  Units: ug/m3
+  Group: Organic Matter
+  Represents petroleum hydrocarbons and certain combustion 
+  products extractable by acetone. 
+
+Table 3: Benzene Soluble Organic Matter
+  Units: ug/m3
+  Group: Organic Matter
+  Includes polycyclic aromatic hydrocarbons (PAHs), some of which 
+  are carcinogenic. Benzene is a more powerful solvent than 
+  acetone. 
+
+Table 4: Radioactivity
+  Units: uuCi/m3 x10-3
+  Group: Radioactivity
+  Beta radioactivity. Measured during the Cold War period of 
+  above-ground nuclear weapons testing by the US and USSR. 
+  Radioactive particles can travel thousands of miles from their 
+  source. 
+
+Table 5: Chlorides
+  Units: ug/m3 x10-3
+  Group: Inorganic Ions
+  Sources include coal combustion, industrial processes, and sea 
+  salt (coastal stations). 
+
+Table 6: Fluorides
+  Units: ug/m3 x10-3
+  Group: Inorganic Ions
+  Industrial emissions, particularly from aluminum smelting and 
+  phosphate fertilizer production. 
+
+Table 7: Nitrates
+  Units: ug/m3 x10-3
+  Group: Inorganic Ions
+  Formed from nitrogen oxides through atmospheric reactions. 
+  Combustion source. Precursor to acid deposition. 
+
+Table 8: Sulfates
+  Units: ug/m3 x10-3
+  Group: Inorganic Ions
+  Primarily from coal and oil combustion via SO2 oxidation. Major 
+  component of acid rain. High in industrial cities. 
+
+Table 9: Barium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Industrial source. Used in oil and gas drilling (barite), paint 
+  pigments, and metal refining. 
+
+Table 10: Bismuth
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Trace metal from metallurgical operations and coal combustion. 
+
+Table 11: Cadmium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Toxic metal. Sources include zinc smelting, galvanizing, 
+  nickel-cadmium batteries, and pigments. Elevated near industrial 
+  areas. 
+
+Table 12: Chromium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Steel production, electroplating, leather tanning. Hexavalent 
+  chromium is carcinogenic. 
+
+Table 13: Copper
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Electrical equipment manufacturing, mining and smelting, brake 
+  dust. Indicator of industrial activity. 
+
+Table 14: Iron
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Steel mills, foundries, and combustion. Most abundant metal in 
+  atmospheric particulates in industrial cities. 
+
+Table 15: Lead
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  HISTORICALLY CRITICAL: In 1953-1957 leaded gasoline was the 
+  dominant source of atmospheric lead in urban areas. Tetraethyl 
+  lead was introduced commercially in 1923. US phase-out began 
+  1973, completed 1996. This dataset captures pre-regulatory peak 
+  lead concentrations. Toxic at low doses, especially to 
+  children's neurological development. 
+
+Table 16: Magnesium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Soil dust and industrial sources. Useful as a crustal marker for 
+  distinguishing natural vs anthropogenic aerosol sources. 
+
+Table 17: Manganese
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Steel production, dry-cell batteries, and fuel combustion. 
+  Neurological effects at high exposure. 
+
+Table 18: Nickel
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Residual fuel oil combustion is the major source. Indicator of 
+  heavy fuel oil burning. 
+
+Table 19: Potassium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Biomass burning, soil dust. Potassium-to-sulfate ratios can 
+  distinguish wood burning from fossil fuel combustion. 
+
+Table 20: Sodium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Sea salt is the primary global source. Road deicing salt 
+  significant in Northeast winters. 
+
+Table 21: Strontium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Soil and cement dust. Strontium-90 (radioactive, not measured 
+  here) was a key fallout concern in this era. 
+
+Table 22: Tin
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Tin plating, solder, and bearing alloys. Industrial indicator. 
+
+Table 23: Titanium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Titanium dioxide is a common white pigment. Soil dust marker. 
+
+Table 24: Vanadium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Residual fuel oil combustion. Vanadium-nickel ratios are 
+  characteristic of specific crude oil origins. 
+
+Table 25: Zinc
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Rubber vulcanization, galvanizing, and zinc smelting. One of the 
+  most abundant trace metals in urban aerosols. 
+
+Table 26: Silver
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Photography industry (major 1950s use), mining, and metallurgy. 
+
+Table 27: Arsenic
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Coal combustion and pesticides (lead arsenate widely used in 
+  1950s agriculture). Human carcinogen. 
+
+Table 28: Beryllium
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Nuclear industry, rocket fuel, speciality alloys. Highly toxic. 
+  Measured due to atomic energy expansion in this era. 
+
+Table 29: Cobalt
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Metallurgical operations and pigments. 
+
+Table 30: Molybdenum
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Steel alloys (stainless, tool steel) and petroleum refining 
+  catalysts. 
+
+Table 31: Antimony
+  Units: ug/m3 x10-3
+  Group: Trace Metals
+  Flame retardants, lead-acid batteries (antimony hardens the lead 
+  plates), and rubber vulcanization. 
+
+────────────────────────────────────────────────────────────────────────
+KNOWN ERRATA IN ORIGINAL PUBLICATION
+────────────────────────────────────────────────────────────────────────
+  Page 215, Column title: 'LOG-NORMALLY' should be 'LOG-NORMALITY'
+  Page 215, Table F, Urban, Number of Samples: '9410' should be '9508'
+  Page 216, Table G, Minimum under Daily: '68' should be '66'
+  Page 246, Column 9, line 1: 'frequency misspelled as frequqency' should be 'frequency'
+  Page 249, Column 2, line 115: 'TI' should be 'T1'
+  Page 250, Column 2, line 6: 'TI' should be 'T1'
+  Page 251, Column 2, line 11: 'city' should be 'sity'
+  Page 251, Column 2, line 11: 'filass' should be 'glass'
+  Page 252, Column 2, line 29: 'Asen ic' should be 'Arsenic'
+  Page 253, Column 2, line 13: 'agent' should be 'against'
+
+========================================================================

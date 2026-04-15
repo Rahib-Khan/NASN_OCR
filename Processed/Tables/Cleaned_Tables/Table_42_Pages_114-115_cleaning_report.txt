@@ -1,0 +1,98 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_42_Pages_114-115.csv
+  Loaded 87 rows
+  Detected: 16-column table (with Site column)
+Initial Avg Confidence: 93.53
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_18, Col_17
+
+Renaming columns...
+  Renamed 18 columns
+
+Applying known OCR error corrections...
+  Fixed 1 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 46 station names
+
+Extracting site numbers...
+  Site numbers extracted
+
+Cleaning years...
+  Cleaned 78 year entries
+
+Filling station locations...
+  Filled 41 empty stations
+
+Identifying aggregates...
+  Year aggregates: 43
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 2
+
+Cleaning numeric columns...
+  Cleaned 0 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 0 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (2 unique):
+----------------------------------------
+  [  9x]  'KY'
+  [  1x]  'PA'
+
+LOW CONFIDENCE MATCHES (1 rows):
+----------------------------------------
+  'CHICAGO PUL' → 'Chicago'  (score: 81.8)
+============================================================
+
+Confidence Statistics:
+  Initial: 93.53
+  Final: 93.53
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 1,630 / 1,827 (89.2%)
+Input rows: 87
+Output rows: 87
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_42_Pages_114-115_cleaned.csv

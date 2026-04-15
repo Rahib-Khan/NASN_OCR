@@ -1,0 +1,124 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_91_Pages_200-200.csv
+  Loaded 39 rows
+  Detected: 15-column table (without Site column)
+Initial Avg Confidence: 91.88
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_17, Col_16
+
+Renaming columns...
+  Renamed 17 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 6 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 36 station names
+
+Extracting site numbers...
+
+Cleaning years...
+  Cleaned 37 year entries
+
+Filling station locations...
+  Filled 3 empty stations
+
+Identifying aggregates...
+  Year aggregates: 28
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 0 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 0 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (28 unique):
+----------------------------------------
+  [  2x]  'INNESO TA TOT AL'
+  [  2x]  'LLINO OTA'
+  [  1x]  'ONNECT T OTAL'
+  [  1x]  'MED WEST TOTAL'
+  [  1x]  'MTO ATLNTC TOTAL'
+  [  1x]  'NEW ENGLND TOTAL'
+  [  1x]  'OREGON TOT AL'
+  [  1x]  'ALIFORNIA TOTAL'
+  [  1x]  'LASKA TOT AL'
+  [  1x]  'TAH TOTAL'
+  [  1x]  'OLORADO T OTA'
+  [  1x]  'EXAS TOT AL'
+  [  1x]  'OUI SI ANA TOT AL'
+  [  1x]  'R T OTA'
+  [  1x]  'ISCONS TOT AL'
+  [  1x]  'ASSACH U SS TS TOTAL'
+  [  1x]  'H1O T 0'
+  [  1x]  'A OTA'
+  [  1x]  'A TAL'
+  [  1x]  'ENNES SE TOT AL'
+  [  1x]  '0 TAL'
+  [  1x]  'TAL'
+  [  1x]  'WEST VV I NAN TOTAL'
+  [  1x]  'ENTUC K OTA'
+  [  1x]  'I COL U TOTAL'
+  [  1x]  'ENNSYL LA TOTAL'
+  [  1x]  'EW JER TO TAL'
+  [  1x]  'ROCKY MNTN TOTAL'
+
+LOW CONFIDENCE MATCHES (2 rows):
+----------------------------------------
+  'EW YOR K OTA' → 'New York'  (score: 70.0)
+  'ARYLA N OT.A' → 'Atlanta'  (score: 63.2)
+============================================================
+
+Confidence Statistics:
+  Initial: 91.88
+  Final: 91.88
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 621 / 780 (79.6%)
+Input rows: 39
+Output rows: 39
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_91_Pages_200-200_cleaned.csv

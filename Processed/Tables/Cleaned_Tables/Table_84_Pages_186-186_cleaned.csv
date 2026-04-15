@@ -1,0 +1,12 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+LAKEHURST N OJ,,55,2.0,,1.0,1.0,,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,88.8,186,,Lakehurst,220.0,96.3,high_confidence,False,False
+KANAWHA CO W VA,1,54,4.0,,10.0,3.0,,1.0,1.0,,1.0,1.0,4.0,4.0,10.0,88.1,186,,Kanawha County,221.0,88.2,high_confidence,False,False
+CO FLA,1,54,2.0,,7.0,4.0,,,2.0,2.0,2.0,2.0,2.0,7.0,7.0,93.9,186,,CO FLA,,0.0,unmatched,False,False
+FULTON COO GEORGIA,1,54,3.0,,,9.0,,4.0,4.0,4.0,10.0,10.0,10.0,10.0,14.0,92.3,186,,Fulton County,223.0,70.6,low_confidence,False,False
+HAMILTON COUNTY OHIO,1,54,29.0,,16.0,1.0,,,,1.0,1.0,1.0,1.0,1.0,4.0,91.4,186,,Hamilton County,224.0,91.9,high_confidence,False,False
+HAMILTON COUNTY OHIO,1,55,1.0,,1.0,1.0,,,,,1.0,1.0,1.0,1.0,1.0,95.6,186,,Hamilton County,224.0,91.9,high_confidence,False,False
+HAMILTON COUNTY OHIO,1,54 55,30.0,,16.0,1.0,,,,,1.0,1.0,1.0,1.0,4.0,94.1,186,,Hamilton County,224.0,91.9,high_confidence,True,False
+TONKA BAY MINN,1,54,8.0,,,,,,,,1.0,1.0,1.0,1.0,1.0,91.2,186,,Tonka Bay,225.0,100.0,exact,False,False
+SALT LAKE CO UTAH,1,54,5.0,,29.0,8.0,,,1.0,1.0,1.0,1.0,12.0,12.0,30.0,92.8,186,,Salt Lake County,228.0,89.5,high_confidence,False,False
+MULTNOMAH CNTY ORE,1,54,12.0,,2.0,,,,,,1.0,1.0,1.0,1.0,1.0,95.2,186,,Multnomah County,229.0,94.7,high_confidence,False,False
+MULTNOMAH CNTY ORE,,54 55,66.0,,29.0,2.0,,,,1.0,,1.0,1.0,2.0,7.0,94.3,186,,Multnomah County,229.0,94.7,high_confidence,True,False

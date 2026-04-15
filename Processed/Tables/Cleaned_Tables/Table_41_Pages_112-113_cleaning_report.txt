@@ -1,0 +1,78 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_41_Pages_112-113.csv
+  Loaded 151 rows
+  Detected: 14-column monthly table (Station | Years | Jan-Dec)
+Initial Avg Confidence: 91.53
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_16, Col_15
+
+Renaming columns...
+  Renamed 16 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+[14-COL PIPELINE]
+
+Cleaning Station_Location column for 14-col monthly table...
+  [ANOMALY] Station 'ER IE p ER' (rows [60, 61, 62, 63, 64]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'TAMPA FLA' (rows [80, 81, 82, 83, 84]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 82: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'su BURBAN' (rows [145, 146, 147, 148, 149]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Num_Samples', 'Maximum', 'Average']
+    Repaired row 147: 'Num_Samples' → 'Maximum'
+    Repaired row 148: 'Maximum' → 'Average'
+    Repaired row 149: 'Average' → 'Minimum'
+  Anomalies detected: 3
+  Rows repaired: 4
+  Station names forward-filled into 120 label rows
+
+Cleaning Years column for 14-col table...
+  Valid year entries: 29, Blanked invalid: 0
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning monthly data columns (Jan-Dec)...
+  Monthly cells cleared: 0 (0 with non-numeric text warnings)
+
+Validating Max >= Avg >= Min for each month (14-col)...
+  [VIOLATION] Station 'LAKEHURST W J' Year '55 56' Month Jun: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=3.0, Min=3.0)
+  [VIOLATION] Station 'LAKEHURST W J' Year '55 56' Month Dec: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=2.0, Min=2.0)
+  Cells cleared due to ordering violations: 6
+
+Finalizing data types (14-col)...
+  Types finalized
+
+Confidence Statistics:
+  Initial: 91.53
+  Final: 91.53
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 2,082 / 3,020 (68.9%)
+Input rows: 151
+Output rows: 151
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_41_Pages_112-113_cleaned.csv

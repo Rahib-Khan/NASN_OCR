@@ -1,0 +1,103 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_27_Pages_84-84.csv
+  Loaded 47 rows
+  Detected: 15-column table (without Site column)
+Initial Avg Confidence: 92.80
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_17, Col_16
+
+Renaming columns...
+  Renamed 17 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 36 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 46 station names
+
+Extracting site numbers...
+
+Cleaning years...
+  Cleaned 45 year entries
+
+Filling station locations...
+  Filled 1 empty stations
+
+Identifying aggregates...
+  Year aggregates: 28
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 1 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 2 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (8 unique):
+----------------------------------------
+  [  1x]  'NEW HAMPSHRE TOTAL'
+  [  1x]  'D.C. TOTAL'
+  [  1x]  'NO CAROLINA TOTAL'
+  [  1x]  'WEST VIRGINA TOTAL'
+  [  1x]  '1 OWA TOTAL'
+  [  1x]  'NEW ENGLND TOTAL'
+  [  1x]  'MTD ATLNTC TOTAL'
+  [  1x]  'ROCKY MNTN TOTAL'
+
+LOW CONFIDENCE MATCHES (0 rows):
+----------------------------------------
+  None
+============================================================
+
+Confidence Statistics:
+  Initial: 92.80
+  Final: 92.80
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 806 / 940 (85.7%)
+Input rows: 47
+Output rows: 47
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_27_Pages_84-84_cleaned.csv

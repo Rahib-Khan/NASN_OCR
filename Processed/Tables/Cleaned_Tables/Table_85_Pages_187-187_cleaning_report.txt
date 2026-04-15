@@ -1,0 +1,80 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_85_Pages_187-187.csv
+  Loaded 55 rows
+  Detected: 14-column monthly table (Station | Years | Jan-Dec)
+Initial Avg Confidence: 90.67
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_16, Col_15
+
+Renaming columns...
+  Renamed 16 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 2 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+[14-COL PIPELINE]
+
+Cleaning Station_Location column for 14-col monthly table...
+  [ANOMALY] Station 'WASHINGTON OC' (rows [5, 6, 7, 8, 9]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 9: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'CHICAGO ILL' (rows [10, 11, 12, 13, 14]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 14: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'AMCHORAGE ALASKA' (rows [30, 31, 32, 33, 34]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 32: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'LOS ANGELES CALIF' (rows [35, 36, 37, 38, 39]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 39: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'PASADENA CALIF' (rows [40, 41, 42, 43, 44]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 44: 'Empty' → 'Minimum'
+  Anomalies detected: 5
+  Rows repaired: 5
+  Station names forward-filled into 44 label rows
+
+Cleaning Years column for 14-col table...
+  Valid year entries: 11, Blanked invalid: 0
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning monthly data columns (Jan-Dec)...
+  [WARN] Row 32 col Mar: non-numeric 'so' → cleared
+  Monthly cells cleared: 1 (1 with non-numeric text warnings)
+
+Validating Max >= Avg >= Min for each month (14-col)...
+  Cells cleared due to ordering violations: 0
+
+Finalizing data types (14-col)...
+  Types finalized
+
+Confidence Statistics:
+  Initial: 90.67
+  Final: 90.67
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 707 / 1,100 (64.3%)
+Input rows: 55
+Output rows: 55
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_85_Pages_187-187_cleaned.csv

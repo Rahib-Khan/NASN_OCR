@@ -1,0 +1,102 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_67_Pages_162-162.csv
+  Loaded 38 rows
+  Detected: 15-column table (without Site column)
+Initial Avg Confidence: 91.48
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_17, Col_16
+
+Renaming columns...
+  Renamed 17 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 29 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 36 station names
+
+Extracting site numbers...
+
+Cleaning years...
+  Cleaned 35 year entries
+
+Filling station locations...
+  Filled 2 empty stations
+
+Identifying aggregates...
+  Year aggregates: 30
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 1 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 6 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (6 unique):
+----------------------------------------
+  [  1x]  'D.C. TOTAL'
+  [  1x]  'WEST VIRGINA TOTAL'
+  [  1x]  'TNOIANA TOTAL'
+  [  1x]  'MICHITGAN TOTAL'
+  [  1x]  'MID ATLNTC TOTAL'
+  [  1x]  'ROCKY MNTN TOTAL'
+
+LOW CONFIDENCE MATCHES (2 rows):
+----------------------------------------
+  'WIESCONSTN TOTAL' → 'Winston-Salem'  (score: 62.1)
+  'RA ME' → 'Portland'  (score: 62.5)
+============================================================
+
+Confidence Statistics:
+  Initial: 91.48
+  Final: 91.48
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 575 / 760 (75.7%)
+Input rows: 38
+Output rows: 38
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_67_Pages_162-162_cleaned.csv

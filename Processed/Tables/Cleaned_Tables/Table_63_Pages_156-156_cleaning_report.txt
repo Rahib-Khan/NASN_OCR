@@ -1,0 +1,102 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_63_Pages_156-156.csv
+  Loaded 29 rows
+  Detected: 15-column table (without Site column)
+Initial Avg Confidence: 93.78
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_17, Col_16
+
+Renaming columns...
+  Renamed 17 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 17 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 28 station names
+
+Extracting site numbers...
+
+Cleaning years...
+  Cleaned 28 year entries
+
+Filling station locations...
+  Filled 1 empty stations
+
+Identifying aggregates...
+  Year aggregates: 11
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 0 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 0 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (6 unique):
+----------------------------------------
+  [  1x]  'WEST VIRGINA TOTAL'
+  [  1x]  'PLLINOTS TOTAL'
+  [  1x]  'QHIO TOTAL'
+  [  1x]  'MENNESOTA TOTAL'
+  [  1x]  'GRF PLAINS TOT AL'
+  [  1x]  'ROCKY MNTN TOT AL'
+
+LOW CONFIDENCE MATCHES (2 rows):
+----------------------------------------
+  'COLUMBIA TOTAL' → 'Columbia'  (score: 72.7)
+  'ATLNTC TOT AL' → 'Atlantic City'  (score: 61.5)
+============================================================
+
+Confidence Statistics:
+  Initial: 93.78
+  Final: 93.78
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 401 / 580 (69.1%)
+Input rows: 29
+Output rows: 29
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_63_Pages_156-156_cleaned.csv

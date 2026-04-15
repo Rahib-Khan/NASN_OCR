@@ -1,0 +1,102 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_29_Pages_86-90.csv
+  Loaded 330 rows
+  Detected: 14-column monthly table (Station | Years | Jan-Dec)
+Initial Avg Confidence: 91.91
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_16, Col_15
+
+Renaming columns...
+  Renamed 16 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 2 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+[14-COL PIPELINE]
+
+Cleaning Station_Location column for 14-col monthly table...
+  [ANOMALY] Station 'EL N' (rows [20, 21, 22, 23, 24]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'CA MOEN N J' (rows [30, 31, 32, 33, 34]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'JERSEY CITY N J' (rows [45, 46, 47, 48, 49]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 49: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'BRISTOL PA' (rows [70, 71, 72, 73, 74]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 72: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'ATLANTA GA' (rows [130, 131, 132, 133, 134]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 134: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'CHATTANOOGA TENN' (rows [135, 136, 137, 138, 139]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Name', 'Average', 'Minimum']
+  [ANOMALY] Station 'NASHY LLE TENN' (rows [140, 141, 142, 143, 144]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 144: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'CHEYENNE WYO' (rows [250, 251, 252, 253, 254]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'HA MILTON COUNTY OHIO' (rows [320, 321, 322, 323, 324]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 322: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'DENVER COUNTY coOLoO' (rows [325, 326, 327, 328, 329]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 327: 'Empty' → 'Maximum'
+  Anomalies detected: 10
+  Rows repaired: 6
+  Station names forward-filled into 264 label rows
+
+Cleaning Years column for 14-col table...
+  [WARN] Row 140: invalid year value 'S7' → blanked
+  Valid year entries: 62, Blanked invalid: 1
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning monthly data columns (Jan-Dec)...
+  [WARN] Row 224 col Jan: non-numeric 'is' → cleared
+  [WARN] Row 274 col Feb: non-numeric 'iil' → cleared
+  [WARN] Row 244 col Mar: non-numeric 'is' → cleared
+  [WARN] Row 127 col Jun: non-numeric 'il' → cleared
+  [WARN] Row 322 col Sep: non-numeric 'it' → cleared
+  [WARN] Row 68 col Oct: non-numeric 'ii' → cleared
+  [WARN] Row 103 col Oct: non-numeric 'is' → cleared
+  [WARN] Row 192 col Nov: non-numeric 'is' → cleared
+  Monthly cells cleared: 8 (8 with non-numeric text warnings)
+
+Validating Max >= Avg >= Min for each month (14-col)...
+  [VIOLATION] Station 'WATERBURY CONN' Year '55 56' Month Feb: ['Min > Max', 'Avg > Max'] (Max=4.0, Avg=9.0, Min=5.0)
+  [VIOLATION] Station 'EV ERETT MASS' Year '55' Month Jan: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=8.0, Min=5.0)
+  [VIOLATION] Station 'EV ERETT MASS' Year '55' Month Aug: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=8.0, Min=5.0)
+  [VIOLATION] Station 'BALTIMORE MD' Year '57' Month Jan: ['Avg > Max'] (Max=31.0, Avg=253.0, Min=16.0)
+  [VIOLATION] Station 'EAST LOUIS HLL' Year '55 56' Month May: ['Min > Max', 'Min > Avg'] (Max=16.0, Avg=14.0, Min=135.0)
+  [VIOLATION] Station 'WI CHITA KANSAS' Year '57' Month Mar: ['Min > Avg'] (Max=11.0, Avg=1.0, Min=11.0)
+  [VIOLATION] Station 'KANSAS MO' Year '55 56' Month Nov: ['Avg > Max'] (Max=11.0, Avg=12.0, Min=11.0)
+  [VIOLATION] Station 'KANSAS MO' Year '55 56' Month Dec: ['Avg > Max'] (Max=43.0, Avg=45.0, Min=43.0)
+  Cells cleared due to ordering violations: 16
+
+Finalizing data types (14-col)...
+  Types finalized
+
+Confidence Statistics:
+  Initial: 91.91
+  Final: 91.91
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 5,235 / 6,600 (79.3%)
+Input rows: 330
+Output rows: 330
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_29_Pages_86-90_cleaned.csv

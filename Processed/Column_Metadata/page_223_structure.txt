@@ -1,0 +1,23 @@
+Page: 223
+Columns: 13
+Rows: 4
+Note: Side-by-side tables (full page processing)
+
+Vertical lines (column separators):
+  col_line_0: 335
+  col_line_1: 1039
+  col_line_2: 1238
+  col_line_3: 1420
+  col_line_4: 1633
+  col_line_5: 1765
+  col_line_6: 1819
+  col_line_7: 2521
+  col_line_8: 2720
+  col_line_9: 2903
+  col_line_10: 3115
+  col_line_11: 3251
+
+Horizontal lines (row separators):
+  row_line_0: 327
+  row_line_1: 552
+  row_line_2: 4183

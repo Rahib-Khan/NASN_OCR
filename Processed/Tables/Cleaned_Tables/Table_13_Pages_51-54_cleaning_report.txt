@@ -1,0 +1,107 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_13_Pages_51-54.csv
+  Loaded 245 rows
+  Detected: 16-column table (with Site column)
+Initial Avg Confidence: 92.29
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_18, Col_17
+
+Renaming columns...
+  Renamed 18 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 116 station names
+
+Extracting site numbers...
+  Site numbers extracted
+
+Cleaning years...
+  Cleaned 227 year entries
+
+Filling station locations...
+  Filled 129 empty stations
+
+Identifying aggregates...
+  Year aggregates: 28
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 4
+
+Cleaning numeric columns...
+  Cleaned 22 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 3 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 42 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (2 unique):
+----------------------------------------
+  [  4x]  'MICH'
+  [  1x]  'ST MOQ'
+
+LOW CONFIDENCE MATCHES (22 rows):
+----------------------------------------
+  'SAN JUAN PUERTO' → 'San Juan'  (score: 81.5)
+  'CHICAGO PEL' → 'Chicago'  (score: 81.8)
+  'INOEANAPOLIES ENO' → 'Indianapolis'  (score: 72.7)
+  'CANTON OHIO' → 'Canton'  (score: 84.2)
+  'TOLEDO OHIO' → 'Toledo'  (score: 84.2)
+  'LORAIN OHIO' → 'Lorain'  (score: 84.2)
+  'FALLS' → 'Dallas'  (score: 72.7)
+  'LAKEWORTH TEXAS' → 'Lakeworth Village'  (score: 72.2)
+  'CORPUS TEXAS' → 'Corpus Christi'  (score: 66.7)
+  'PORTLAWNO OREGON' → 'Portland'  (score: 78.6)
+============================================================
+
+Confidence Statistics:
+  Initial: 92.29
+  Final: 92.29
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 4,532 / 5,145 (88.1%)
+Input rows: 245
+Output rows: 245
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_13_Pages_51-54_cleaned.csv

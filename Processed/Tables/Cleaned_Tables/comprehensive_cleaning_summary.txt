@@ -1,0 +1,242 @@
+================================================================================
+COMPREHENSIVE CLEANING SUMMARY REPORT
+Generated: 2026-03-24 23:50:34
+================================================================================
+
+  This report summarises how much of the original historical air-pollution data
+  was successfully extracted from the scanned document pages.  Each section
+  below explains what was found and how to read the numbers.
+
+================================================================================
+SECTION 1 — CLEANING PROGRESS
+How many of the original scanned tables have been processed so far.
+================================================================================
+
+  Original tables found   : 102
+  Tables cleaned so far   : 100
+  Tables still to process : 2
+  Overall completion      : 98.0%
+
+================================================================================
+SECTION 2 — INDIVIDUAL TABLE OVERVIEW
+One row per cleaned table.  Fill % = share of expected cells that contain a value.
+================================================================================
+
+  NOTE — 14-column monthly tables: the Fill % shown here is the ADJUSTED rate.
+  It only counts cells from months where measurements actually existed in the
+  original document.  Station-name rows and months with no measurements are
+  excluded so the percentage reflects true OCR capture quality, not structural
+  blanks in the original pages.
+
+  Table                            Type         Rows    Fill %   Confidence
+  --------------------------------------------------------------------
+  All_Tables_Combined              Unknown      11989   52.3     91.8
+  Table_100_Pages_218-218          16-column    9       69.3     92.9
+  Table_101_Pages_219-222          Unknown      257     73.1     90.8
+  Table_10_Pages_37-38             Unknown      62      84.7     92.6
+  Table_11_Pages_39-40             16-column    51      94.1     93.0
+  Table_12_Pages_41-50             Unknown      746     78.7     91.3
+  Table_13_Pages_51-54             16-column    245     87.9     92.5
+  Table_14_Pages_55-56             Unknown      63      84.2     92.0
+  Table_16_Pages_58-58             16-column    26      94.7     91.4
+  Table_17_Pages_59-69             Unknown      740     69.3     90.7
+  Table_18_Pages_70-71             16-column    114     92.4     93.5
+  Table_19_Pages_72-72             Unknown      35      77.0     93.7
+  Table_1_Pages_1-8                16-column    548     96.7     92.9
+  Table_20_Pages_73-73             16-column    10      59.5     91.8
+  Table_21_Pages_74-76             Unknown      234     74.8     88.5
+  Table_22_Pages_77-77             16-column    14      91.2     92.4
+  Table_23_Pages_78-78             Unknown      15      76.0     92.8
+  Table_24_Pages_79-79             16-column    3       88.9     93.3
+  Table_25_Pages_80-80             Unknown      46      60.1     89.4
+  Table_26_Pages_81-83             16-column    153     95.6     93.5
+  Table_27_Pages_84-84             Unknown      47      85.2     93.0
+  Table_28_Pages_85-85             16-column    10      66.7     92.5
+  Table_29_Pages_86-90             Unknown      330     79.2     92.0
+  Table_2_Pages_9-10               Unknown      62      88.4     91.6
+  Table_30_Pages_91-93             16-column    178     96.3     93.5
+  Table_31_Pages_94-94             Unknown      48      86.0     92.8
+  Table_32_Pages_95-95             16-column    14      80.3     92.8
+  Table_33_Pages_96-100            Unknown      342     77.1     90.1
+  Table_34_Pages_101-102           16-column    78      85.1     93.3
+  Table_35_Pages_103-103           Unknown      33      76.7     93.4
+  Table_36_Pages_104-104           16-column    8       60.7     93.0
+  Table_37_Pages_105-107           Unknown      170     71.6     91.6
+  Table_38_Pages_108-109           16-column    86      80.3     92.8
+  Table_39_Pages_110-110           Unknown      36      67.1     92.5
+  Table_3_Pages_11-12              16-column    74      93.4     92.7
+  Table_40_Pages_111-111           16-column    8       51.2     91.3
+  Table_41_Pages_112-113           Unknown      151     68.8     91.6
+  Table_42_Pages_114-115           16-column    87      89.1     93.7
+  Table_43_Pages_116-116           Unknown      36      80.6     93.3
+  Table_44_Pages_117-117           16-column    8       59.5     90.2
+  Table_45_Pages_118-120           Unknown      236     71.9     92.1
+  Table_46_Pages_121-122           16-column    88      86.9     93.2
+  Table_47_Pages_123-123           Unknown      37      76.9     92.9
+  Table_48_Pages_124-124           16-column    8       53.6     92.7
+  Table_49_Pages_125-127           Unknown      233     67.7     90.7
+  Table_4_Pages_13-22              Unknown      785     79.1     90.4
+  Table_50_Pages_128-130           16-column    129     90.3     93.4
+  Table_51_Pages_131-131           Unknown      37      73.6     94.0
+  Table_52_Pages_132-132           16-column    14      70.7     92.6
+  Table_53_Pages_133-136           Unknown      270     73.8     91.5
+  Table_54_Pages_137-139           16-column    132     92.1     93.4
+  Table_55_Pages_140-140           Unknown      38      80.1     91.6
+  Table_56_Pages_141-141           16-column    14      82.0     92.6
+  Table_57_Pages_142-145           Unknown      277     73.3     90.9
+  Table_58_Pages_146-148           16-column    131     95.6     93.4
+  Table_59_Pages_149-149           Unknown      37      85.8     93.9
+  Table_5_Pages_23-25              16-column    192     95.8     93.1
+  Table_60_Pages_150-150           16-column    14      77.6     93.5
+  Table_61_Pages_151-154           Unknown      277     75.3     91.0
+  Table_62_Pages_155-155           16-column    36      82.8     93.7
+  Table_63_Pages_156-156           Unknown      29      69.1     93.8
+  Table_64_Pages_157-157           16-column    8       78.6     93.3
+  Table_65_Pages_158-158           Unknown      66      53.3     88.6
+  Table_66_Pages_159-161           16-column    132     87.7     93.7
+  Table_67_Pages_162-162           Unknown      37      76.6     91.9
+  Table_68_Pages_163-163           16-column    15      68.3     92.0
+  Table_69_Pages_164-167           Unknown      275     68.9     91.4
+  Table_6_Pages_26-26              Unknown      36      86.0     92.1
+  Table_70_Pages_168-169           16-column    84      82.0     92.5
+  Table_71_Pages_170-170           Unknown      36      84.9     93.4
+  Table_72_Pages_171-171           16-column    11      63.2     89.9
+  Table_73_Pages_172-175           Unknown      257     73.9     92.1
+  Table_74_Pages_176-176           16-column    35      94.1     93.8
+  Table_75_Pages_177-177           Unknown      29      84.3     93.6
+  Table_76_Pages_178-178           16-column    8       81.5     90.8
+  Table_77_Pages_179-179           Unknown      61      69.3     91.6
+  Table_78_Pages_180-180           16-column    42      87.5     93.5
+  Table_79_Pages_181-181           Unknown      28      78.9     92.3
+  Table_7_Pages_27-27              16-column    39      93.4     93.2
+  Table_80_Pages_182-182           16-column    8       74.4     94.0
+  Table_81_Pages_183-183           Unknown      66      67.7     91.5
+  Table_82_Pages_184-184           16-column    42      86.8     93.1
+  Table_83_Pages_185-185           Unknown      29      74.3     93.6
+  Table_84_Pages_186-186           16-column    11      79.2     92.5
+  Table_85_Pages_187-187           Unknown      55      64.2     90.7
+  Table_86_Pages_188-190           16-column    133     84.7     94.0
+  Table_87_Pages_191-191           Unknown      37      77.0     93.8
+  Table_88_Pages_192-192           16-column    14      62.2     92.2
+  Table_89_Pages_193-196           Unknown      269     65.4     90.8
+  Table_8_Pages_28-30              Unknown      213     75.3     90.9
+  Table_90_Pages_197-199           16-column    140     82.3     93.8
+  Table_91_Pages_200-200           Unknown      39      79.4     92.1
+  Table_92_Pages_201-201           16-column    14      69.4     92.8
+  Table_93_Pages_202-205           Unknown      277     71.2     91.2
+  Table_94_Pages_206-208           16-column    131     88.0     93.1
+  Table_95_Pages_209-209           Unknown      37      79.9     92.8
+  Table_96_Pages_210-210           16-column    14      76.2     92.8
+  Table_97_Pages_211-214           Unknown      248     73.3     90.8
+  Table_98_Pages_215-216           16-column    93      90.1     92.9
+  Table_99_Pages_217-217           Unknown      36      79.6     92.5
+  Table_9_Pages_31-36              16-column    389     96.0     92.9
+
+================================================================================
+SECTION 4 — 16-COLUMN TABLES
+Annual summary tables with a Site column and percentile columns (P10–P90).
+================================================================================
+
+  These tables record one row per station with annual statistics: number of
+  samples, min, max, average, and pollution percentiles.  Fill % here is
+  straightforward — it is the share of expected cells that have a value.
+
+  Number of tables   : 50
+  Total data rows    : 3,845
+  Cells with values  : 72,944 / 80,745
+  Fill rate          : 90.3%
+  Average confidence : 92.8
+
+  Table                            Rows    Fill %    Confidence
+  ------------------------------------------------------------
+  Table_100_Pages_218-218          9       69.3      92.9
+  Table_11_Pages_39-40             51      94.1      93.0
+  Table_13_Pages_51-54             245     87.9      92.5
+  Table_16_Pages_58-58             26      94.7      91.4
+  Table_18_Pages_70-71             114     92.4      93.5
+  Table_1_Pages_1-8                548     96.7      92.9
+  Table_20_Pages_73-73             10      59.5      91.8
+  Table_22_Pages_77-77             14      91.2      92.4
+  Table_24_Pages_79-79             3       88.9      93.3
+  Table_26_Pages_81-83             153     95.6      93.5
+  Table_28_Pages_85-85             10      66.7      92.5
+  Table_30_Pages_91-93             178     96.3      93.5
+  Table_32_Pages_95-95             14      80.3      92.8
+  Table_34_Pages_101-102           78      85.1      93.3
+  Table_36_Pages_104-104           8       60.7      93.0
+  Table_38_Pages_108-109           86      80.3      92.8
+  Table_3_Pages_11-12              74      93.4      92.7
+  Table_40_Pages_111-111           8       51.2      91.3
+  Table_42_Pages_114-115           87      89.1      93.7
+  Table_44_Pages_117-117           8       59.5      90.2
+  Table_46_Pages_121-122           88      86.9      93.2
+  Table_48_Pages_124-124           8       53.6      92.7
+  Table_50_Pages_128-130           129     90.3      93.4
+  Table_52_Pages_132-132           14      70.7      92.6
+  Table_54_Pages_137-139           132     92.1      93.4
+  Table_56_Pages_141-141           14      82.0      92.6
+  Table_58_Pages_146-148           131     95.6      93.4
+  Table_5_Pages_23-25              192     95.8      93.1
+  Table_60_Pages_150-150           14      77.6      93.5
+  Table_62_Pages_155-155           36      82.8      93.7
+  Table_64_Pages_157-157           8       78.6      93.3
+  Table_66_Pages_159-161           132     87.7      93.7
+  Table_68_Pages_163-163           15      68.3      92.0
+  Table_70_Pages_168-169           84      82.0      92.5
+  Table_72_Pages_171-171           11      63.2      89.9
+  Table_74_Pages_176-176           35      94.1      93.8
+  Table_76_Pages_178-178           8       81.5      90.8
+  Table_78_Pages_180-180           42      87.5      93.5
+  Table_7_Pages_27-27              39      93.4      93.2
+  Table_80_Pages_182-182           8       74.4      94.0
+  Table_82_Pages_184-184           42      86.8      93.1
+  Table_84_Pages_186-186           11      79.2      92.5
+  Table_86_Pages_188-190           133     84.7      94.0
+  Table_88_Pages_192-192           14      62.2      92.2
+  Table_90_Pages_197-199           140     82.3      93.8
+  Table_92_Pages_201-201           14      69.4      92.8
+  Table_94_Pages_206-208           131     88.0      93.1
+  Table_96_Pages_210-210           14      76.2      92.8
+  Table_98_Pages_215-216           93      90.1      92.9
+  Table_9_Pages_31-36              389     96.0      92.9
+
+================================================================================
+SECTION 6 — OVERALL SUMMARY
+Combined totals across all cleaned tables.
+================================================================================
+
+  The fill rates below use the adjusted calculation for 14-column tables
+  (natural absences excluded) and the raw calculation for 14/15-column tables.
+
+  Total tables cleaned      : 101
+    14-column monthly tables : 0
+    16-column annual tables  : 50
+    15-column annual tables  : 0
+    Unrecognised type        : 51
+
+  Total data rows processed : 23,674
+  Rows removed (junk/blank) : 5
+  Average fill rate         : 78.3%
+  Average OCR confidence    : 92.4
+
+================================================================================
+SECTION 7 — QUALITY ASSESSMENT
+A plain-English verdict on how complete and accurate the extracted data is.
+================================================================================
+
+  Data completeness : Good (78.3%)
+  Most data was captured.  Spot-check a sample of tables to confirm.
+
+  OCR read quality  : High (avg confidence 92.4 / 100)
+  Confidence measures how clearly the scanner could read each character.  Values
+  above 80 are reliable; values below 70 suggest the original page may have been
+  faded, smudged, or printed in an unusual font.
+
+================================================================================
+SECTION 8 — NEXT STEPS
+================================================================================
+
+  • 2 table(s) still need to be cleaned.
+  • Estimated time remaining: ~4 minutes (approx. 2 min per table)
+
+================================================================================

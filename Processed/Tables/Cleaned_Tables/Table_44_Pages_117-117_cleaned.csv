@@ -1,0 +1,9 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+SUBURBAN,,,,,,,,,,,1.0,,,,,86.5,117,,SUBURBAN,,,skip,False,False
+CNTY MASS,,55,23.0,,3.0,1.0,,,,1.0,,1.0,1.0,,2.0,93.9,117,,Lynn,10.0,66.7,low_confidence,False,False
+LAKEHURST N J,,55 56,17.0,,3.0,,,,,,1.0,1.0,1.0,,2.0,88.5,117,,Lakehurst,220.0,100.0,exact,True,False
+KANAWHA CO WWW VA,,55,17.0,,3.0,1.0,,,1.0,1.0,1.0,,1.0,,2.0,85.4,117,,Kanawha County,221.0,83.3,low_confidence,False,False
+DENVER COUNTY COLO,,54 55,,,4.0,1.0,,,1.0,1.0,1.0,1.0,2.0,,3.0,93.4,117,,Denver County,227.0,100.0,exact,True,False
+DENVER COUNTY COLO,,54,67.0,,4.0,1.0,,,1.0,1.0,1.0,,1.0,,2.0,90.8,117,,Denver County,227.0,100.0,exact,False,False
+NONURBAN,,,,,,,,,,,,,,,,92.0,117,,NONURBAN,,,skip,False,False
+PT WORONZOF ALASKA,,55 56,12.0,,1.0,,,,,,,,,,,91.4,117,,Pt. Woronzof,258.0,100.0,exact,True,False

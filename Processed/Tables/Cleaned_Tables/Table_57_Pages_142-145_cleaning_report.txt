@@ -1,0 +1,123 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_57_Pages_142-145.csv
+  Loaded 277 rows
+  Detected: 14-column monthly table (Station | Years | Jan-Dec)
+Initial Avg Confidence: 90.81
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_16, Col_15
+
+Renaming columns...
+  Renamed 16 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+[14-COL PIPELINE]
+
+Cleaning Station_Location column for 14-col monthly table...
+  [ANOMALY] Station 'JERSEY CITY nh' (rows [40, 41, 42, 43, 44]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 42: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'NEW YORK W Y' (rows [45, 46, 47, 48, 49]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'BRISTOL PA' (rows [60, 61, 62, 63, 64]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'cl NCINNATI OHIO' (rows [140, 141, 142, 143, 144]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'ul LWAUKEE wis' (rows [150, 151, 152, 153, 154]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'KANSAS CITY MO' (rows [160, 161, 162, 163, 164]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 164: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'BELLAIRE TEXAS' (rows [185, 186, 187, 188, 189]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 189: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'PA SADENA CALIF' (rows [215, 216, 217, 218, 219]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'BE RKELEY CALIF' (rows [220, 221, 222, 223, 224]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 222: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'SA N JOSE CALIF' (rows [225, 226, 227, 228, 229]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'SUBURBAN' (rows [245, 246, 247, 248, 249]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Num_Samples', 'Maximum', 'Average']
+    Repaired row 247: 'Num_Samples' → 'Maximum'
+    Repaired row 248: 'Maximum' → 'Average'
+    Repaired row 249: 'Average' → 'Minimum'
+  [ANOMALY] Station 'NONURBAN' (rows [271, 272, 273, 274, 275]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Num_Samples', 'Maximum', 'Average']
+    Repaired row 273: 'Num_Samples' → 'Maximum'
+    Repaired row 274: 'Maximum' → 'Average'
+    Repaired row 275: 'Average' → 'Minimum'
+  Anomalies detected: 12
+  Rows repaired: 10
+  Station names forward-filled into 210 label rows
+
+Cleaning Years column for 14-col table...
+  Valid year entries: 54, Blanked invalid: 0
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning monthly data columns (Jan-Dec)...
+  [WARN] Row 154 col Mar: non-numeric 'io' → cleared
+  [WARN] Row 153 col Apr: non-numeric 'SS' → cleared
+  [WARN] Row 2 col May: non-numeric 'it' → cleared
+  [WARN] Row 81 col Aug: non-numeric 'at' → cleared
+  [WARN] Row 270 col Sep: non-numeric 'iil' → cleared
+  [WARN] Row 264 col Oct: non-numeric 'Be' → cleared
+  Monthly cells cleared: 6 (6 with non-numeric text warnings)
+
+Validating Max >= Avg >= Min for each month (14-col)...
+  [VIOLATION] Station 'CAMDEN W J' Year '55' Month Mar: ['Min > Avg'] (Max=25.0, Avg=1.0, Min=3.0)
+  [VIOLATION] Station 'TRENTON W J' Year '55 56' Month Oct: ['Min > Max', 'Min > Avg'] (Max=21.0, Avg=21.0, Min=221.0)
+  [VIOLATION] Station 'JERSEY CITY NH' Year '55 56' Month Apr: ['Avg > Max'] (Max=3.0, Avg=20.0, Min=1.0)
+  [VIOLATION] Station 'LOUISVIGLE KY' Year '54 55' Month Feb: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=9.0, Min=4.0)
+  [VIOLATION] Station 'CHATTANOOGA TENN' Year '55 56' Month Oct: ['Min > Avg'] (Max=33.0, Avg=14.0, Min=32.0)
+  [VIOLATION] Station 'UL NNEAPOLIS' Year '54 55' Month Nov: ['Min > Max', 'Min > Avg'] (Max=3.0, Avg=2.0, Min=4.0)
+  [VIOLATION] Station 'HOUSTON TEXAS' Year '54 55' Month Jan: ['Min > Max', 'Avg > Max'] (Max=36.0, Avg=38.0, Min=38.0)
+  [VIOLATION] Station 'PORTLAND OREGON' Year '54 55' Month May: ['Avg > Max'] (Max=70.0, Avg=96.0, Min=43.0)
+  [VIOLATION] Station 'MIODLESEX CC NTY MASS' Year '55' Month Jan: ['Avg > Max'] (Max=2.0, Avg=3.0, Min=2.0)
+  [VIOLATION] Station 'MIODLESEX CC NTY MASS' Year '55' Month Mar: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=14.0, Min=9.0)
+  [VIOLATION] Station 'MIODLESEX CC NTY MASS' Year '55' Month May: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=2.0, Min=2.0)
+  [VIOLATION] Station 'MIODLESEX CC NTY MASS' Year '55' Month Jun: ['Avg > Max'] (Max=3.0, Avg=5.0, Min=2.0)
+  [VIOLATION] Station 'MIODLESEX CC NTY MASS' Year '55' Month Aug: ['Avg > Max'] (Max=3.0, Avg=4.0, Min=2.0)
+  [VIOLATION] Station 'MIODLESEX CC NTY MASS' Year '55' Month Sep: ['Avg > Max'] (Max=3.0, Avg=4.0, Min=3.0)
+  [VIOLATION] Station 'MIODLESEX CC NTY MASS' Year '55' Month Nov: ['Avg > Max'] (Max=2.0, Avg=5.0, Min=2.0)
+  [VIOLATION] Station 'MIODLESEX CC NTY MASS' Year '55' Month Dec: ['Avg > Max'] (Max=3.0, Avg=6.0, Min=2.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Jan: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=2.0, Min=2.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Mar: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=2.0, Min=2.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Apr: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=2.0, Min=2.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month May: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=9.0, Min=8.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Jul: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=8.0, Min=8.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Aug: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=13.0, Min=9.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Sep: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=8.0, Min=8.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Oct: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=5.0, Min=5.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Nov: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=23.0, Min=23.0)
+  [VIOLATION] Station 'PT WORONZOF ALASKA' Year '55 56' Month Dec: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=2.0, Min=2.0)
+  Cells cleared due to ordering violations: 58
+
+Finalizing data types (14-col)...
+  Types finalized
+
+Confidence Statistics:
+  Initial: 90.81
+  Final: 90.81
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 4,065 / 5,540 (73.4%)
+Input rows: 277
+Output rows: 277
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_57_Pages_142-145_cleaned.csv

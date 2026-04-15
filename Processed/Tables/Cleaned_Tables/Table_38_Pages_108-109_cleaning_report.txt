@@ -1,0 +1,100 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_38_Pages_108-109.csv
+  Loaded 86 rows
+  Detected: 16-column table (with Site column)
+Initial Avg Confidence: 92.60
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_18, Col_17
+
+Renaming columns...
+  Renamed 18 columns
+
+Applying known OCR error corrections...
+  Fixed 1 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 46 station names
+
+Extracting site numbers...
+  Site numbers extracted
+
+Cleaning years...
+  Cleaned 72 year entries
+
+Filling station locations...
+  Filled 40 empty stations
+
+Identifying aggregates...
+  Year aggregates: 36
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 2
+
+Cleaning numeric columns...
+  Cleaned 0 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 2 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (1 unique):
+----------------------------------------
+  [  1x]  'PA'
+
+LOW CONFIDENCE MATCHES (6 rows):
+----------------------------------------
+  'JERSEY N' → 'Jersey City'  (score: 73.7)
+  'CHICAGO PEL' → 'Chicago'  (score: 81.8)
+  'FT WORTH TE X AS' → 'Ft. Worth'  (score: 80.0)
+  'BEL LAIRE TE XX AS' → 'Bellaire'  (score: 80.0)
+============================================================
+
+Confidence Statistics:
+  Initial: 92.60
+  Final: 92.60
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 1,452 / 1,806 (80.4%)
+Input rows: 86
+Output rows: 86
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_38_Pages_108-109_cleaned.csv

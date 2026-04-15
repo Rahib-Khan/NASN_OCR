@@ -1,0 +1,105 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_45_Pages_118-120.csv
+  Loaded 236 rows
+  Detected: 14-column monthly table (Station | Years | Jan-Dec)
+Initial Avg Confidence: 91.94
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_16, Col_15
+
+Renaming columns...
+  Renamed 16 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 2 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+[14-COL PIPELINE]
+
+Cleaning Station_Location column for 14-col monthly table...
+  [ANOMALY] Station 'MUN 1 MUM' (rows [24, 25, 26, 27, 28]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Num_Samples', 'Maximum', 'Average']
+    Repaired row 26: 'Num_Samples' → 'Maximum'
+    Repaired row 27: 'Maximum' → 'Average'
+    Repaired row 28: 'Average' → 'Minimum'
+  [ANOMALY] Station 'CHARLESTON W VA' (rows [95, 96, 97, 98, 99]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 99: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'CHICAGO fee' (rows [115, 116, 117, 118, 119]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 119: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'EAST ST LOUIS PEL' (rows [120, 121, 122, 123, 124]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Name', 'Minimum']
+  [ANOMALY] Station 'NCINNATI OHIO' (rows [130, 131, 132, 133, 134]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 132: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'FT WORTH TEXAS' (rows [165, 166, 167, 168, 169]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'PA SADENA CALIF' (rows [195, 196, 197, 198, 199]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 199: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'SA N JOSE CALIF' (rows [200, 201, 202, 203, 204]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'SA N CALIF' (rows [205, 206, 207, 208, 209]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 209: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'PORTLAND OREGON' (rows [210, 211, 212, 213, 214]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Name', 'Name', 'Name']
+  [ANOMALY] Station 'SUBURBAN' (rows [215, 216, 217, 218, 219]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Num_Samples', 'Maximum', 'Name']
+    Repaired row 217: 'Num_Samples' → 'Maximum'
+    Repaired row 218: 'Maximum' → 'Average'
+  [ANOMALY] Station 'M' (rows [220, 221, 222, 223, 224]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Num_Samples', 'Name', 'Name']
+    Repaired row 222: 'Num_Samples' → 'Maximum'
+  [ANOMALY] Station 'KA NAWHA co Ww VA' (rows [226, 227, 228, 229, 230]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Name', 'Empty']
+    Repaired row 230: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'OE VER COUNTY COLO' (rows [231, 232, 233, 234, 235]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Name', 'Name', 'Empty']
+    Repaired row 235: 'Empty' → 'Minimum'
+  Anomalies detected: 14
+  Rows repaired: 13
+  Station names forward-filled into 175 label rows
+
+Cleaning Years column for 14-col table...
+  [WARN] Row 40: invalid year value '36' → blanked
+  Valid year entries: 46, Blanked invalid: 1
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning monthly data columns (Jan-Dec)...
+  [WARN] Row 188 col Feb: non-numeric 'ii' → cleared
+  Monthly cells cleared: 1 (1 with non-numeric text warnings)
+
+Validating Max >= Avg >= Min for each month (14-col)...
+  [VIOLATION] Station 'CAMDEN N J' Year '55 56' Month Jan: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=6.0, Min=4.0)
+  [VIOLATION] Station 'CAMDEN N J' Year '55 56' Month Feb: ['Avg > Max'] (Max=3.0, Avg=4.0, Min=3.0)
+  [VIOLATION] Station 'CAMDEN N J' Year '55 56' Month Mar: ['Avg > Max'] (Max=2.0, Avg=3.0, Min=2.0)
+  [VIOLATION] Station 'CAMDEN N J' Year '55 56' Month Apr: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=2.0, Min=2.0)
+  [VIOLATION] Station 'CAMDEN N J' Year '55 56' Month Jun: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=2.0, Min=2.0)
+  [VIOLATION] Station 'CAMDEN N J' Year '55 56' Month Aug: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=7.0, Min=6.0)
+  [VIOLATION] Station 'CAMDEN N J' Year '55 56' Month Dec: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=5.0, Min=3.0)
+  Cells cleared due to ordering violations: 17
+
+Finalizing data types (14-col)...
+  Types finalized
+
+Confidence Statistics:
+  Initial: 91.94
+  Final: 91.94
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 3,403 / 4,720 (72.1%)
+Input rows: 236
+Output rows: 236
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_45_Pages_118-120_cleaned.csv

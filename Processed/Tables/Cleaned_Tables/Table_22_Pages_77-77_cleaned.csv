@@ -1,0 +1,15 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+NEW YORK N OY,2,,21.0,,160.0,57.0,12.0,24.0,34.0,43.0,54.0,61.0,74.0,,,88.2,77,,New York,31,100.0,exact,False,False
+WASHINGTON OC,,54 55,19.0,,110.0,45.0,11.0,23.0,30.0,36.0,41.0,43.0,54.0,65.0,78.0,93.4,77,,Washington,61,88.9,high_confidence,True,False
+CHICAGO PEL,2,54 55,31.0,,392.0,123.0,1.0,34.0,58.0,78.0,97.0,141.0,155.0,179.0,335.0,92.6,77,,Chicago,100,85.9,high_confidence,True,False
+CINCINNATEI OHIO,1,54 55,40.0,,2.0,35.0,,1.0,10.0,19.0,26.0,29.0,33.0,43.0,105.0,83.9,77,,Cincinnati,126,90.0,high_confidence,True,False
+HOUSTON TEXAS,1,54,7.0,,43.0,17.0,,,1.0,1.0,5.0,15.0,34.0,38.0,38.0,93.1,77,,Houston,177,96.2,high_confidence,False,False
+ANCHORAGE ALASKA,1,54 55,12.0,,28.0,,,,1.0,1.0,1.0,1.0,3.0,15.0,,93.0,77,,Anchorage,187,100.0,exact,True,False
+PASADENA CALIF,1,54 55,20.0,,87.0,23.0,,1.0,1.0,,10.0,27.0,32.0,36.0,69.0,91.8,77,,Pasadena,199,100.0,exact,True,False
+BERKELEY CALIF,1,54 55,28.0,,88.0,19.0,,1.0,1.0,8.0,11.0,15.0,21.0,30.0,34.0,93.4,77,,Berkeley,191,100.0,exact,True,False
+SAN JOSE CALIF,1,54 55,23.0,,140.0,,4.0,17.0,20.0,24.0,46.0,61.0,81.0,88.0,111.0,91.4,77,,San Jose,206,100.0,exact,True,False
+PORTLANO OREGON,1,54,10.0,,164.0,77.0,7.0,7.0,41.0,43.0,48.0,88.0,99.0,150.0,159.0,93.9,77,,Portland,212,85.6,high_confidence,False,False
+PORTLANO OREGON,2,54,10.0,23.0,148.0,67.0,23.0,24.0,27.0,43.0,54.0,74.0,78.0,105.0,111.0,94.6,77,,Portland,213,85.6,high_confidence,False,False
+PORTLANO OREGON,4,54,10.0,14.0,406.0,185.0,15.0,99.0,111.0,169.0,179.0,190.0,201.0,226.0,322.0,94.9,77,,Portland,215,85.6,high_confidence,False,False
+PORTLANO OREGON,5,,10.0,,145.0,44.0,1.0,1.0,24.0,34.0,38.0,41.0,43.0,48.0,78.0,95.6,77,,Portland,216,85.6,high_confidence,False,False
+PORTLANO OREGON,,54,40.0,,406.0,93.0,7.0,24.0,39.0,43.0,72.0,94.0,111.0,,19.0,94.1,77,,Portland,212,81.5,low_confidence,False,False

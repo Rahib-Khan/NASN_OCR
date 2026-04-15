@@ -1,0 +1,333 @@
+{
+  "_meta": {
+    "description": "Codebook for the NASN cleaned table CSV files produced by the OCR pipeline (TableCleaner.py + StationResolver.py). Documents every column in both the 16-column format (Table 1) and 15-column format (Tables 2-31).",
+    "table_formats": {
+      "16_column": "Table 1 (Suspended Particulate Matter) - includes Site column",
+      "15_column": "Tables 2 through 31 - no Site column"
+    },
+    "pipeline_files": ["TableOCR.py", "TableReconstruct.py", "TableCleaner.py", "StationResolver.py"]
+  },
+
+  "columns": {
+
+    "Station_Location": {
+      "present_in": ["16_column", "15_column"],
+      "type": "string",
+      "description": "Raw OCR-extracted station name string as it appeared in the scanned document. May contain OCR errors such as character substitutions, extra spaces, or abbreviated state names (e.g. 'WATERBURY CONN', 'NEW YORK N Y'). Use Resolved_Name for analysis; keep this column for audit and QA.",
+      "examples": ["WATERBURY CONN", "NEW YORK N Y", "CHICAGO ILL", "LOS ANGELES CALIF"],
+      "ocr_notes": "Common patterns: city name in all caps followed by abbreviated state. OCR errors include: character substitution (0 for O, 1 for l), merged words, extra punctuation.",
+      "forward_filled": true,
+      "forward_fill_note": "Station name appears only on the first row for a given station. Subsequent year rows for the same station have the name forward-filled from the first row."
+    },
+
+    "Site": {
+      "present_in": ["16_column"],
+      "absent_in": ["15_column"],
+      "type": "string (integer value)",
+      "description": "Sampling site number within a city. Present only in Table 1 (Suspended Particulates) because multiple sites per city were operated in 1953-1956. After January 1, 1957 only one site per city was maintained.",
+      "valid_values": "Integer 1 through 9. Blank for rows where site number was not captured by OCR.",
+      "site_meaning": {
+        "context": "Sites were located in commercial, industrial, residential, and rural sections of urban or suburban areas to sample distinctly different environments within the same community.",
+        "note": "Do not average across sites for a city without understanding what each site represents. Site 1 is typically the primary commercial or downtown site."
+      },
+      "aggregate_note": "Rows with Is_Site_Aggregate=True summarise across multiple sites (e.g. all sites for a city for a given year)."
+    },
+
+    "Years": {
+      "present_in": ["16_column", "15_column"],
+      "type": "string",
+      "description": "Two-digit calendar year code(s) for the samples in this row. Single year = individual annual record. Multiple years separated by space = aggregate row summarising those combined years.",
+      "year_codes": {
+        "53": 1953,
+        "54": 1954,
+        "55": 1955,
+        "56": 1956,
+        "57": 1957
+      },
+      "examples": {
+        "54": "Individual year: 1954 only",
+        "54 56": "Aggregate: 1954 through 1956 combined",
+        "53 57": "Aggregate: all five years 1953-1957 combined",
+        "57": "Individual year: 1957 only"
+      },
+      "analysis_note": "For independent observations use only rows where Is_Year_Aggregate=False. For overall station summaries use the aggregate rows, but never mix them with individual year rows in the same statistical calculation.",
+      "sampling_note": "1953-1956 used weekly sampling (approx 26-52 samples per year). 1957 used biweekly randomized sampling (approx 26 samples per year). Num_Samples reflects this."
+    },
+
+    "Num_Samples": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float (integer values)",
+      "description": "Number of individual 24-hour filter samples collected during the year(s) shown in the Years column.",
+      "expected_ranges": {
+        "weekly_1953_to_1956": "Approximately 26-52 per year depending on how much of the year the station operated",
+        "biweekly_1957": "Approximately 26 per year",
+        "aggregate_rows": "Sum of individual year counts"
+      },
+      "missing_values": "NaN indicates OCR could not reliably read the value. Verify against source PDF using Page_Num.",
+      "validation": "If Num_Samples is unusually high (e.g. >200 for a single year) the row may be a multi-year aggregate that Is_Year_Aggregate did not flag, or an OCR error."
+    },
+
+    "Min": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "Minimum observed concentration across all individual samples collected during the year(s) shown.",
+      "units": "See table-level units in historical_context.json. Tables 1-3: ug/m3. Tables 5-31: ug/m3 x 10^-3. Table 4: uuCi/m3 x 10^-3.",
+      "validation": "Min <= Avg should hold. Rows violating this have Min set to NaN by TableCleaner.",
+      "missing_values": "NaN if OCR could not read the value."
+    },
+
+    "Max": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "Maximum observed concentration across all individual samples collected during the year(s) shown.",
+      "units": "Same as Min. See historical_context.json tables section.",
+      "validation": "Max >= Avg should hold. Rows violating this have Max set to NaN by TableCleaner.",
+      "interpretation": "Very high Max relative to Avg (high Max/Avg ratio) suggests episodic pollution events such as temperature inversions, industrial incidents, or seasonal burning.",
+      "missing_values": "NaN if OCR could not read the value."
+    },
+
+    "Avg": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "Arithmetic mean concentration across all individual samples collected during the year(s) shown.",
+      "units": "Same as Min. See historical_context.json tables section.",
+      "statistical_warning": "The original publication (page 245) confirms all frequency distributions are log-normal. For log-normal data the arithmetic mean is inflated by high outliers and overestimates the typical concentration. The geometric mean (approximated by P50/median) is the more appropriate measure of central tendency for most analyses.",
+      "validation": "Min <= Avg <= Max should hold. TableCleaner clears violating values.",
+      "missing_values": "NaN if OCR could not read the value."
+    },
+
+    "P10": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "10th percentile of the cumulative frequency distribution of all individual 24-hour sample concentrations collected during the year(s) shown. 10% of samples had concentrations at or below this value.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if OCR could not read the value or if value was removed due to percentile ordering violation."
+    },
+    "P20": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "20th percentile of the cumulative frequency distribution.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if unreadable or ordering violation."
+    },
+    "P30": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "30th percentile of the cumulative frequency distribution.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if unreadable or ordering violation."
+    },
+    "P40": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "40th percentile of the cumulative frequency distribution.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if unreadable or ordering violation."
+    },
+    "P50": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "50th percentile (median) of the cumulative frequency distribution. For a log-normal distribution this closely approximates the geometric mean and is the most appropriate single summary statistic.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if unreadable or ordering violation."
+    },
+    "P60": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "60th percentile of the cumulative frequency distribution.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if unreadable or ordering violation."
+    },
+    "P70": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "70th percentile of the cumulative frequency distribution.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if unreadable or ordering violation."
+    },
+    "P80": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "80th percentile of the cumulative frequency distribution.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if unreadable or ordering violation."
+    },
+    "P90": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "description": "90th percentile of the cumulative frequency distribution. 90% of samples had concentrations at or below this value. A high P90/P50 ratio indicates a right-skewed distribution with frequent high-concentration episodes.",
+      "units": "Same as Min.",
+      "missing_values": "NaN if unreadable or ordering violation. P90 is near the right edge of the printed page and is one of the more commonly missing values due to OCR edge-clipping.",
+      "percentile_ordering_note": "TableCleaner enforces P10 <= P20 <= P30 <= P40 <= P50 <= P60 <= P70 <= P80 <= P90. Any value that violates this ordering is set to NaN."
+    },
+
+    "Avg_Confidence": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "range": "0 to 100",
+      "description": "Mean Tesseract OCR word-level confidence score for all text tokens extracted from this row. Higher values indicate more reliable OCR extraction.",
+      "interpretation": {
+        "above_80": "High confidence. Values generally reliable.",
+        "60_to_80": "Medium confidence. Worth spot-checking key values against source PDF.",
+        "below_60": "Lower confidence. Recommend manual verification for critical analyses.",
+        "note": "Confidence reflects the OCR engine certainty, not the accuracy of the data value itself. A high-confidence incorrect character is still wrong. Use in combination with logical validation (min<=avg<=max, etc.)."
+      }
+    },
+
+    "Page_Num": {
+      "present_in": ["16_column", "15_column"],
+      "type": "integer (or float due to pandas)",
+      "description": "The page number within the reconstructed table pages (not the original PDF page number). Use this to locate the source row in the intermediate reconstruction outputs for manual verification.",
+      "note": "To verify a value against the original scanned document, use this number to find the corresponding page image in the output/images/ directory."
+    },
+
+    "Resolved_Name": {
+      "present_in": ["16_column", "15_column"],
+      "type": "string",
+      "description": "Canonical station name resolved by StationResolver.py from the raw Station_Location OCR string. This is the primary identifier to use for grouping, joining, and analysis. Matches the canonical_name field in master_stations.csv.",
+      "matching_logic": "Uses Python difflib SequenceMatcher with normalization (lowercase, punctuation stripped). Tries exact match first, then fuzzy match with bonuses for state and site number agreement.",
+      "fallback": "If no match is found above the LOW_THRESHOLD (60.0), Resolved_Name equals the original Station_Location string (unresolved).",
+      "state_aggregate_rows": "For state aggregate rows (e.g. 'Connecticut Total'), Resolved_Name equals the original Station_Location string since these do not map to any individual station.",
+      "join_key_note": "Use Station_Order (not Resolved_Name) as the join key when combining data across different pollutant tables, because OCR errors may cause the same physical station to have slightly different Resolved_Name values across tables."
+    },
+
+    "Station_Order": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float (integer values, NaN for unmatched)",
+      "description": "Sequential row number from the master station list (master_stations.csv). This number is the same for every pollutant table in the publication. It is the correct and reliable key for joining data across different pollutant tables.",
+      "source": "Derived from Table D (Sampling Site Descriptions) of the original publication via master_stations.csv.",
+      "ordering": "Urban stations 1-N (grouped New England → Pacific Coast), then Suburban, then Nonurban.",
+      "missing_values": "NaN for rows that could not be matched to the master list (unmatched, state_aggregate, skip, low_confidence below threshold).",
+      "cross_table_joins": "To combine suspended particulates (Table 1) with lead concentrations (Table 15) for the same stations, join on Station_Order: df_t1.merge(df_t15, on='Station_Order', suffixes=('_pm','_pb'))",
+      "asterisk_rule": "Stations with Station_Order values corresponding to ** notes in the master list only appear in Tables 1-4. Those with * appear only in Tables 1-8. All others appear in all 31 tables."
+    },
+
+    "Match_Score": {
+      "present_in": ["16_column", "15_column"],
+      "type": "float",
+      "range": "0.0 to 100.0",
+      "description": "Similarity score (0-100) between the raw Station_Location string and the matched canonical station name, calculated using Python difflib SequenceMatcher after normalization.",
+      "thresholds": {
+        "100.0": "Exact match after normalization (punctuation stripped, lowercase)",
+        "85.0_to_99.9": "High confidence fuzzy match. Auto-accepted.",
+        "60.0_to_84.9": "Low confidence match. Accepted but flagged as low_confidence.",
+        "below_60.0": "No match found. Resolved_Name = original OCR string. Match_Type = unmatched.",
+        "null": "State aggregate rows, headers, or other non-station rows"
+      }
+    },
+
+    "Match_Type": {
+      "present_in": ["16_column", "15_column"],
+      "type": "string (categorical)",
+      "description": "Classification of the station name resolution result.",
+      "valid_values": {
+        "exact": "Match score = 100.0. Station name matched perfectly after normalization.",
+        "high_confidence": "Match score 85.0-99.9. Very likely correct. Auto-accepted.",
+        "low_confidence": "Match score 60.0-84.9. Plausible match but worth verifying for critical analyses.",
+        "unmatched": "Match score below 60.0 or no candidate found. Resolved_Name = original OCR string. Station_Order = NaN.",
+        "state_aggregate": "Row is a state-level total (e.g. 'Connecticut Total'). Present in 15-column tables only. Legitimate data row but does not map to any individual station.",
+        "skip": "Row is a table header, section header, or clearly non-station text. No resolution attempted."
+      },
+      "analysis_filter": "For analysis of individual monitoring station data: filter Match_Type IN ('exact', 'high_confidence'). Include 'low_confidence' with caution. Exclude 'unmatched', 'state_aggregate', 'skip'."
+    },
+
+    "Is_Year_Aggregate": {
+      "present_in": ["16_column", "15_column"],
+      "type": "boolean",
+      "description": "True if the Years column contains multiple year codes (e.g. '54 56', '53 57'), indicating this row summarises data across multiple calendar years combined.",
+      "critical_analysis_note": "NEVER include Is_Year_Aggregate=True rows in the same statistical calculation as Is_Year_Aggregate=False rows for the same station. The data would be double-counted. Use False rows for time-series analysis and trend detection. True rows are useful only for overall station summaries when individual years are not needed.",
+      "typical_pattern": "A station with data in years 1954, 1955, and 1956 will have three individual rows (Is_Year_Aggregate=False) plus one aggregate row with Years='54 55 56' (Is_Year_Aggregate=True)."
+    },
+
+    "Is_Site_Aggregate": {
+      "present_in": ["16_column"],
+      "absent_in": ["15_column"],
+      "type": "boolean",
+      "description": "True if this row aggregates data across multiple sampling sites within the same city. Present in Table 1 only (Suspended Particulates) where multiple sites per city were operated in 1953-1956.",
+      "critical_analysis_note": "Like Is_Year_Aggregate, never mix Is_Site_Aggregate=True with individual site rows in the same statistical calculation for the same station-year. The data is double-counted.",
+      "typical_pattern": "A city with 3 sites will have individual rows for Site=1, Site=2, Site=3, plus an aggregate row with Is_Site_Aggregate=True covering all three sites combined."
+    }
+
+  },
+
+  "master_stations_columns": {
+    "description": "Columns in master_stations.csv, which is the reference file used by StationResolver.py",
+    "columns": {
+      "station_order": "Sequential integer. The universal join key across all 31 data tables.",
+      "canonical_name": "Authoritative city/station name. Used as Resolved_Name in cleaned outputs.",
+      "city": "City name.",
+      "state": "Full US state name.",
+      "state_abbr": "Two-letter US state abbreviation.",
+      "region": "NASN geographic region (New England, Mid Atlantic, etc.).",
+      "urban_type": "Urban, Suburban, or Nonurban.",
+      "site_num": "Site number for multi-site cities (integer or blank).",
+      "max_table": "Highest table number this station appears in. 31 = all tables. 8 = Tables 1-8 only (single asterisk). 4 = Tables 1-4 only (double asterisk).",
+      "notes": "Human-readable notes about asterisk restrictions.",
+      "display_name": "Formatted display name as it appears in the original publication (e.g. 'Waterbury, Conn.')."
+    }
+  },
+
+  "recommended_filters": {
+    "individual_station_year_analysis": "Is_Year_Aggregate == False AND Is_Site_Aggregate == False AND Match_Type IN ('exact', 'high_confidence')",
+    "include_low_confidence": "Is_Year_Aggregate == False AND Is_Site_Aggregate == False AND Match_Type IN ('exact', 'high_confidence', 'low_confidence')",
+    "urban_stations_only": "Add: urban_type == 'Urban' (requires joining with master_stations.csv on Station_Order)",
+    "high_ocr_quality": "Add: Avg_Confidence >= 75",
+    "specific_year": "Add: Years == '57'  (for 1957 only)",
+    "exclude_state_aggregates": "Match_Type != 'state_aggregate'"
+  },
+
+  "r_loading_example": {
+    "note": "Example R code to load a cleaned table with the codebook",
+    "code": [
+      "library(jsonlite)",
+      "library(tidyverse)",
+      "",
+      "# Load data",
+      "df <- read_csv('Cleaned_Tables/Table_1_Pages_1-8_cleaned.csv')",
+      "",
+      "# Load context",
+      "ctx  <- fromJSON('historical_context.json')",
+      "book <- fromJSON('codebook.json')",
+      "",
+      "# Get table info",
+      "t1_info <- ctx$tables[['1']]",
+      "cat('Table 1:', t1_info$name, '|', t1_info$units, '\\n')",
+      "",
+      "# Individual year observations only, high-confidence station matches",
+      "df_clean <- df |>",
+      "  filter(!Is_Year_Aggregate, !Is_Site_Aggregate) |>",
+      "  filter(Match_Type %in% c('exact','high_confidence'))",
+      "",
+      "# P50 (median) as better central tendency for log-normal data",
+      "df_clean |>",
+      "  group_by(Resolved_Name, Years) |>",
+      "  summarise(median_conc = median(P50, na.rm=TRUE), .groups='drop')"
+    ]
+  },
+
+  "python_loading_example": {
+    "note": "Example Python code to load a cleaned table with the codebook",
+    "code": [
+      "import pandas as pd",
+      "import json",
+      "",
+      "df   = pd.read_csv('Cleaned_Tables/Table_1_Pages_1-8_cleaned.csv')",
+      "ctx  = json.load(open('historical_context.json'))",
+      "book = json.load(open('codebook.json'))",
+      "",
+      "# Individual year, high-confidence rows only",
+      "df_clean = df[",
+      "    (~df['Is_Year_Aggregate']) &",
+      "    (~df['Is_Site_Aggregate']) &",
+      "    (df['Match_Type'].isin(['exact','high_confidence']))",
+      "]",
+      "",
+      "# Access table metadata",
+      "print(ctx['tables']['1']['name'])        # Suspended Particulate Matter",
+      "print(ctx['tables']['1']['units'])        # ug/m3",
+      "",
+      "# Get column description",
+      "print(book['columns']['P50']['description'])"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+Page: 133
+Columns: 16
+Rows: 4
+
+Vertical lines (column separators):
+  col_line_0: 55
+  col_line_1: 750
+  col_line_2: 971
+  col_line_3: 1133
+  col_line_4: 1298
+  col_line_5: 1464
+  col_line_6: 1632
+  col_line_7: 1798
+  col_line_8: 1963
+  col_line_9: 2129
+  col_line_10: 2298
+  col_line_11: 2461
+  col_line_12: 2628
+  col_line_13: 2791
+  col_line_14: 2962
+
+Horizontal lines (row separators):
+  row_line_0: 56
+  row_line_1: 160
+  row_line_2: 4015

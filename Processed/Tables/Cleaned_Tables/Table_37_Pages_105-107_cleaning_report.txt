@@ -1,0 +1,81 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_37_Pages_105-107.csv
+  Loaded 170 rows
+  Detected: 14-column monthly table (Station | Years | Jan-Dec)
+Initial Avg Confidence: 91.42
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_16, Col_15
+
+Renaming columns...
+  Renamed 16 columns
+
+Applying known OCR error corrections...
+  Fixed 1 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+[14-COL PIPELINE]
+
+Cleaning Station_Location column for 14-col monthly table...
+  [ANOMALY] Station 'WATERBURY CONN' (rows [0, 1, 2, 3, 4]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Empty']
+    Repaired row 2: 'Empty' → 'Maximum'
+    Repaired row 4: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'BELLA I RE TEXAS' (rows [115, 116, 117, 118, 119]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  Anomalies detected: 2
+  Rows repaired: 2
+  Station names forward-filled into 136 label rows
+
+Cleaning Years column for 14-col table...
+  Valid year entries: 32, Blanked invalid: 0
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning monthly data columns (Jan-Dec)...
+  [WARN] Row 98 col Jan: non-numeric 'il' → cleared
+  [WARN] Row 46 col Sep: non-numeric 'le' → cleared
+  [WARN] Row 112 col Nov: non-numeric 'so' → cleared
+  Monthly cells cleared: 3 (3 with non-numeric text warnings)
+
+Validating Max >= Avg >= Min for each month (14-col)...
+  [VIOLATION] Station 'ER IE PA' Year '56' Month Nov: ['Avg > Max'] (Max=30.0, Avg=186.0, Min=7.0)
+  [VIOLATION] Station 'ER IE PA' Year '56' Month Dec: ['Min > Max', 'Min > Avg'] (Max=100.0, Avg=70.0, Min=209.0)
+  [VIOLATION] Station 'HOUSTON TEXAS' Year '54 55' Month Sep: ['Avg > Max'] (Max=190.0, Avg=886.0, Min=7.0)
+  [VIOLATION] Station 'SAN LEANORO CALIF' Year '55 56' Month Oct: ['Min > Max', 'Min > Avg'] (Max=100.0, Avg=43.0, Min=190.0)
+  [VIOLATION] Station 'MIDOLESEX CNTY MASS' Year '55' Month Feb: ['Min > Max', 'Avg > Max'] (Max=5.0, Avg=9.0, Min=9.0)
+  Cells cleared due to ordering violations: 11
+
+Finalizing data types (14-col)...
+  Types finalized
+
+Confidence Statistics:
+  Initial: 91.42
+  Final: 91.42
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 2,437 / 3,400 (71.7%)
+Input rows: 170
+Output rows: 170
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_37_Pages_105-107_cleaned.csv

@@ -1,0 +1,99 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_50_Pages_128-130.csv
+  Loaded 129 rows
+  Detected: 16-column table (with Site column)
+Initial Avg Confidence: 93.20
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_18, Col_17
+
+Renaming columns...
+  Renamed 18 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 51 station names
+
+Extracting site numbers...
+  Site numbers extracted
+
+Cleaning years...
+  Cleaned 121 year entries
+
+Filling station locations...
+  Filled 78 empty stations
+
+Identifying aggregates...
+  Year aggregates: 52
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 1
+
+Cleaning numeric columns...
+  Cleaned 3 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 0 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 5 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (1 unique):
+----------------------------------------
+  [  1x]  'PA'
+
+LOW CONFIDENCE MATCHES (6 rows):
+----------------------------------------
+  'CRNCINNATI OHIO' → 'Cincinnati'  (score: 81.5)
+  'FT WORTH FEXAS' → 'Ft. Worth'  (score: 78.6)
+  'LAKEWORTH TEXAS' → 'Lakeworth Village'  (score: 72.2)
+============================================================
+
+Confidence Statistics:
+  Initial: 93.20
+  Final: 93.20
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 2,452 / 2,709 (90.5%)
+Input rows: 129
+Output rows: 129
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_50_Pages_128-130_cleaned.csv

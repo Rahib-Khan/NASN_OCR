@@ -1,0 +1,43 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+NEW YORK N Y,,,,,,6.0,,,1.0,1.0,2.0,4.0,6.0,9.0,18.0,91.8,184,,New York,30,100.0,exact,False,False
+PHILADELPHIA PA,,54,10.0,,49.0,11.0,,1.0,1.0,1.0,4.0,5.0,8.0,20.0,33.0,92.1,184,,Philadelphia,41,100.0,exact,False,False
+WASHINGTON OC,,54 55,29.0,,61.0,12.0,3.0,4.0,5.0,7.0,10.0,11.0,13.0,16.0,20.0,93.1,184,,Washington,61,88.9,high_confidence,True,False
+LOUISVILLE KY,,54,5.0,,,,,,,,1.0,1.0,1.0,1.0,1.0,89.9,184,,Louisville,64,100.0,exact,False,False
+CHARLESTON W VA,1,54,6.0,,36.0,13.0,1.0,1.0,1.0,,5.0,6.0,6.0,33.0,33.0,91.4,184,,Charleston,77,100.0,exact,False,False
+TAMPA FLA,1,54,7.0,,11.0,6.0,1.0,1.0,3.0,5.0,7.0,7.0,8.0,10.0,10.0,93.8,184,,Tampa,84,100.0,exact,False,False
+ATLANTA GA,1,54,5.0,3.0,14.0,6.0,3.0,3.0,3.0,3.0,4.0,4.0,7.0,,14.0,95.7,184,,Atlanta,85,100.0,exact,False,False
+CHICAGO PEL,1,54,3.0,5.0,8.0,6.0,,5.0,5.0,5.0,7.0,7.0,7.0,7.0,8.0,87.5,184,,Chicago,99,85.9,high_confidence,False,False
+CHICAGO PEL,2,54 55,35.0,,13.0,3.0,,,1.0,1.0,1.0,2.0,5.0,6.0,10.0,92.9,184,,Chicago,100,85.9,high_confidence,True,False
+CHICAGO PEL,3,54,3.0,,11.0,6.0,,1.0,1.0,1.0,8.0,8.0,8.0,8.0,11.0,92.0,184,,Chicago,101,85.9,high_confidence,False,False
+CHICAGO PEL,,54 55,41.0,,13.0,3.0,,,1.0,1.0,2.0,4.0,6.0,8.0,10.0,92.1,184,,Chicago,99,81.8,low_confidence,True,False
+DETROIT MICH,1,53,20.0,1.0,57.0,33.0,13.0,24.0,28.0,29.0,32.0,35.0,41.0,43.0,45.0,90.7,184,,Detroit,115,100.0,exact,False,False
+DETROIT MICH,1,54,9.0,4.0,31.0,17.0,4.0,11.0,13.0,13.0,16.0,16.0,18.0,22.0,27.0,95.6,184,,Detroit,115,100.0,exact,False,False
+DETROIT MICH,1,53 54,29.0,1.0,,28.0,11.0,13.0,18.0,27.0,29.0,30.0,33.0,41.0,44.0,94.3,184,,Detroit,115,100.0,exact,True,False
+CINCINNATI OHIO,1,54,69.0,,30.0,2.0,,,,1.0,1.0,1.0,1.0,3.0,8.0,93.7,184,,Cincinnati,126,93.3,high_confidence,False,False
+CINCINNATI OHIO,1,55,4.0,5.0,19.0,,,5.0,5.0,9.0,9.0,9.0,11.0,,20.0,91.3,184,,Cincinnati,126,93.3,high_confidence,False,False
+CINCINNATI OHIO,1,54 55,73.0,,30.0,2.0,,,,1.0,1.0,1.0,1.0,5.0,,90.8,184,,Cincinnati,126,93.3,high_confidence,True,False
+CINCINNATI OHIO,,54,13.0,,24.0,8.0,,1.0,1.0,2.0,11.0,12.0,12.0,13.0,14.0,95.2,184,,Cincinnati,126,88.9,high_confidence,False,False
+CINCINNATI OHIO,4,54,13.0,,23.0,10.0,,1.0,6.0,9.0,12.0,12.0,16.0,17.0,18.0,92.5,184,,Cincinnati,129,93.3,high_confidence,False,False
+CINCINNATI OHIO,,54,17.0,,34.0,12.0,1.0,2.0,5.0,6.0,11.0,13.0,,22.0,24.0,93.0,184,,Cincinnati,126,88.9,high_confidence,False,False
+CINCINNATI OHIO,,54,112.0,,34.0,5.0,,,1.0,4.0,,3.0,8.0,12.0,16.0,93.2,184,,Cincinnati,126,88.9,high_confidence,False,False
+CINCINNATI OHIO,,55,4.0,5.0,19.0,11.0,,,5.0,9.0,9.0,9.0,11.0,11.0,20.0,94.7,184,,Cincinnati,126,88.9,high_confidence,False,False
+CINCINNATI OHIO,,54,116.0,,34.0,5.0,,,1.0,1.0,1.0,5.0,9.0,12.0,16.0,91.6,184,,Cincinnati,126,88.9,high_confidence,False,False
+MINNEAPOLIS MINN,1,54,15.0,,18.0,4.0,,,1.0,1.0,1.0,2.0,5.0,6.0,16.0,90.9,184,,Minneapolis,147,100.0,exact,False,False
+KANSAS CITY MO,,54,11.0,,50.0,18.0,,1.0,2.0,3.0,21.0,22.0,24.0,27.0,48.0,87.8,184,,Kansas City,150,100.0,exact,False,False
+NEW ORLEANS LA,,54,4.0,,,,,,,1.0,1.0,1.0,1.0,1.0,,93.7,184,,New Orleans,162,100.0,exact,False,False
+FT WORTH TEXAS,1,54,6.0,,22.0,5.0,,,1.0,1.0,1.0,,5.0,7.0,7.0,95.4,184,,Ft. Worth,174,85.7,high_confidence,False,False
+LAKEWORTH TEXAS,1,54,2.0,2.0,,3.0,,,2.0,2.0,2.0,2.0,2.0,5.0,5.0,94.1,184,,Lakeworth Village,175,72.2,low_confidence,False,False
+HOUSTON TEXAS,1,54,17.0,,59.0,24.0,2.0,5.0,10.0,11.0,29.0,30.0,32.0,33.0,50.0,93.4,184,,Houston,177,96.2,high_confidence,False,False
+BELLAIRE TEXAS,1,54,4.0,10.0,45.0,29.0,,10.0,10.0,30.0,30.0,30.0,37.0,37.0,45.0,95.4,184,,Bellaire,179,92.3,high_confidence,False,False
+OENVER COL,1,54,3.0,1.0,4.0,,,1.0,1.0,1.0,3.0,3.0,3.0,3.0,,92.9,184,,Denver,182,85.7,high_confidence,False,False
+SALT LAKE CITY UTAH,2,54,5.0,,22.0,4.0,,,1.0,1.0,1.0,1.0,1.0,1.0,22.0,91.2,184,,Salt Lake City,185,100.0,exact,False,False
+ANCHORAGE ALASKA,1,54 55,25.0,,64.0,23.0,1.0,1.0,7.0,20.0,23.0,25.0,33.0,39.0,,94.1,184,,Anchorage,187,100.0,exact,True,False
+LOS ANGELES CALIF,,54,17.0,,108.0,19.0,3.0,4.0,5.0,6.0,8.0,17.0,20.0,35.0,37.0,92.5,184,,Los Angeles,195,100.0,exact,False,False
+PASADENA CALIF,1,54 55,28.0,,61.0,12.0,,,1.0,1.0,1.0,8.0,18.0,20.0,30.0,93.4,184,,Pasadena,199,100.0,exact,True,False
+BERKELEY CALIF,1,54 55,33.0,,16.0,2.0,,,,1.0,1.0,1.0,2.0,3.0,5.0,94.7,184,,Berkeley,191,100.0,exact,True,False
+SAN JOSE CALIF,1,54 55,33.0,,16.0,2.0,,,1.0,1.0,1.0,2.0,2.0,3.0,5.0,94.2,184,,San Jose,206,100.0,exact,True,False
+PORTLAND OREGON,1,,19.0,,20.0,2.0,,,,1.0,1.0,1.0,1.0,1.0,9.0,95.2,184,,Portland,212,93.3,high_confidence,False,False
+PORTLAND OREGON,2,54,,,5.0,,,,,,1.0,1.0,1.0,1.0,4.0,94.4,184,,Portland,213,93.3,high_confidence,False,False
+PORTLAND OREGON,4,54,10.0,1.0,9.0,6.0,1.0,3.0,5.0,6.0,6.0,6.0,7.0,8.0,8.0,93.9,184,,Portland,215,93.3,high_confidence,False,False
+PORTLAND OREGON,5,54,10.0,,7.0,2.0,,1.0,1.0,2.0,2.0,3.0,3.0,4.0,4.0,95.2,184,,Portland,216,93.3,high_confidence,False,False
+PORTLAND OREGON,,54,54.0,,20.0,2.0,,,,1.0,1.0,1.0,3.0,5.0,8.0,93.4,184,,Portland,212,88.9,high_confidence,False,False

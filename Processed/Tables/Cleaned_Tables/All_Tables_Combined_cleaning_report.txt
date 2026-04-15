@@ -1,0 +1,85 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: /Users/rahib/OCR Current/Processed/Tables/All_Tables_Combined.csv
+  Loaded 11997 rows
+  Warning: 21 columns detected (expected 14, 15, or 16)
+Initial Avg Confidence: 91.63
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_21, Col_20
+
+Renaming columns...
+  Renamed 18 columns
+
+Applying known OCR error corrections...
+  Fixed 13 known OCR errors, blanked 122 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 622 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  Removed 3 header rows
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 9484 station names
+
+Extracting site numbers...
+  Site numbers extracted
+
+Cleaning years...
+  Cleaned 3560 year entries
+
+Filling station locations...
+  Filled 2510 empty stations
+
+Identifying aggregates...
+  Year aggregates: 1148
+  Site aggregates: 1439
+
+Smart filling missing years...
+  Total years filled: 17
+
+Cleaning numeric columns...
+  Cleaned 472 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 7469 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 10203 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Skipping station resolution (no master_stations.csv provided)
+
+Confidence Statistics:
+  Initial: 91.63
+  Final: 91.63
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 170,878 / 287,856 (59.4%)
+Input rows: 11997
+Output rows: 11994
+Removed: 3 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: /Users/rahib/OCR Current/Processed/Tables/Cleaned_Tables/All_Tables_Combined_cleaned.csv

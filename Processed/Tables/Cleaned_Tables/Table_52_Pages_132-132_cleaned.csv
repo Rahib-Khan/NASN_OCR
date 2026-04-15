@@ -1,0 +1,15 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+SUBURBAN,,,,,,,,,,,,,,,,95.0,132,,SUBURBAN,,,skip,False,False
+MIDOLESEX CNTY MASS,1,,23.0,10.0,3000.0,430.0,22.0,30.0,41.0,52.0,88.0,123.0,160.0,,,91.9,132,,Middlesex County,219.0,90.0,high_confidence,False,False
+LAKEHURST N J,1,55 56,19.0,,300.0,60.0,3.0,18.0,26.0,44.0,52.0,,68.0,79.0,88.0,91.3,132,,Lakehurst,220.0,100.0,exact,True,False
+KANAWHA CO W VA,1,54,23.0,,20.0,2.0,,1.0,1.0,,2.0,2.0,3.0,3.0,6.0,86.4,132,,Kanawha County,221.0,88.2,high_confidence,False,False
+HILLSBOROUGH CO FLA,1,54,,,87.0,40.0,,2.0,2.0,13.0,13.0,13.0,62.0,62.0,88.0,92.6,132,,Hillsborough County,222.0,90.5,high_confidence,False,False
+FULTON CO GEORGIA,1,54,,,,2.0,,,,,1.0,1.0,1.0,1.0,6.0,93.9,132,,Fulton County,223.0,72.7,low_confidence,False,False
+HAMILTON COUNTY OHIO,1,54,31.0,,194.0,34.0,1.0,1.0,15.0,17.0,23.0,26.0,37.0,44.0,88.0,93.8,132,,Hamilton County,224.0,91.9,high_confidence,False,False
+TONKA BAY MINN,1,,,,34.0,4.0,,,,,1.0,1.0,1.0,1.0,,94.1,132,,Tonka Bay,225.0,100.0,exact,False,False
+DENVER COUNTY COLO,1,54 55,10.0,,20.0,6.0,1.0,2.0,2.0,,3.0,3.0,4.0,4.0,20.0,95.0,132,,Denver County,227.0,100.0,exact,True,False
+SALT LAKE UTAH,1,54,,,59.0,19.0,1.0,1.0,2.0,,11.0,11.0,26.0,26.0,62.0,93.1,132,,Salt Lake City,185.0,84.8,low_confidence,False,False
+MULTNOMAH CNTY ORE,1,54,,,,,,,,,1.0,1.0,1.0,,1.0,90.8,132,,Multnomah County,229.0,94.7,high_confidence,False,False
+MULTNOMAH CNTY ORE,,54 56,139.0,,3000.0,87.0,,1.0,1.0,,,,31.0,56.0,104.0,93.5,132,,Multnomah County,229.0,94.7,high_confidence,True,False
+NONURBAN,,,,,,,,,,,,,,,,92.0,132,,NONURBAN,,,skip,False,False
+PT WORONZOF ALASKA,1,56,12.0,,,,,,,,,,,,,88.6,132,,Pt. Woronzof,258.0,100.0,exact,False,False

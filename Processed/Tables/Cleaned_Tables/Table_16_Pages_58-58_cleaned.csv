@@ -1,0 +1,27 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+LITCHFIELD CNTY CONN,1,55 56,,,21.0,9.0,1.0,3.0,4.0,5.0,,,12.0,,,91.9,58,,Litchfield County,230.0,95.2,high_confidence,True,False
+ACADIA NATNL PARK WE,1,57,16.0,2.0,32.0,15.0,4.0,6.0,7.0,10.0,12.0,20.0,22.0,26.0,28.0,92.6,58,,Acadia National Park,231.0,88.4,high_confidence,False,False
+MT MANSFIELD FRST VT,,57,7.0,8.0,189.0,60.0,9.0,9.0,12.0,20.0,42.0,42.0,69.0,113.0,113.0,92.1,58,,Mt. Mansfield,232.0,85.7,high_confidence,False,False
+WORCESTER COUNTY MD,1,57,24.0,5.0,374.0,35.0,5.0,8.0,9.0,14.0,17.0,20.0,25.0,33.0,54.0,92.1,58,,Worcester County,233.0,100.0,exact,False,False
+CAPE HATTERAS AWC,1,57,8.0,10.0,55.0,19.0,12.0,13.0,13.0,14.0,14.0,15.0,18.0,18.0,20.0,91.8,58,,Cape Hatteras,234.0,88.2,high_confidence,False,False
+SHEWANDOAH PARK VA,1,57,25.0,8.0,654.0,73.0,12.0,14.0,18.0,22.0,26.0,36.0,48.0,62.0,186.0,90.3,58,,Shenandoah National Park,235.0,75.6,low_confidence,False,False
+HOLLY RIVER PK W VA,1,57,25.0,3.0,710.0,59.0,9.0,12.0,18.0,22.0,26.0,36.0,48.0,62.0,82.0,94.0,58,,Holly River State Park,236.0,82.6,low_confidence,False,False
+GULF SHORES PARK ALA,1,57,12.0,8.0,126.0,35.0,9.0,12.0,16.0,18.0,19.0,20.0,26.0,54.0,88.0,94.0,58,,Gulf Shores State Park,237.0,87.0,high_confidence,False,False
+FLORIDA KEYS FLORIDA,1,57,14.0,8.0,174.0,55.0,9.0,12.0,,25.0,26.0,42.0,75.0,82.0,145.0,89.3,58,,Florida Keys,238.0,88.9,high_confidence,False,False
+OATLAND GA,1,57,16.0,4.0,54.0,22.0,6.0,7.0,11.0,12.0,18.0,26.0,30.0,38.0,42.0,91.5,58,,Atlanta,85.0,84.0,low_confidence,False,False
+JACKSON COUNTY MISS,1,57,20.0,9.0,1129.0,135.0,11.0,13.0,15.0,18.0,20.0,25.0,26.0,54.0,391.0,91.9,58,,Jackson County,240.0,100.0,exact,False,False
+FT DONELSON TENN,1,57,16.0,9.0,353.0,73.0,10.0,11.0,20.0,22.0,26.0,48.0,54.0,69.0,166.0,92.9,58,,Ft. Donelson,241.0,100.0,exact,False,False
+SANGAMON COUNTY MEL,1,57,3.0,13.0,87.0,26.0,13.0,15.0,20.0,21.0,23.0,23.0,24.0,25.0,42.0,84.2,58,,Sangamon County,242.0,89.5,high_confidence,False,False
+HURON COUNTY MICH,1,57,30.0,5.0,226.0,36.0,7.0,9.0,10.0,12.0,16.0,19.0,26.0,54.0,69.0,90.7,58,,Huron County,243.0,100.0,exact,False,False
+PERRY'S VICTORY,1,57,8.0,5.0,64.0,22.0,6.0,10.0,10.0,,12.0,15.0,20.0,20.0,54.0,90.4,58,,Perry's Victory,244.0,100.0,exact,False,False
+ELLIS COUNTY KANSAS,1,57,11.0,5.0,1316.0,159.0,6.0,9.0,23.0,26.0,54.0,62.0,69.0,79.0,88.0,92.1,58,,Ellis County,246.0,94.4,high_confidence,False,False
+COUNTY MIWA,1,57,14.0,9.0,122.0,24.0,9.0,,,14.0,14.0,15.0,,20.0,54.0,85.4,58,,Cook County,245.0,66.7,low_confidence,False,False
+SHANNON COUNTY MO,1,57,18.0,8.0,239.0,47.0,12.0,15.0,16.0,19.0,26.0,31.0,42.0,54.0,105.0,91.1,58,,Shannon County,247.0,100.0,exact,False,False
+THOMAS COUNTY NEBR,1,57,11.0,3.0,560.0,92.0,3.0,7.0,9.0,18.0,26.0,54.0,69.0,129.0,145.0,92.7,58,,Thomas County,248.0,100.0,exact,False,False
+WARD COUNTY N D,1,57,13.0,4.0,36.0,12.0,4.0,5.0,5.0,6.0,11.0,12.0,15.0,18.0,26.0,91.7,58,,Ward County,249.0,100.0,exact,False,False
+BLACK HILLS 0,1,57,5.0,15.0,730.0,164.0,15.0,15.0,20.0,20.0,30.0,30.0,33.0,33.0,625.0,89.7,58,,Black Hills,250.0,91.7,high_confidence,False,False
+YELLOWSTONE PARK WYO,1,57,2.0,20.0,100.0,60.0,,,20.0,20.0,20.0,20.0,20.0,,113.0,92.1,58,,Yellowstone National Park,252.0,81.6,low_confidence,False,False
+PT WORONZOF ALASKA,1,56 57,45.0,,38.0,8.0,1.0,2.0,,4.0,,,210.0,,22.0,92.3,58,,Pt. Woronzof,258.0,100.0,exact,True,False
+GRAND CANYON ARIZ,1,57,26.0,7.0,830.0,134.0,14.0,17.0,23.0,30.0,39.0,88.0,129.0,,391.0,87.3,58,,Grand Canyon National Park,255.0,70.8,low_confidence,False,False
+HAWAII,1,57,22.0,2.0,86.0,18.0,3.0,4.0,,7.0,,16.0,18.0,33.0,42.0,91.9,58,,HAWAII,,0.0,unmatched,False,False
+HAWAII,,57,412.0,,1316.0,52.0,5.0,8.0,11.0,14.0,18.0,22.0,30.0,46.0,,91.9,58,,HAWAII,,0.0,unmatched,False,False

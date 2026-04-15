@@ -1,0 +1,97 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_74_Pages_176-176.csv
+  Loaded 35 rows
+  Detected: 16-column table (with Site column)
+Initial Avg Confidence: 93.74
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_18, Col_17
+
+Renaming columns...
+  Renamed 18 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 23 station names
+
+Extracting site numbers...
+  Site numbers extracted
+
+Cleaning years...
+  Cleaned 33 year entries
+
+Filling station locations...
+  Filled 12 empty stations
+
+Identifying aggregates...
+  Year aggregates: 10
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 6 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 1 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 0 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (0 unique):
+----------------------------------------
+  None — all stations resolved!
+
+LOW CONFIDENCE MATCHES (1 rows):
+----------------------------------------
+  'LAKEWORTH TEXAS' → 'Lakeworth Village'  (score: 72.2)
+============================================================
+
+Confidence Statistics:
+  Initial: 93.74
+  Final: 93.74
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 693 / 735 (94.3%)
+Input rows: 35
+Output rows: 35
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_74_Pages_176-176_cleaned.csv

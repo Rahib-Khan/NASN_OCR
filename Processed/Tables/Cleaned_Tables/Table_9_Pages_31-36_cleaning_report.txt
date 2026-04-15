@@ -1,0 +1,107 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_9_Pages_31-36.csv
+  Loaded 389 rows
+  Detected: 16-column table (with Site column)
+Initial Avg Confidence: 92.68
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_18, Col_17
+
+Renaming columns...
+  Renamed 18 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 0 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 128 station names
+
+Extracting site numbers...
+  Site numbers extracted
+
+Cleaning years...
+  Cleaned 352 year entries
+
+Filling station locations...
+  Filled 261 empty stations
+
+Identifying aggregates...
+  Year aggregates: 70
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 8
+
+Cleaning numeric columns...
+  Cleaned 18 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 12 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 48 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (2 unique):
+----------------------------------------
+  [  3x]  'N J'
+  [  3x]  'PA'
+
+LOW CONFIDENCE MATCHES (13 rows):
+----------------------------------------
+  'SAN JUAN PUERTO RICO' → 'San Juan'  (score: 75.0)
+  'MULAMI FLA' → 'Miami'  (score: 84.2)
+  'CHICAGO HEL' → 'Chicago'  (score: 81.8)
+  'CANTON OHIO' → 'Canton'  (score: 84.2)
+  'TOLEDO OHIO' → 'Toledo'  (score: 84.2)
+  'LORAIN OHIO' → 'Lorain'  (score: 84.2)
+  'OMAHA WEB' → 'Omaha'  (score: 84.2)
+  'STTOUX FALLS SO' → 'Sioux Falls'  (score: 80.0)
+  'LAKEWORTH TEXAS' → 'Lakeworth Village'  (score: 72.2)
+  'BOISE 1OAHO' → 'Boise'  (score: 81.8)
+============================================================
+
+Confidence Statistics:
+  Initial: 92.68
+  Final: 92.68
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 7,863 / 8,169 (96.3%)
+Input rows: 389
+Output rows: 389
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_9_Pages_31-36_cleaned.csv

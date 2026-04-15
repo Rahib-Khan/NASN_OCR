@@ -1,0 +1,9 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+KANAWHA. CO W VA,,,,,,,,,,,,,,,,69.8,178,,Kanawha County,221,88.2,high_confidence,False,False
+HILLSBOROUGH CO FLA,1,54,4.0,,11.0,,,1.0,1.0,,4.0,4.0,10.0,10.0,,92.8,178,,Hillsborough County,222,90.5,high_confidence,False,False
+FULTON CO GEORGIA,1,54,5.0,,29.0,8.0,1.0,1.0,2.0,2.0,4.0,4.0,,,30.0,92.5,178,,Fulton County,223,72.7,low_confidence,False,False
+HAMILTON COUNTY OHIO,1,54 55,36.0,,34.0,12.0,6.0,7.0,8.0,9.0,10.0,12.0,13.0,15.0,21.0,91.7,178,,Hamilton County,224,91.9,high_confidence,True,False
+TONKA BAY MINN,1,54,9.0,,38.0,9.0,1.0,2.0,2.0,,6.0,,,10.0,11.0,94.3,178,,Tonka Bay,225,100.0,exact,False,False
+SALT LAKE CO UTAH,1,54,5.0,,23.0,,1.0,1.0,9.0,9.0,11.0,11.0,12.0,12.0,24.0,94.2,178,,Salt Lake County,228,89.5,high_confidence,False,False
+MULTNOMAH CNTY ORE,1,54,12.0,,15.0,9.0,4.0,5.0,6.0,7.0,11.0,11.0,12.0,13.0,14.0,92.6,178,,Multnomah County,229,94.7,high_confidence,False,False
+MULTNOMAH CNTY ORE,,54 55,79.0,,38.0,10.0,1.0,,6.0,8.0,9.0,11.0,12.0,14.0,22.0,94.7,178,,Multnomah County,229,94.7,high_confidence,True,False

@@ -1,0 +1,88 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_25_Pages_80-80.csv
+  Loaded 46 rows
+  Detected: 14-column monthly table (Station | Years | Jan-Dec)
+Initial Avg Confidence: 89.20
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_16, Col_15
+
+Renaming columns...
+  Renamed 16 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+[14-COL PIPELINE]
+
+Cleaning Station_Location column for 14-col monthly table...
+  [ANOMALY] Station 'WA SHINGTON oc' (rows [5, 6, 7, 8, 9]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 9: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'BERKELEY CALIF' (rows [30, 31, 32, 33, 34]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'SAN JOSE CALIF' (rows [35, 36, 37, 38, 39]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 39: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'SUBURBAN' (rows [40, 41, 42, 43, 44]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Num_Samples', 'Maximum', 'Average']
+    Repaired row 42: 'Num_Samples' → 'Maximum'
+    Repaired row 43: 'Maximum' → 'Average'
+    Repaired row 44: 'Average' → 'Minimum'
+  Anomalies detected: 4
+  Rows repaired: 5
+  Station names forward-filled into 35 label rows
+
+Cleaning Years column for 14-col table...
+  [WARN] Row 5: invalid year value '35' → blanked
+  Valid year entries: 8, Blanked invalid: 1
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning monthly data columns (Jan-Dec)...
+  [WARN] Row 44 col Nov: non-numeric 'ii' → cleared
+  Monthly cells cleared: 1 (1 with non-numeric text warnings)
+
+Validating Max >= Avg >= Min for each month (14-col)...
+  [VIOLATION] Station 'NEW YORK N' Year '54 55' Month Jun: ['Avg > Max'] (Max=35.0, Avg=39.0, Min=24.0)
+  [VIOLATION] Station 'PA SADENA CALIF' Year '54 55' Month Jul: ['Min > Max', 'Avg > Max'] (Max=0.0, Avg=54.0, Min=34.0)
+  [VIOLATION] Station 'SAN JOSE CALIF' Year '54 55' Month Jan: ['Min > Max', 'Avg > Max'] (Max=4.0, Avg=42.0, Min=21.0)
+  [VIOLATION] Station 'HAMILTON COUNTY OHIO' Year '54 55' Month Feb: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=10.0, Min=10.0)
+  [VIOLATION] Station 'HAMILTON COUNTY OHIO' Year '54 55' Month Jul: ['Min > Max', 'Avg > Max'] (Max=4.0, Avg=51.0, Min=32.0)
+  [VIOLATION] Station 'HAMILTON COUNTY OHIO' Year '54 55' Month Aug: ['Min > Max', 'Avg > Max'] (Max=4.0, Avg=60.0, Min=43.0)
+  [VIOLATION] Station 'HAMILTON COUNTY OHIO' Year '54 55' Month Sep: ['Min > Max', 'Avg > Max'] (Max=4.0, Avg=52.0, Min=33.0)
+  [VIOLATION] Station 'HAMILTON COUNTY OHIO' Year '54 55' Month Dec: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=14.0, Min=7.0)
+  Cells cleared due to ordering violations: 22
+
+Finalizing data types (14-col)...
+  Types finalized
+
+Confidence Statistics:
+  Initial: 89.20
+  Final: 89.20
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 552 / 920 (60.0%)
+Input rows: 46
+Output rows: 46
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_25_Pages_80-80_cleaned.csv

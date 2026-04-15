@@ -1,0 +1,10 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+SUBURBAN,,,,,,,,,,,,,,,,96.0,218,,SUBURBAN,,,skip,False,False
+MIIDOLESEX CNTY MASS,1,55,23.0,,90.0,19.0,,,9.0,10.0,19.0,20.0,,22.0,44.0,90.9,218,,Middlesex County,219.0,87.8,high_confidence,False,False
+LAKEHURST N J,1,55 56,17.0,,53.0,16.0,,,7.0,8.0,10.0,13.0,22.0,26.0,29.0,92.9,218,,Lakehurst,220.0,100.0,exact,True,False
+KANAWHA CO WW VA,1,55,17.0,,460.0,32.0,,,1.0,1.0,,,9.0,,20.0,90.2,218,,Kanawha County,221.0,85.7,high_confidence,False,False
+DENVER COUNTY COLO,1,54 55,10.0,,20.0,11.0,,,3.0,9.0,10.0,13.0,19.0,20.0,21.0,94.4,218,,Denver County,227.0,100.0,exact,True,False
+SALT LAKE CO UTAH,1,54,,,16.0,12.0,,,7.0,7.0,13.0,13.0,13.0,13.0,18.0,93.9,218,,Salt Lake County,228.0,89.5,high_confidence,False,False
+SALT LAKE CO UTAH,,54 56,70.0,,460.0,20.0,,,7.0,8.0,10.0,15.0,19.0,21.0,29.0,89.6,218,,Salt Lake County,228.0,89.5,high_confidence,True,False
+NONURBAN,,,,,,,,,,,,,,,,92.0,218,,NONURBAN,,,skip,False,False
+PT WORONZOF ALASKA,1,56,12.0,,20.0,12.0,,,7.0,8.0,10.0,10.0,10.0,20.0,20.0,92.1,218,,Pt. Woronzof,258.0,100.0,exact,False,False

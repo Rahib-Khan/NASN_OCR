@@ -1,0 +1,4 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+HAMILTON COUNTY OHIO,1,,22.0,,,22.0,,1.0,1.0,10.0,15.0,30.0,34.0,48.0,52.0,92.6,79,,Hamilton County,224,91.9,high_confidence,False,False
+MULTNOMAH CNTY ORE,1,,10.0,,174.0,41.0,,1.0,1.0,6.0,11.0,17.0,43.0,88.0,99.0,92.5,79,,Multnomah County,229,94.7,high_confidence,False,False
+MULTNOMAH CNTY ORE,,54,34.0,,174.0,27.0,,1.0,1.0,10.0,15.0,27.0,40.0,48.0,61.0,94.9,79,,Multnomah County,229,94.7,high_confidence,False,False

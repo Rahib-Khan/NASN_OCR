@@ -1,0 +1,207 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_17_Pages_59-69.csv
+  Loaded 740 rows
+  Detected: 14-column monthly table (Station | Years | Jan-Dec)
+Initial Avg Confidence: 90.48
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_16, Col_15
+
+Renaming columns...
+  Renamed 16 columns
+
+Applying known OCR error corrections...
+  Fixed 1 known OCR errors, blanked 5 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 0 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+[14-COL PIPELINE]
+
+Cleaning Station_Location column for 14-col monthly table...
+  [ANOMALY] Station 'wo RCESTER MASS' (rows [45, 46, 47, 48, 49]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 47: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'R' (rows [55, 56, 57, 58, 59]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 59: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'JERSEY CITY WwW J' (rows [75, 76, 77, 78, 79]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 77: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'BU FFALO N Y' (rows [100, 101, 102, 103, 104]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'SYRACUSE NY' (rows [110, 111, 112, 113, 114]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 112: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'LA NCASTER PA' (rows [140, 141, 142, 143, 144]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 144: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'sc RANTON PA' (rows [145, 146, 147, 148, 149]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Empty']
+    Repaired row 147: 'Empty' → 'Maximum'
+    Repaired row 149: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'CHATTA NOOGA TENN' (rows [240, 241, 242, 243, 244]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'LLE TENN' (rows [245, 246, 247, 248, 249]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'DETRO T MICH' (rows [285, 286, 287, 288, 289]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'KA LAM A Z00 MICH' (rows [290, 291, 292, 293, 294]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'LA NS ENG MICH' (rows [295, 296, 297, 298, 299]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'ct WCEANATI OHIO' (rows [305, 306, 307, 308, 309]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 309: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'YOUNGSTOWN' (rows [310, 311, 312, 313, 314]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'COLUMB US OHIO' (rows [325, 326, 327, 328, 329]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'MON I MUM' (rows [369, 370, 371, 372, 373]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Minimum', 'Num_Samples', 'Maximum', 'Average']
+    Repaired row 370: 'Minimum' → 'Num_Samples'
+    Repaired row 371: 'Num_Samples' → 'Maximum'
+    Repaired row 372: 'Maximum' → 'Average'
+    Repaired row 373: 'Average' → 'Minimum'
+  [ANOMALY] Station 'TU LSA OKLA' (rows [425, 426, 427, 428, 429]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'BELLAIRE TEXAS' (rows [445, 446, 447, 448, 449]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 449: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'SA N ANTONIO TEXAS' (rows [455, 456, 457, 458, 459]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'HELENA MONTANA' (rows [480, 481, 482, 483, 484]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'BERKELEY CALIF' (rows [520, 521, 522, 523, 524]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 522: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'SA N JOSE CALIF' (rows [525, 526, 527, 528, 529]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 529: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'LAS VEGAS NEVA' (rows [555, 556, 557, 558, 559]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'PORTLAND OREGON' (rows [560, 561, 562, 563, 564]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'HA MiLTON COUNTY OHI' (rows [590, 591, 592, 593, 594]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 594: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'MLENITMUM' (rows [604, 605, 606, 607, 608]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Name', 'Num_Samples', 'Maximum', 'Average']
+    Repaired row 606: 'Num_Samples' → 'Maximum'
+    Repaired row 607: 'Maximum' → 'Average'
+    Repaired row 608: 'Average' → 'Minimum'
+  [ANOMALY] Station 'LITCHFIELD CNTY CONNT' (rows [620, 621, 622, 623, 624]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'CAPE HATTERAS NC' (rows [640, 641, 642, 643, 644]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 642: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'JA CKSON COUNTY MISS' (rows [670, 671, 672, 673, 674]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Minimum']
+    Repaired row 672: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'SA NG AMON COUNTY MLE' (rows [680, 681, 682, 683, 684]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Empty']
+    Repaired row 684: 'Empty' → 'Minimum'
+  [ANOMALY] Station 'HU RON COUNTY MICH' (rows [685, 686, 687, 688, 689]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'SHANNON COUNTY MO' (rows [705, 706, 707, 708, 709]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Empty', 'Average', 'Name']
+    Repaired row 707: 'Empty' → 'Maximum'
+  [ANOMALY] Station 'TH OMAS COUNTY NEBR' (rows [710, 711, 712, 713, 714]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  [ANOMALY] Station 'PT WORONZOF ALASKA' (rows [725, 726, 727, 728, 729]): expected ['Name', 'Num_Samples', 'Maximum', 'Average', 'Minimum'], got ['Name', 'Num_Samples', 'Maximum', 'Average', 'Name']
+  Anomalies detected: 34
+  Rows repaired: 23
+  Station names forward-filled into 580 label rows
+
+Cleaning Years column for 14-col table...
+  [WARN] Row 25: invalid year value '36' → blanked
+  [WARN] Row 35: invalid year value '37' → blanked
+  [WARN] Row 60: invalid year value 'o7' → blanked
+  [WARN] Row 145: invalid year value '97' → blanked
+  [WARN] Row 325: invalid year value '37' → blanked
+  [WARN] Row 420: invalid year value '27' → blanked
+  [WARN] Row 450: invalid year value '27' → blanked
+  [WARN] Row 485: invalid year value '553 37' → blanked
+  [WARN] Row 625: invalid year value '37' → blanked
+  Valid year entries: 108, Blanked invalid: 9
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning monthly data columns (Jan-Dec)...
+  [WARN] Row 9 col Jan: non-numeric 'iz' → cleared
+  [WARN] Row 9 col Feb: non-numeric 'id' → cleared
+  [WARN] Row 27 col Feb: non-numeric 'il' → cleared
+  [WARN] Row 28 col Feb: non-numeric 'il' → cleared
+  [WARN] Row 157 col Mar: non-numeric 'le' → cleared
+  [WARN] Row 218 col Mar: non-numeric 'ig' → cleared
+  [WARN] Row 613 col Mar: implausibly large value 10648.0 (OCR artefact?) → cleared
+  [WARN] Row 152 col Apr: non-numeric 'Si' → cleared
+  [WARN] Row 223 col Apr: non-numeric 'lei' → cleared
+  [WARN] Row 623 col May: non-numeric 'is' → cleared
+  [WARN] Row 384 col Jun: non-numeric 'ai' → cleared
+  [WARN] Row 376 col Jul: non-numeric 'il' → cleared
+  [WARN] Row 688 col Aug: non-numeric 'if' → cleared
+  [WARN] Row 48 col Sep: non-numeric 'eT' → cleared
+  [WARN] Row 49 col Sep: non-numeric 'as' → cleared
+  [WARN] Row 99 col Sep: non-numeric 'is' → cleared
+  [WARN] Row 258 col Sep: non-numeric 'ii' → cleared
+  [WARN] Row 362 col Sep: non-numeric 'ii' → cleared
+  [WARN] Row 48 col Oct: non-numeric 'so' → cleared
+  [WARN] Row 128 col Oct: non-numeric 'Si' → cleared
+  [WARN] Row 173 col Oct: non-numeric 'ai' → cleared
+  [WARN] Row 368 col Oct: non-numeric 'is' → cleared
+  [WARN] Row 664 col Oct: non-numeric 'Ti' → cleared
+  [WARN] Row 311 col Nov: non-numeric 'Py' → cleared
+  [WARN] Row 732 col Nov: non-numeric 'Sl' → cleared
+  [WARN] Row 177 col Dec: non-numeric 'is' → cleared
+  [WARN] Row 178 col Dec: non-numeric 'is' → cleared
+  [WARN] Row 229 col Dec: non-numeric 'is' → cleared
+  [WARN] Row 469 col Dec: non-numeric 'is' → cleared
+  [WARN] Row 487 col Dec: non-numeric 'TT' → cleared
+  [WARN] Row 533 col Dec: non-numeric 'is' → cleared
+  [WARN] Row 642 col Dec: non-numeric 'is' → cleared
+  [WARN] Row 644 col Dec: non-numeric 'is' → cleared
+  [WARN] Row 724 col Dec: non-numeric 'is' → cleared
+  Monthly cells cleared: 34 (33 with non-numeric text warnings)
+
+Validating Max >= Avg >= Min for each month (14-col)...
+  [VIOLATION] Station 'MA NCHESTER WN H' Year '57' Month Dec: ['Min > Avg'] (Max=9.0, Avg=3.0, Min=8.0)
+  [VIOLATION] Station 'R' Year '55 57' Month Mar: ['Min > Avg'] (Max=15.0, Avg=3.0, Min=4.0)
+  [VIOLATION] Station 'R' Year '55 57' Month Dec: ['Min > Avg'] (Max=15.0, Avg=4.0, Min=13.0)
+  [VIOLATION] Station 'JERSEY CITY WWW J' Year '57' Month Sep: ['Avg > Max'] (Max=65.0, Avg=653.0, Min=65.0)
+  [VIOLATION] Station 'JERSEY CITY WWW J' Year '57' Month Dec: ['Min > Max', 'Avg > Max'] (Max=5.0, Avg=43.0, Min=29.0)
+  [VIOLATION] Station 'NE WARK N J' Year '57' Month Aug: ['Avg > Max'] (Max=10.0, Avg=190.0, Min=10.0)
+  [VIOLATION] Station 'SCHENECTADY N Y' Year '57' Month Aug: ['Min > Avg'] (Max=39.0, Avg=4.0, Min=9.0)
+  [VIOLATION] Station 'WA SHINGTON VC' Year '53 57' Month Nov: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=8.0, Min=2.0)
+  [VIOLATION] Station 'LOUISVILLE KY' Year '54 57' Month Jan: ['Avg > Max'] (Max=28.0, Avg=138.0, Min=3.0)
+  [VIOLATION] Station 'LOUISVILLE KY' Year '54 57' Month Nov: ['Min > Max', 'Min > Avg'] (Max=50.0, Avg=50.0, Min=590.0)
+  [VIOLATION] Station 'COLUMBUS GA' Year '57' Month Aug: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=19.0, Min=18.0)
+  [VIOLATION] Station 'JACKSON MISS' Year '57' Month Oct: ['Avg > Max'] (Max=62.0, Avg=340.0, Min=20.0)
+  [VIOLATION] Station 'NASHY T LLE TENN' Year '57' Month Nov: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=14.0, Min=7.0)
+  [VIOLATION] Station 'RINGFIELU POEL' Year '57' Month Jun: ['Avg > Max'] (Max=50.0, Avg=530.0, Min=50.0)
+  [VIOLATION] Station 'CA NTON OHIO' Year '57' Month Dec: ['Min > Avg'] (Max=27.0, Avg=1.0, Min=8.0)
+  [VIOLATION] Station 'CL EVEL AND' Year '57' Month Jun: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=18.0, Min=16.0)
+  [VIOLATION] Station 'CL EVEL AND' Year '57' Month Aug: ['Min > Avg'] (Max=28.0, Avg=2.0, Min=14.0)
+  [VIOLATION] Station 'WIL CHITA KANSAS' Year '57' Month Dec: ['Min > Avg'] (Max=22.0, Avg=1.0, Min=14.0)
+  [VIOLATION] Station 'NE W ORLEANS LA' Year '54 57' Month Dec: ['Min > Avg'] (Max=110.0, Avg=2.0, Min=4.0)
+  [VIOLATION] Station 'LAKEWORTH TEXAS' Year '53 55' Month Apr: ['Avg > Max'] (Max=12.0, Avg=22.0, Min=4.0)
+  [VIOLATION] Station 'BELLAIRE TEXAS' Year '56' Month Feb: ['Avg > Max'] (Max=2.0, Avg=3.0, Min=1.0)
+  [VIOLATION] Station 'DENVER COL' Year '54 57' Month Dec: ['Min > Max', 'Avg > Max'] (Max=4.0, Avg=27.0, Min=16.0)
+  [VIOLATION] Station 'PHOENIX ARI' Year '57' Month Aug: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=36.0, Min=22.0)
+  [VIOLATION] Station 'HI LLSBOROUGH CO FLA' Year '53 56' Month Jul: ['Avg > Max'] (Max=2.0, Avg=5.0, Min=1.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Jan: ['Min > Max', 'Avg > Max'] (Max=4.0, Avg=32.0, Min=12.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Feb: ['Min > Max', 'Avg > Max'] (Max=3.0, Avg=30.0, Min=14.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Mar: ['Min > Max', 'Avg > Max'] (Max=10.0, Avg=517.0, Min=118.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Apr: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=20.0, Min=14.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Jun: ['Min > Max', 'Avg > Max'] (Max=5.0, Avg=41.0, Min=21.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Jul: ['Min > Max', 'Avg > Max'] (Max=4.0, Avg=172.0, Min=72.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Aug: ['Avg > Max'] (Max=6.0, Avg=14.0, Min=6.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Sep: ['Min > Max', 'Avg > Max'] (Max=6.0, Avg=50.0, Min=14.0)
+  [VIOLATION] Station 'DENVER COUNTY COLO' Year '54' Month Oct: ['Min > Max', 'Avg > Max'] (Max=7.0, Avg=66.0, Min=20.0)
+  [VIOLATION] Station 'SHENANDOAH PARK VA' Year '57' Month Sep: ['Min > Avg'] (Max=150.0, Avg=9.0, Min=14.0)
+  [VIOLATION] Station 'EL LIS COUNTY KANSAS' Year '57' Month May: ['Min > Max', 'Avg > Max'] (Max=2.0, Avg=21.0, Min=21.0)
+  [VIOLATION] Station 'EL LIS COUNTY KANSAS' Year '57' Month Oct: ['Min > Max', 'Avg > Max'] (Max=1.0, Avg=28.0, Min=5.0)
+  [VIOLATION] Station 'WA IMANOLO HAWAII' Year '57' Month Jan: ['Min > Avg'] (Max=18.0, Avg=16.0, Min=18.0)
+  [VIOLATION] Station 'WA IMANOLO HAWAII' Year '57' Month Mar: ['Min > Avg'] (Max=9.0, Avg=3.0, Min=7.0)
+  Cells cleared due to ordering violations: 74
+
+Finalizing data types (14-col)...
+  Types finalized
+
+Confidence Statistics:
+  Initial: 90.48
+  Final: 90.48
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 10,275 / 14,800 (69.4%)
+Input rows: 740
+Output rows: 740
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_17_Pages_59-69_cleaned.csv

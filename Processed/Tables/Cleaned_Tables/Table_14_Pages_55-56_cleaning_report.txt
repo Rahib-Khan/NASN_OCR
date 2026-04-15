@@ -1,0 +1,115 @@
+======================================================================
+IMPROVED AIR POLLUTION TABLE CLEANER v2
+======================================================================
+Loading: Processed/Tables/Table_14_Pages_55-56.csv
+  Loaded 63 rows
+  Detected: 15-column table (without Site column)
+Initial Avg Confidence: 91.78
+
+Removing empty trailing columns...
+  Removed 2 trailing empty columns: Col_17, Col_16
+
+Renaming columns...
+  Renamed 17 columns
+
+Applying known OCR error corrections...
+  Fixed 0 known OCR errors, blanked 1 noise rows
+
+Normalising state/regional aggregate row names...
+  Normalised 39 aggregate rows
+
+Flagging table footer rows...
+  Blanked 0 footer rows
+
+Removing Column 0 if present...
+  Col_0 not present
+
+Removing header rows from page boundaries...
+  No header rows found to remove
+
+Removing footer rows at page ends...
+  No footer rows detected
+
+Cleaning station names...
+  Cleaned 62 station names
+
+Extracting site numbers...
+
+Cleaning years...
+  Cleaned 57 year entries
+
+Filling station locations...
+  Filled 1 empty stations
+
+Identifying aggregates...
+  Year aggregates: 28
+  Site aggregates: 0
+
+Smart filling missing years...
+  Total years filled: 0
+
+Cleaning numeric columns...
+  Cleaned 6 cells
+
+Removing header noise...
+
+Validating Min/Avg/Max...
+  Cleared 2 cells with ordering violations
+
+Validating percentile ordering...
+  Cleared 10 cells with percentile violations
+
+Finalizing data types...
+  Types finalized
+
+Running station name resolution...
+============================================================
+STATION RESOLUTION REPORT
+============================================================
+
+UNMATCHED NAMES (18 unique):
+----------------------------------------
+  [  1x]  'LE'
+  [  1x]  'ONNECTICUT TOTAL'
+  [  1x]  'GRT PLAINS TOT AL'
+  [  1x]  'SQUTH EAST TOT AL'
+  [  1x]  'MIO ATUNTC TOT AL'
+  [  1x]  'NEW ENGLND TOTA'
+  [  1x]  'HAWAT I TOTAL'
+  [  1x]  '1DAHO TOTAL'
+  [  1x]  '1OWAA TOTAL'
+  [  1x]  'WISCONSIN FOTAL'
+  [  1x]  'PLLINOIS TOTAL'
+  [  1x]  'WEST VIRGINA TOT AL'
+  [  1x]  'PUERTO TOTA'
+  [  1x]  'NO CAROLINA TOTA'
+  [  1x]  'PENNSYLVANIA TOT AL'
+  [  1x]  'NEW HAMPSHRE TOT AL'
+  [  1x]  'MASSACHUSETS TOT AL'
+  [  1x]  'ROCKY MNTN TOT AL'
+
+LOW CONFIDENCE MATCHES (3 rows):
+----------------------------------------
+  'RHODE ISLAND TOT AL' → 'Oatland Island'  (score: 61.1)
+  '018 COLUMBIA TOT AL' → 'Columbia'  (score: 74.1)
+  'CAROLINA TOTA' → 'Akron'  (score: 60.0)
+============================================================
+
+Confidence Statistics:
+  Initial: 91.78
+  Final: 91.78
+  Change: +0.00
+
+======================================================================
+SUMMARY
+======================================================================
+Data Completeness (excluding metadata):
+  Filled Cells: 1,065 / 1,260 (84.5%)
+Input rows: 63
+Output rows: 63
+Removed: 0 (0.0%)
+
+Attaching JSON context columns...
+  Added: table_name, pollutant_units, unit_multiplier, pollutant_group
+
+Saved: Processed/Tables/Cleaned_Tables/Table_14_Pages_55-56_cleaned.csv

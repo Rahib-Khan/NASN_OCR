@@ -1,0 +1,11 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+SUBURBAN,,,,,,,,,,,,,,,,95.0,85,,SUBURBAN,,,skip,False,False
+MIODLESEX CNTY MASS,1,55,23.0,,16.0,,1.0,,3.0,,5.0,5.0,6.0,8.0,10.0,93.8,85,,Middlesex County,219.0,90.0,high_confidence,False,False
+LAKEHURST N J,1,55 56,19.0,,55.0,11.0,,,5.0,,7.0,7.0,8.0,8.0,10.0,90.9,85,,Lakehurst,220.0,100.0,exact,True,False
+KANAWHA CO W VA,1,55,17.0,,14.0,,,,4.0,,6.0,8.0,9.0,11.0,12.0,90.4,85,,Kanawha County,221.0,88.2,high_confidence,False,False
+HAMILTON COUNTY OHIO,1,54 55,22.0,,,,,,5.0,,6.0,7.0,8.0,10.0,13.0,91.4,85,,Hamilton County,224.0,91.9,high_confidence,True,False
+DENVER COUNTY COLO,1,54 55,10.0,,12.0,,,,2.0,,4.0,5.0,7.0,,9.0,90.8,85,,Denver County,227.0,100.0,exact,True,False
+MULTNOMAH CNTY ORE,6,54,10.0,21.0,61.0,44.0,,27.0,28.0,41.0,46.0,,56.0,,63.0,92.7,85,,Multnomah County,229.0,94.7,high_confidence,False,False
+MULTNOMAH CNTY ORE,,54 56,101.0,,61.0,,,3.0,4.0,5.0,6.0,8.0,9.0,,41.0,92.1,85,,Multnomah County,229.0,94.7,high_confidence,True,False
+NONURBAN,,,,,,,,,,,,,,,,92.0,85,,NONURBAN,,,skip,False,False
+PT WORONZOF ALASKA,1,56,12.0,,,,,,,,1.0,1.0,1.0,2.0,2.0,93.4,85,,Pt. Woronzof,258.0,100.0,exact,False,False

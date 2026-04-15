@@ -1,0 +1,9 @@
+Station_Location,Site,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+SUBURBAN,,,,,,,,,,,,,,,,96.0,124,,SUBURBAN,,,skip,False,False
+MIDOLESEX CNTY MASS,1,55,23.0,,5.0,,,,,1.0,1.0,1.0,1.0,1.0,2.0,93.4,124,,Middlesex County,219.0,90.0,high_confidence,False,False
+LAKEHURST N J,1,55 56,17.0,,,,,,,,1.0,,1.0,1.0,1.0,93.6,124,,Lakehurst,220.0,100.0,exact,True,False
+KANAWHA W VA,1,55,17.0,,10.0,,,,,1.0,1.0,,1.0,2.0,3.0,91.1,124,,Kanawha County,221.0,77.4,low_confidence,False,False
+DENVER COUNTY COLO,1,54 55,10.0,,2.0,,,,,1.0,,,1.0,1.0,2.0,92.1,124,,Denver County,227.0,100.0,exact,True,False
+DENVER COUNTY COLO,,54 55,67.0,,,,,,,,,,,,,93.4,124,,Denver County,227.0,100.0,exact,True,False
+NONURBAN,,,,,,,,,,,,,,,,92.0,124,,NONURBAN,,,skip,False,False
+PT WORONZOF ALASKA,1,55 56,12.0,,2.0,,,,,,,,,,2.0,89.9,124,,Pt. Woronzof,258.0,100.0,exact,True,False

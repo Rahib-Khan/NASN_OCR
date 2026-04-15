@@ -1,0 +1,40 @@
+Station_Location,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+ONNECT T OTAL,55 56,36.0,,10.0,3.0,1.0,1.0,2.0,2.0,2.0,3.0,3.0,4.0,5.0,92.5,200,,ONNECT T OTAL,,0.0,unmatched,True,False
+ASSACH U SS TS TOTAL,55,49.0,,20.0,2.0,,,1.0,1.0,1.0,1.0,2.0,2.0,,89.1,200,,ASSACH U SS TS TOTAL,,0.0,unmatched,False,False
+EW JER TO TAL,55,130.0,,61.0,2.0,,,1.0,1.0,1.0,,2.0,3.0,,92.5,200,,EW JER TO TAL,,0.0,unmatched,False,False
+EW YOR K OTA,54 56,73.0,,61.0,9.0,,1.0,1.0,2.0,3.0,,5.0,14.0,37.0,93.2,200,,New York,30.0,70.0,low_confidence,True,False
+ENNSYL LA TOTAL,54 56,275.0,,68.0,3.0,,,1.0,1.0,1.0,2.0,3.0,3.0,4.0,88.2,200,,ENNSYL LA TOTAL,,0.0,unmatched,True,False
+I COL U TOTAL,54 56,46.0,,98.0,8.0,,,1.0,1.0,2.0,2.0,3.0,5.0,20.0,89.6,200,,I COL U TOTAL,,0.0,unmatched,True,False
+ENTUC K OTA,54 55,67.0,,15.0,3.0,,1.0,1.0,2.0,2.0,3.0,4.0,,9.0,93.9,200,,ENTUC K OTA,,0.0,unmatched,True,False
+ARYLA N OT.A,57,18.0,2.0,33.0,9.0,3.0,5.0,6.0,7.0,8.0,,9.0,11.0,12.0,94.2,200,,Atlanta,85.0,63.2,low_confidence,False,False
+WEST VV I NAN TOTAL,54,27.0,,106.0,19.0,2.0,4.0,5.0,7.0,10.0,14.0,19.0,20.0,30.0,86.8,200,,WEST VV I NAN TOTAL,,0.0,unmatched,False,False
+TAL,54 55,28.0,,9.0,,,,,,1.0,,1.0,1.0,1.0,92.7,200,,TAL,,0.0,unmatched,True,False
+0 TAL,54 56,22.0,1.0,55.0,8.0,1.0,2.0,3.0,3.0,4.0,4.0,6.0,9.0,18.0,93.8,200,,0 TAL,,0.0,unmatched,True,False
+ENNES SE TOT AL,55 56,32.0,,11.0,2.0,,,1.0,1.0,1.0,,2.0,3.0,3.0,93.5,200,,ENNES SE TOT AL,,0.0,unmatched,True,False
+LLINO OTA,54 56,147.0,,62.0,5.0,,1.0,1.0,1.0,2.0,2.0,3.0,4.0,9.0,91.9,200,,LLINO OTA,,0.0,unmatched,True,False
+LLINO OTA,,,,,,,1.0,2.0,2.0,3.0,4.0,5.0,7.0,14.0,90.5,200,,LLINO OTA,,0.0,unmatched,False,False
+A TAL,55 56,66.0,,30.0,5.0,1.0,,,,,,,,,92.1,200,,A TAL,,0.0,unmatched,True,False
+A OTA,53 54,21.0,1.0,108.0,40.0,3.0,6.0,7.0,12.0,39.0,52.0,57.0,65.0,104.0,90.9,200,,A OTA,,0.0,unmatched,True,False
+H1O T 0,54 57,135.0,,71.0,8.0,,1.0,1.0,1.0,2.0,3.0,5.0,,25.0,91.4,200,,H1O T 0,,0.0,unmatched,True,False
+ISCONS TOT AL,57,19.0,4.0,38.0,12.0,4.0,5.0,7.0,9.0,10.0,12.0,13.0,15.0,23.0,88.6,200,,ISCONS TOT AL,,53.8,unmatched,False,False
+INNESO TA TOT AL,54 55,35.0,,72.0,8.0,,1.0,1.0,1.0,2.0,2.0,3.0,4.0,39.0,94.7,200,,INNESO TA TOT AL,,0.0,unmatched,True,False
+INNESO TA TOT AL,,,,,,,,,,,2.0,,,,94.0,200,,INNESO TA TOT AL,,0.0,unmatched,False,False
+R T OTA,54 56,61.0,,60.0,6.0,,1.0,1.0,1.0,2.0,,3.0,4.0,30.0,92.5,200,,R T OTA,,0.0,unmatched,True,False
+OUI SI ANA TOT AL,54 55,50.0,,,,,,,,1.0,1.0,1.0,1.0,1.0,79.4,200,,OUI SI ANA TOT AL,,0.0,unmatched,True,False
+EXAS TOT AL,53 54,143.0,,518.0,8.0,,,1.0,1.0,1.0,1.0,2.0,3.0,11.0,91.8,200,,EXAS TOT AL,,0.0,unmatched,True,False
+OLORADO T OTA,54,26.0,1.0,24.0,,1.0,2.0,2.0,3.0,3.0,4.0,5.0,,10.0,92.9,200,,OLORADO T OTA,,0.0,unmatched,False,False
+TAH TOTAL,54 55,31.0,,66.0,10.0,1.0,5.0,6.0,8.0,9.0,9.0,10.0,10.0,19.0,92.9,200,,TAH TOTAL,,0.0,unmatched,True,False
+LASKA TOT AL,54 55,41.0,,750.0,89.0,1.0,2.0,7.0,18.0,49.0,85.0,119.0,149.0,220.0,92.9,200,,LASKA TOT AL,,0.0,unmatched,True,False
+ALIFORNIA TOTAL,54 56,215.0,,131.0,9.0,,1.0,1.0,1.0,2.0,3.0,5.0,7.0,28.0,94.2,200,,ALIFORNIA TOTAL,,0.0,unmatched,True,False
+OREGON TOT AL,55,74.0,,66.0,11.0,1.0,2.0,3.0,4.0,5.0,7.0,9.0,14.0,39.0,92.8,200,,OREGON TOT AL,,0.0,unmatched,False,False
+WASHINGTON TOTAL,57,20.0,5.0,37.0,14.0,6.0,7.0,8.0,9.0,15.0,16.0,17.0,18.0,20.0,93.4,200,state_total,WASHINGTON TOTAL,,,state_aggregate,False,False
+NEW ENGLND TOTAL,55 56,85.0,,20.0,2.0,,1.0,1.0,1.0,2.0,2.0,3.0,3.0,5.0,89.5,200,,NEW ENGLND TOTAL,,0.0,unmatched,True,False
+MTO ATLNTC TOTAL,54 56,478.0,,68.0,3.0,,,1.0,1.0,1.0,2.0,3.0,3.0,5.0,92.7,200,,MTO ATLNTC TOTAL,,0.0,unmatched,True,False
+MID EAST TOTAL,54 57,158.0,,106.0,8.0,,1.0,1.0,2.0,3.0,5.0,6.0,9.0,19.0,92.1,200,region_total,MID EAST TOTAL,,,skip,True,False
+SOUTH EAST TOTAL,54 56,,,55.0,3.0,,,,1.0,1.0,2.0,2.0,3.0,7.0,94.0,200,region_total,SOUTH EAST TOTAL,,,skip,True,False
+MED WEST TOTAL,53 57,408.0,,108.0,8.0,,1.0,1.0,2.0,3.0,3.0,5.0,10.0,,94.2,200,,MED WEST TOTAL,,0.0,unmatched,True,False
+GREAT PLAINS TOTAL,54 56,96.0,,72.0,7.0,,1.0,1.0,1.0,2.0,2.0,3.0,4.0,30.0,92.6,200,region_total,GREAT PLAINS TOTAL,,,skip,True,False
+GULF SOUTH TOTAL,54 55,193.0,,518.0,6.0,,,,1.0,1.0,1.0,1.0,2.0,6.0,92.1,200,region_total,GULF SOUTH TOTAL,,,skip,True,False
+ROCKY MNTN TOTAL,54,57.0,,66.0,8.0,1.0,2.0,3.0,4.0,6.0,8.0,9.0,10.0,19.0,92.2,200,,ROCKY MNTN TOTAL,,0.0,unmatched,False,False
+PACIFIC COAST TOTAL,54 57,350.0,,750.0,19.0,,1.0,,2.0,4.0,5.0,9.0,20.0,48.0,93.1,200,region_total,PACIFIC COAST TOTAL,,,skip,True,False
+PACIFIC COAST TOTAL,53 57,1907.0,,750.0,8.0,,1.0,1.0,1.0,2.0,3.0,4.0,7.0,18.0,93.9,200,,PACIFIC COAST TOTAL,,,skip,True,False

@@ -1,0 +1,48 @@
+Station_Location,Years,Num_Samples,Min,Max,Avg,P10,P20,P30,P40,P50,P60,P70,P80,P90,Avg_Confidence,Page_Num,Aggregate_Type,Resolved_Name,Station_Order,Match_Score,Match_Type,Is_Year_Aggregate,Is_Site_Aggregate
+CONNECTICUT TOTAL,,,,,,2.0,3.0,4.0,5.0,6.0,6.0,7.0,,,92.9,84,state_total,CONNECTICUT TOTAL,,,state_aggregate,False,False
+MASSACHUSETTS TOTAL,55 57,51.0,4.0,38.0,6.0,1.0,2.0,4.0,4.0,5.0,6.0,8.0,10.0,12.0,91.9,84,state_total,MASSACHUSETTS TOTAL,,,state_aggregate,True,False
+NEW HAMPSHRE TOTAL,57,17.0,4.0,35.0,12.0,4.0,6.0,7.0,8.0,9.0,10.0,11.0,24.0,25.0,94.0,84,,NEW HAMPSHRE TOTAL,,0.0,unmatched,False,False
+NEW JERSEY TOTAL,55 56,130.0,,69.0,11.0,3.0,4.0,4.0,5.0,6.0,7.0,9.0,12.0,20.0,95.3,84,state_total,NEW JERSEY TOTAL,,,state_aggregate,True,False
+NEW YORK TOTAL,54 57,4.0,1.0,74.0,17.0,2.0,5.0,7.0,10.0,14.0,18.0,22.0,27.0,35.0,93.9,84,state_total,NEW YORK TOTAL,,,state_aggregate,True,False
+PENNSYLVANIA TOTAL,54 57,538.0,,83.0,16.0,4.0,7.0,9.0,11.0,13.0,16.0,20.0,24.0,31.0,94.4,84,state_total,PENNSYLVANIA TOTAL,,,state_aggregate,True,False
+D.C. TOTAL,54 56,36.0,1.0,93.0,24.0,6.0,7.0,9.0,10.0,15.0,,31.0,43.0,49.0,93.6,84,state_total,D.C. TOTAL,,0.0,unmatched,True,False
+KENTUCKY TOTAL,54 57,64.0,3.0,47.0,17.0,7.0,9.0,,14.0,16.0,18.0,20.0,24.0,33.0,94.6,84,state_total,KENTUCKY TOTAL,,,state_aggregate,True,False
+MARYLAND TOTAL,,19.0,13.0,42.0,24.0,14.0,16.0,18.0,21.0,24.0,25.0,29.0,32.0,36.0,93.7,84,state_total,MARYLAND TOTAL,,,state_aggregate,False,False
+NO CAROLINA TOTAL,57,25.0,5.0,37.0,14.0,7.0,8.0,11.0,,14.0,15.0,18.0,20.0,22.0,94.3,84,,NO CAROLINA TOTAL,,0.0,unmatched,False,False
+TOTAL,57,23.0,4.0,112.0,22.0,9.0,,13.0,15.0,16.0,17.0,19.0,27.0,36.0,95.4,84,,TOTAL,,,state_aggregate,False,False
+WEST VIRGINA TOTAL,57,17.0,1.0,50.0,10.0,2.0,2.0,5.0,6.0,7.0,7.0,190.0,,19.0,89.7,84,,WEST VIRGINA TOTAL,,0.0,unmatched,False,False
+FLORIDA TOTAL,55 57,25.0,3.0,35.0,13.0,5.0,7.0,8.0,9.0,11.0,14.0,17.0,18.0,24.0,93.1,84,state_total,FLORIDA TOTAL,,,state_aggregate,True,False
+GEORGIA TOTAL,55 56,16.0,2.0,60.0,13.0,2.0,5.0,6.0,7.0,9.0,11.0,12.0,17.0,22.0,90.5,84,state_total,GEORGIA TOTAL,,,state_aggregate,True,False
+TENNESSEE TOTAL,55 57,57.0,5.0,140.0,22.0,9.0,10.0,13.0,16.0,20.0,22.0,25.0,31.0,35.0,93.6,84,state_total,TENNESSEE TOTAL,,,state_aggregate,True,False
+TOTAL,54 57,137.0,4.0,200.0,30.0,7.0,9.0,12.0,14.0,18.0,23.0,29.0,45.0,70.0,91.9,84,,TOTAL,,,state_aggregate,True,False
+INDIANA TOTAL,55,111.0,4.0,67.0,22.0,8.0,11.0,13.0,15.0,19.0,22.0,27.0,32.0,41.0,93.0,84,state_total,INDIANA TOTAL,,,state_aggregate,False,False
+OHIO TOTAL,54 57,114.0,1.0,205.0,23.0,5.0,7.0,9.0,13.0,16.0,20.0,27.0,35.0,45.0,93.4,84,state_total,OHIO TOTAL,,,state_aggregate,True,False
+WISCONSIN TOTAL,57,19.0,7.0,62.0,22.0,7.0,10.0,12.0,16.0,18.0,19.0,22.0,32.0,41.0,92.2,84,state_total,WISCONSIN TOTAL,,,state_aggregate,False,False
+1 OWA TOTAL,57,26.0,3.0,52.0,18.0,6.0,9.0,11.0,13.0,14.0,,23.0,25.0,28.0,85.3,84,,1 OWA TOTAL,,0.0,unmatched,False,False
+KANSAS TOTAL,57,25.0,7.0,25.0,16.0,3.0,9.0,13.0,14.0,15.0,19.0,20.0,21.0,23.0,92.6,84,state_total,KANSAS TOTAL,,,state_aggregate,False,False
+MINNESOTA TOTAL,54,2.0,2.0,30.0,11.0,2.0,2.0,6.0,6.0,8.0,9.0,,19.0,28.0,93.5,84,state_total,MINNESOTA TOTAL,,,state_aggregate,False,False
+MISSOURI TOTAL,55 56,53.0,1.0,43.0,12.0,4.0,6.0,7.0,9.0,11.0,12.0,13.0,14.0,23.0,92.2,84,state_total,MISSOURI TOTAL,,,state_aggregate,True,False
+NORTH DAKOTA TOTAL,57,23.0,5.0,,10.0,5.0,8.0,10.0,10.0,,12.0,12.0,13.0,14.0,92.9,84,state_total,NORTH DAKOTA TOTAL,,,state_aggregate,False,False
+LOUISIANA TOTAL,54 57,50.0,,38.0,13.0,1.0,,6.0,7.0,11.0,13.0,19.0,21.0,25.0,89.8,84,state_total,LOUISIANA TOTAL,,,state_aggregate,True,False
+OKLAHOMA TOTAL,57,,8.0,35.0,17.0,10.0,11.0,14.0,16.0,18.0,18.0,19.0,22.0,27.0,94.4,84,state_total,OKLAHOMA TOTAL,,,state_aggregate,False,False
+TEXAS TOTAL,54 57,144.0,,83.0,16.0,4.0,7.0,9.0,10.0,12.0,16.0,19.0,23.0,28.0,91.9,84,state_total,TEXAS TOTAL,,,state_aggregate,True,False
+COLORADO TOTAL,54 55,26.0,2.0,30.0,13.0,4.0,7.0,8.0,11.0,,13.0,14.0,21.0,24.0,91.8,84,state_total,COLORADO TOTAL,,,state_aggregate,True,False
+TOTAL,57,,11.0,11.0,11.0,,,,,12.0,12.0,12.0,12.0,12.0,91.1,84,,TOTAL,,,state_aggregate,False,False
+MONTANA TOTAL,57,,9.0,,9.0,,,,,9.0,9.0,9.0,,,92.0,84,state_total,MONTANA TOTAL,,,state_aggregate,False,False
+UTAH TOTAL,54 55,26.0,5.0,110.0,24.0,6.0,9.0,11.0,14.0,16.0,19.0,21.0,25.0,32.0,93.9,84,state_total,UTAH TOTAL,,,state_aggregate,True,False
+WYOMING TOTAL,57,26.0,5.0,18.0,10.0,7.0,7.0,8.0,10.0,11.0,11.0,12.0,15.0,,91.9,84,state_total,WYOMING TOTAL,,,state_aggregate,False,False
+ALASKA TOTAL,54 55,26.0,,33.0,8.0,,1.0,1.0,3.0,5.0,8.0,11.0,15.0,17.0,94.8,84,state_total,ALASKA TOTAL,,,state_aggregate,True,False
+CALIFORNIA TOTAL,54 57,223.0,2.0,480.0,48.0,5.0,10.0,14.0,21.0,27.0,37.0,49.0,77.0,110.0,93.6,84,state_total,CALIFORNIA TOTAL,,,state_aggregate,True,False
+HAWAII TOTAL,57,26.0,3.0,32.0,7.0,2.0,3.0,4.0,4.0,5.0,5.0,6.0,,13.0,91.5,84,state_total,HAWAII TOTAL,,,state_aggregate,False,False
+OREGON TOTAL,54 55,60.0,1.0,160.0,51.0,8.0,13.0,23.0,30.0,44.0,,67.0,97.0,114.0,94.0,84,state_total,OREGON TOTAL,,,state_aggregate,True,False
+WASHINGTON TOTAL,57,20.0,3.0,37.0,19.0,7.0,11.0,13.0,14.0,20.0,21.0,24.0,28.0,32.0,94.8,84,state_total,WASHINGTON TOTAL,,,state_aggregate,False,False
+NEW ENGLND TOTAL,55 57,104.0,1.0,38.0,7.0,2.0,3.0,4.0,5.0,6.0,6.0,8.0,10.0,12.0,90.3,84,,NEW ENGLND TOTAL,,0.0,unmatched,True,False
+MTD ATLNTC TOTAL,54 57,752.0,,83.0,15.0,4.0,5.0,7.0,9.0,12.0,15.0,19.0,23.0,31.0,88.6,84,,MTD ATLNTC TOTAL,,0.0,unmatched,True,False
+MID EAST TOTAL,54 57,184.0,1.0,,19.0,6.0,8.0,10.0,13.0,15.0,18.0,21.0,26.0,37.0,92.8,84,region_total,MID EAST TOTAL,,,skip,True,False
+SOUTH EAST TOTAL,55 57,,2.0,140.0,18.0,6.0,8.0,10.0,12.0,15.0,18.0,22.0,25.0,33.0,94.9,84,region_total,SOUTH EAST TOTAL,,,skip,True,False
+MID WEST TOTAL,54 57,381.0,1.0,205.0,25.0,6.0,9.0,12.0,14.0,18.0,21.0,28.0,36.0,51.0,92.9,84,region_total,MID WEST TOTAL,,,skip,True,False
+GREAT PLAINS TOTAL,54 57,148.0,1.0,52.0,13.0,5.0,7.0,8.0,10.0,12.0,13.0,15.0,20.0,24.0,94.6,84,region_total,GREAT PLAINS TOTAL,,,skip,True,False
+GULF SOUTH TOTAL,54 57,213.0,,83.0,15.0,3.0,7.0,9.0,10.0,13.0,16.0,19.0,22.0,28.0,93.4,84,region_total,GULF SOUTH TOTAL,,,skip,True,False
+ROCKY MNTN TOTAL,54 57,80.0,2.0,110.0,15.0,6.0,7.0,9.0,11.0,12.0,13.0,15.0,19.0,24.0,92.9,84,,ROCKY MNTN TOTAL,,0.0,unmatched,True,False
+PACIFIC COAST TOTAL,54 57,355.0,,480.0,41.0,4.0,7.0,,16.0,23.0,31.0,43.0,65.0,102.0,95.1,84,region_total,PACIFIC COAST TOTAL,,,skip,True,False
+PACIFIC COAST TOTAL,54,2315.0,,83.0,21.0,4.0,6.0,8.0,11.0,13.0,17.0,,27.0,41.0,92.7,84,,PACIFIC COAST TOTAL,,,skip,False,False
